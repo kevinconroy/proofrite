@@ -1,3 +1,5 @@
 # ProofRite
 
-<iframe width="100%" src="https://docs.google.com/viewer?url=https://github.com/kevinconroy/proofrite/raw/main/ProofRite.pdf?format=pdf"></iframe>
+Read our UIST submission: https://github.com/kevinconroy/proofrite/blob/main/ProofRite.pdf
+
+Requires Windows and may not work on modern systems. (Last tested in 2005.)
