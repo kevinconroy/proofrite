@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<tabiword>
+<!-- =====================================================================  -->
+<!-- This file is a TAbiWord document.                                      -->
+<!-- TAbiWord is a free, Open Source word processor based on AbiWord.       -->
+<!-- More information about TAbiWord is availabe at http://tabiword.sourceforge.net -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.contributor">Kevin Conroy</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.title">MEMO To: </m>
+<m key="abiword.date_last_changed">Mon Nov 24 19:52:27 2003</m>
+<m key="dc.creator">Kevin Conroy</m>
+</metadata>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-right:1.2500in; section-restart-value:1; section-space-after:0.0000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-footer:0.5000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">PRESS RELEASE</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">FROM: 	Kevin Co</c><ink stroke="19"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">r</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">noy</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">DATE:		October 6 2003</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">SUBJECT:	TAbiWord 1.0 RELEASE</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">We are pleased to announce the release of an exciting new program called TAbiWord! TAbi</c><ink stroke="23"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">W</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ord, a port of AbiWord for the </c><ink stroke="22"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">T</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">abletPC platform, allows users to digitally annotate documents proofreading marks and edit them the at same time.</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">Inspired by the work of Gene Golovchinsky and Laurent Denoue in “M</c><ink stroke="28"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">o</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ving Markup: Repositioning Freeform Annotations” (UIST </c><ink stroke="3"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">’</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">0</c><ink stroke="5"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">2</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">), the TAbiword system allows users to 				</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman"></c><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">makrup </c><ink stroke="20"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">d</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ocumen</c><ink stroke="21"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">t</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">s and edit them at the same ti</c><ink stroke="4"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">m</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">e. The form factor of the TabletPC platform allows users to insert proofreading m</c><ink stroke="2"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">a</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">rks in a digital document as if they had printed the document and were </c><ink stroke="1"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">m</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">arking it up with a red pen Thi</c><ink stroke="12"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">s</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman"> means that users need not abandon the digital copy of their doucment in order to use the proofreading marks that t</c><ink stroke="27"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">h</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ey are familiar with. Additionally, the documents that they are proofreading need not be static the paper version is – users may make markings and edit the document causing both text and markings to reflow!</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">In current  word processors users may type their document and then print it. Once printed, many u</c><ink stroke="8"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">s</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">e</c><ink stroke="9"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">r</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">s typically give the document to another</c><ink stroke="13"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman"> </c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">person who annotates the document</c><ink stroke="6"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman"> </c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">wit</c><ink stroke="7"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">h</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman"> a stan</c><ink stroke="10"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">d</c><ink stroke="11"></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ard set of proof reading marks. The original au</c><ink stroke="14"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">t</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">hor then takes the annotated printed copy and makes the changes inthe digital copy.</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><ink stroke="25"><ink stroke="26"></ink></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><ink stroke="24"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">S</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ome existing Word processors such as Microsoft </c><ink stroke="15"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">W</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ord, a</c><ink stroke="17"><ink stroke="16"></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">l</c><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">so allow users to insert “comments” into their documents. These “comments”, how</c><ink stroke="18"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">e</c></ink><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">ver, are textboxes that contain the information in question and point to the relevant portion of the text. The major pitfall of this experience is that it does not mimic the familiar and standardized proofreading marks that many writers and editors have learned. It also causes a physical seperatino between markup and document text, making it difficult to understand what the comment is referring to.</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">The TAbiWord system aims to allow users to use standardized proofreading marks to annotate and edit their documents. This recreates a familiar paper-based experience in the digital world. The next step of the project is to incorporate it with the idea of digital augmented paper documents </c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:12pt; font-family:Times New Roman">	</c></p>
+</section>
+<data>
+<d name="ink" mime-type="text/ink-xml" base64="yes">
+YmFzZTY0OkFMVXBIQU9BZ0FRZEJPNEkrQWtCUUZtL1lPR2JsMVpLaldtQ3l4VmFTUm5SNWlY
+QnlhL1dRS3BuMGErd3RZYXU1S1BjdHBFL2EwbTF1MWJUNFNQTjR3Wkk4NmpUMEMxRnI5TGRL
+czYwaTJVREIwZ1FSUDhCUlRJRkJqZ0xaR1ZtWnhrZ01na0EyUGtCQWE1bUlVVXpDUUR3eXdJ
+QnV1Z2dSVGdJQVA0REFBQUFnSDhQa3dJUXJIeS9Qd0FBQUFBQUFBQUEyaGJBUHdBQUFBQVEz
+N2RGRUt4OHZ6OEFBQUFBQUFBQUFOb1d3RDhBQUFBQUQ5KzNSUkNzZkw4L0FBQUFBQUFBQUFE
+YUZzQS9BQUFBQUJEbnQwVVFySHkvUHdBQUFBQUFBQUFBMmhiQVB3QUFBQUFldnBoRkVLeDh2
+ejhBQUFBQUFBQUFBTm9Xd0Q4QUFBQUFIc2FZUlJDc2ZMOC9BQUFBQUFBQUFBRGFGc0EvQUFB
+QUFOVHkzVVFRckh5L1B3QUFBQUFBQUFBQTJoYkFQd0FBQUFERTY1RkZFS3g4dno4QUFBQUFB
+QUFBQU5vV3dEOEFBQUFBUER6YVF4Q3NmTDgvQUFBQUFBQUFBQURhRnNBL0FBQUFBTVRqa2tV
+UXJIeS9Qd0FBQUFBQUFBQUEyaGJBUHdBQUFBQVFMNjlFRUt4OHZ6OEFBQUFBQUFBQUFOb1d3
+RDhBQUFBQWlIZHBSUXFEQXFrQmh2RHg5NGVQd0FBQk96aUlpVXBLcHFiam8rU2t5cXExTlRs
+UlVoVlZZcHFjS3l0SXlOQk9UcUlpVUpDb0NCUVVHUjBlSnFiRTlQaWNuUUFxcXVvcWFpcHNM
+RVVsS2xKV01qWkNSaW90RlJaRFE0RVpHZ0FBaC9FVHg0aWVRQUFCUTZFbE1vVVdpSnpPSlhL
+cG5NaVh5NUtaUVJ1TkJCSUtJVkN3bTAzSmxNd1RLWnBWSzB3bUtWU3RLcFdTeVdpVlNzU2FU
+aVZTc0FJWENvZkRvTEJJbkVoTFpZbE1vbXMwazhtbGNxUzJXRWxrZ0Vua3dBQUFndm0rUmE3
+YmJ0dEUyVVZaUktTZ0xBQUVzQ3l5eWlVbEFBbFNpVVNwUkFKcVdXTEZTa3BLc0FGYjUvQVA0
+SmxnQmdBREFLai8vLzhFT1FIV3dBQUVPUUhKZ0FBRU9RSG9BQUFLcGdGV2hmaXFTK0ttL0pn
+QUdMeFdEd1dEd1dKc1ZYM0JGSGdKWUNHU2VLM0FZR3kwWVRDNENPM0ZZdktYNFhMWmZKWlBD
+WVVBQUFDSDhPclhoMkxsd0FCSnBQS0pUUnFQUm83QXBiS3BXRXBsRTVoaUJRV0JRR0N3U1ZV
+V2lTZVRDZVQyZVJPVTBTaTB5UnltbVUyY1RtVVNrQUFBZ3ZrK2cxMjNiZHEyMEJMQXNwS0FB
+aEZoVkFTcWIzMytBZnJTQUFNMkIrZ0FCRGtCeU1BQUJEa0IzSUFBQkRrQjVFQUFGd0VLbGdF
+NGh2Rks1NHBYUUNFaFpLRmdZRkJ3c1ZGeEVTV2xyU1NNTEd6azZrSkVKS1RrcE9jblZ0YnJh
+M0thbklmdzFzZUd0a0FtMDNuRVBnTUtnTUprODRuTW9sSk5acE1ZTkFKTk5ab2xNb0NhVFdW
+U3VXUzFMSmFnMEhJTEJJUHdQWXJIUHcrT2MzTnBtSm1KaVppWWtpU0ppWW1BTG1kOS9COFdj
+QVlBQXdEYy8vLy9CZ0FEQU5QLy8vOEVPUUhiZ0FBRU9RSGN3QUFYQUFwQkQ0YnhYc2VLOWtD
+cXEwbEpnSVg0Y0d2aHdiQXV2WmJMZ0lYQlphQ0tISDN4eHo0SE93d2dCZ0FEQU1ULy8vOEVP
+UUhRUUFBRU9RSGR3QUFFT1FIZ2dBQVhBUW81RElieFh4ZUsrTXE2b1FzSWh2RFg1NGEvU2Jt
+aFkyQ0hpRTBnQ0FxUFE0REFZSEFBQWpJZlFBTTJCOGdBQkRrQjNnQUFCRGtCM01BQUZ3SUtk
+eTJHOEYySGd1eEFBb0tHSWlVQkFncDZhTGpJQ0FoWkNSbnArK3Y4RlQ4REEwOVloL0duSjQw
+NVFBSmxNNVZLMHFsWUpqTUtURm9CQTVsUzZWTVpoSVpCRVlKRGtEaGdnL2M0VG5mSGVjM016
+RTFNd1JjQ1NZVEJPZCtENXQxSUJnQURBUHYvLy84RE9BT0NBQU00QTdNQUJCSVlNaUFBQ29V
+QkxvZndhc2VEVmtBbE1vajhla01naWNTZ0VCVWFOd0tCUVNDd0dZektad09CVUdHUWVDSUpM
+cDdQQ0pSTWgvR2g5NDBQd0NSU09aVE9lVDJrVW1YUzlKSkhBWVRBSUxBNGhLNVZRNkZPNDlC
+a0dnMENnMEhKcE5TRDlqbHhqam5lY3ptTFJJaTZ1Sm1CQ0NTN3p6OFhtZ0FDTWg5QUF6Z0R4
+QUFET0FQR0FBUVNHRElnQUFxVkFUZUYrRDZENFBvUmw4czArbXhPSW5tdXYwRk1WRU1VcTJl
+dXVXZUdOQkZRRXlPQ09TR0dCS2tsQUlmeG92ZU5GK1l6QkJZSW1Vem1Vem4wL25rOWswWGhx
+SXdXRXdtQXdlQndlQXdDQVFTQlFhQlNZSnNoMEVnQ0J3V0p3ZVVwTkp5RDhMMElyd2ZCdmR6
+YVFteE1JeEVRcVl1WXRjU2hNNTN4OEh3N3FBWUFBd0R2Ly8vL0F6Z0Q1QUFET0FQUkFBTVFN
+S0lBQ204ZmgvQ094NFIyVWdrSkw1ZEtaUk1aaE5acE01bEpaSkQ0ZENJVExwZlVwREFJREFZ
+SWgvR2RsNHpzMHBsQkhJN0lKRFBwL1FxSFFLRFBKN0tKVEpwUEhJN0RJYkFJR2dhRDlUeEly
+dysrNzNOeW1KVEVXdG5lL0Q4RmdBTTJCMUFBQWpJZlFBTTRBOTBBQXhBd29nQUtmeXVIOEtr
+M2hVblFLQmtwbENjemlYeTZjemlSeUtEd1pNSmpSbzdBSURLYUZRMGVqNmcwQ2cwQ1l6QUFo
+L0dtSjQweFVybFJFNGtpa1ZsRXBuVTdtVXpsVXJUS1p3cUZpTnhwUDU4bU13aXNVaHNNQUlQ
+cDYxWHgzbm5lYm1MUklUbUVrVkVVTDQ4L040M1FBakUvQUFNMkI4d0FBemdEOEFBRUVoZ3lJ
+QUFLbUFFL2h2Q3hKNFdKU29xUUNrcFFJU0ZLNnZvcU9pbzU2Zm9LRXRMVXBxZVltWkNSb3FQ
+QVV2RVJFUkFRMEdsWUNMcndoL0dvbDQxRXlSeUlBbEVwVFNhaVRTY2pjYWxNb25NNG1zMGs4
+bUpESUNZVEdlVDJjVG1VU21QUmVCd3VEd09Bd09Fd2lJd0tUSVB5UFN4Ry9IM3h6YzJsTUpD
+SkFBbXJnUk0xSUV6djBmTGxBQU0yQnp3QUF6WUgrQUFET0FQM0FBUVNHRElnQUJjRENvNERx
+d0dIOGJOM2paRGxZQUoxTzZkRjRSQklCQVlUQjBIbHM0bk1xbGNvbE1TaWFhVFdTU1djVG1q
+VWVtUjJEd0tCeWVsVXVsVXVnVUdlVDJiVGVaVE9UU2ROcHVtMDNsa3RuMC9va2RrOUtwYzZu
+Y21rNldTMU5Kck5Kck1wbk5wdk9wM1JvN0JJQkJJREE0TEFaVE9KektKVEpwUE1wbk9Kek5K
+ck5wdktwWE5KclNJN0FZSkJrQVF0QVpYUXFITUpqT0p6UUtEVXBEQklCQm9CQW9WQ0lKQUlD
+Z2NMaHNUbU0rbjRBSWJ4UFRlSjgrbUFBUThISXgwSEJJR0hTMFZGd2tMTlRlQnNEcnk5cksy
+WW1ZeU5nSTBnSWlabUkrT2k0cUxpb0NCSktUVUZDcksyUWtZT0NrNENRcWFpVGtxV2tSRVNo
+b2VxcTRhSGhJV09qNGFGZ1lPaG1JQ0Rob1NMaXB5ZGdJR0VoWWlKaG9lRWhZYUhnNEtSaklt
+QWdKbVNnb0NCaTVhaG9KYVhrSkdvcWFpN2c1U0doWXFybEp5QXA0K1VqYWlYaEllR0FJTDV2
+d0JiZTc1dDIzVktMbXhZV1ZGbGxpeXBRQUVzcUFXS0FGa29BQllBc0paWlpRbEJOa3NMTExM
+S0ZhMzRmd3I1SUFZQUF3RG8vLy8vQXpnRHpBQUVPUUh6Z0FBRU9RSG9BQUFYQkFyS0FZNEJo
+dkZtbDRzMHdDbXB3cUtrQ29xVlJVMUZUYlRNQWcwM1ZWWlhWNEFBQUFLYW5GWlcxVlhnS1Rn
+b2FDZ29hR2hJYUNnSWhBeHNESXhzUGIzMStVVkdBQUFBRlJVZ2hmamJ1K051OEFubURFWWtE
+TVpsbnMvc05qd0prNFVjT1owR2hNUmlRQUFBQVlYQ0NPS2VhV1NDQlZQRWpoanBKWklaSm83
+cnpQWjhBQUFBTUhnZ2cvRTg3RytzNXpkNW1aaTRTQ1lKaE1URXdtRXdTQUVTQUFBRVNBQkVv
+a0FCRWlKSWtBVEZ6djBmTlRBRE5ROWdBQVlBQXdEei8vLy9CRGtCN2dBQUF4QXdvZ0FLcVFF
+L2gvSHA1NDlQUUFrMG5KaE1acE5haEk0QkFvREJZUEk1aE1ZcEZZVENFaGtCTVpna3NrbE1v
+a3NraThXaFVMb2tUaDBHZ2tJUU9Ed1dHb2Z4MmtlTzBrQUk1SFNIdzZPeHlneDZEd0ZBNEZL
+cC9QcDNPcGZMa3JsUUpSS1pkTDV0TjVwTlpKSllsRVlHZ3NOZ2NBZzhEZ3FEN2VaYzN1ODNN
+cEV4WW1ZbUxpWWxFeE1Fd2lVU2hFb205K1Q1c3pBR0FBTUE4UC8vL3dNUU1PRUFCRGtCK3dB
+QUJCSVlNaUFBRndNS1Z4Nkc4WDRYaS9EQUlHQUF0TFhCRXpDUVVWSHdNSEIxWUlYNUNqdmtL
+UEFNdGx3SlpOTGRITEhWREZSaWdJVFJ4SnpuZU5aeklrWXdtUmpQTDJ3QUJnQURBTVgvLy84
+RE5RN1FBQVE1QWVPQUFBUTZBT1J3QUFwSEhZYnhyK2VOZjBBQUZoWTExZldWcXFxd2cvNUMv
+djVDL3dBQWVMNG5YcHo1QUlQeU1YTmxwbUxMV3VjNTQ4Ky9PS0FDTVR3QUF6VU9vQUFFT1FI
+dVFBQUVPZ0RrY0FBS1ZoZUg4YXUzalYzQkpwT21Vem1rMW9WRHBsTm9WRFNhVG9ieUc5ZVEz
+c0V0TG9HQWw1YWZucWVtbjU0QWcvRzh5ZU9jNTNkeXVadStQSG40Y1FBRE5nZXNBQVlBQXdD
+VS8vLy9CRGtCN2tBQUJEb0E1SEFBQ2xZWmgvR3NWNDFpd2swbkp0TjV0TjZGUTZSU2FSU1o1
+UFVzbG9DRS9JZTkrUTk4TkdrbFBEZ3o1c2VMUG12WUFJUHQ1MGNaemQ1bTVtYlRuTy9MNzNR
+RE5nZndBQVE1QWNtQUFBUTVBZTZBQUFRNkFPVmdBQmNGQ3JZQmVvWDRZVnZoaFhBREw1WUNH
+Q3F2QllPcXROT2tsTU5od3kyWERKWk5oTUt3MkhHRXdvRE1aa3pXYkdZeklETlpzWmJMaG1z
+MllEQXFLUUFBaCs5ZTcxOEFJSkJRSmJMSnJOSnJOSm5NazduU1Z5b2xzc0NEd1lKcE5VMm02
+WlRNU2FUZ0pGSXlPUjBSaU1nSU5CeEQ0Y0VybFJLNVVtODJsY3FTMldBQWd2ZytxWFo1ZHBW
+YTFiS3NsV0xLU3l3Q1dWTEtKUUFBQ1VKU1VKWlJLQnUvRCtBL3BJQUROUTlRQUFJeUhZQUND
+OFVBQXpZSEVBQVhCZ3JWQW9zQ2gvQk45NEp2ME1ob0VEZ1VKaENIdzRBQUFTeVdnQUFBbEVw
+QkJvT2tFaElSQ1FBQWlNUUFBSUJBUWlFUkJBb0dBQUFBQktKU1M2WHBaTFV1bDZiVGVWU3RM
+SmFFdWw1TnB2UHAvTXBuVXFtbkU1azBuVGljeXFWekNZenllMGlreXFWMGFqMHFReW1tUnVZ
+MGlrMEtoelNheWFUazRuS1hTOUxKYVNpVWdDSFE4QUJDNFVDRitJN1Q0anRXWHl3R2V6K1l6
+TFRhY0FBQVJ4QUFBQWlqQm44ODRONE1NdmxnQUF5MlhBQU12bGd6T1lCbDhzQUFBQUJoTUtU
+VG9ZRlZiQVlHcXRaYUVVWmpNYlJUTEpCQ2xrZ2hTU2tFTU1Fc2tFTVVjczBOOGxFODFkVUVN
+Y1JYVUFZVENnRExaY0FCbzlFQWd2d2huZmU5N3UyNVNBbXRsVVN4Y3N0aXlrVkxMS1JVQ3d6
+YUFCTFpLRW9Ta29DeVVMQ3hLSlJOaXlXd2xzQUpRQkxCTlNnbHNKdWJDTGVhYmt0Z3NFcVVJ
+b2xzQUphOC9iK0QrNVFCS3RBRE5nZlVBQU00QTZnQUJEa0I0SUFBQ25ZNWgvQ0o5NFJQd0FJ
+bEUwMm04d21NeW1jdWw4dWw4eW1jd21NeW1jd21Nc2xzbWs2VVNrQUNUU2NBaFB4R2VmaU05
+QUE2SFJaczlyeW5LY0l6bE9VSXhoYTRsTUFDVXdDRDg3a3VjNXpkM0tZSkppUk1URWdJbEV4
+TldYbnY3YWFnQXpZSFdBQURPQU9rQUFNNEE5a0FCRGtCNElBQUZ3Y0tvUUZUaGZpU2MrSkow
+QVkzR0FTUzVESTV6RDRYSlpNeldiQUFBQlZXMEU5Mkd3Mkd4Q3FxcUNWSEhGTExUYmk4UGg4
+U2h2Qy90NFg5d0t5dFYxZUJkM1Y3ZVlScHFpeHNDdHJBQUFBVkZTam9tQmhJZURpWUZDd0VI
+QlFFSkFRRUlnQ0loWVdENWVaWFhNM0pja3BpMHpJQ1lpU0ppWW1KZ21BbUV3aVVTa1RFeE16
+ZDkvUDRvQVlBQXdELy8vLy9CZ0FEQUs3Ly8vOEVPUUhTd0FBRE9BT3VBQXJuQW84QmgvQkJS
+NElLVUJnQ1VTbEtwV2lFUmdrRmdFQlFLQm85SDVSS1p4RVlKQklFZ1VBZ1VMZzh0b2taZ01w
+bzFIcGtmZ2t6b0ZCb2xGcFVqZ1NGUUdGUUNDUU9Bd2VEb1RLYUpSWnBOYU5SNkZGNEZCSU5B
+a0NnTUJnVUhnVURnc0VnY0FnNkR3R0FTdVlUR1dTMldTMmVSR0ZRQkFJREFJQ2dzQWdjQmcw
+RGdzdHBGSm0wM25rOW9rTGgwTWdVR2dVQmdjTGlNUG1jOG5xRzhMUDNoWi9VOU1vYUJCd1Nz
+cmFhbnFLbGJXNnFxNXlka0ltRFFzSEV3cURURnpTUWtaRHcwbEF3MHpZV05wYTAwdkN3MGJC
+a1RBd3NURlFFQkZSY1ZHUnN0THkwWEFvR0JnNEZBUUtEUmNCQndFTEFRVU5CUVVoSTBGRFRV
+ODVKd3NEQWdRY0JCd3NGQ3hrZkhRc0pIUjhsRm9lRGlZQ0JRTWRCd1VYRkFJUHdQSWNkemNy
+VGNTbVVYRXpDSmlZbUpURVNFeE13SWxBRW9sTUJFaUpJbEVrSlJLSm1BQ0xpSkFJbUJNU2lT
+VjhmZzJFd0JnQURBRW4vLy84RU9RSFNnQUFET0FPYUFBTTRBNjRBRndZS1p4Mkg4QWNYZ0Rq
+RTNtMUxqVUhnU0VRV0VRaUtReUQwU0d4S0NRS0N3dUd3MlRpRzhoUEhrSjVxYWhSMFVwQXhV
+UkNRa0pCd1VIRjFkdFd4OFhGeE1CQVFGQUNEeDcwUmZsODd6TW9tTGdsTnp4ODNkQUlMeXdB
+Q01Ua0FBellIK0FBRU9nRGtjQUFYQ0FwVUZvWDMySHZzV1p6R0h3MVVWVUVVY2txV1BCaUc4
+ZzhIa0hoUkVUWlFzUkdSRUZMUU1CR3hjbkkxWUlUdFlwTWUzSFdzWnpqT2Q4ZXZXaElFT2dE
+c3NBQUdBQU1Bay8vLy93TTJCL2dBQkRvQTQ0QUFDbXNmaHZBRjU0QXU0R3BxTEd3VU5CSlFp
+T2laQ0pnWTJGaUplRmpJc0YwQWgvSVBaNUNINWhRYUJGWW9tMDNwVVpoa0dna0doa0NRT0V3
+dUh3ZWFnbktFNm15Q0hKejRZMWhOQ3NpY0lWTDZlbWpJQkRvQTRnQUFCZ0FEQVBELy8vOERO
+Z2Y0QUFRNkFPT0FBQmNKQ3U4RGpnS0c4RG1uZ2NKcXhXMWdBRlJVNFNtNENKUWtCRHcwT0ll
+bndWZ3U4dmJhM3FxdW9xYWlwcEtXMGg0eUVqSktJakkrQWc0dUxqNGVKaGFuQUdBYjZYaElL
+S2hvYUVnSUNEZ1llRmhZMFFFRENRa1JCeFNCSU9EZzRXQmdZV0doSUtBaUlLR2pvbUdnWVZE
+eDhUQ1E4REFvR0loSXVFaG9LQWlJQ0FpNFNEZzBEQXdjSkFvQ0JRc0JBUWFFZ1lpR2hvYUVo
+SUNCZ1ltRmlZdUhoNE9EZ0JCUU1CQndNQ0lLQ2hJU0VnWUpBdzhERHdjS2dZQkNRRUpCUVVC
+Q0lTQ2lJS0Nnb0JBUXNYQndzWEJ3c0doVUxBd1VHZ1lxRGdvaUhnWUJBd0tMZ29DRHJjRFlI
+dUxtNHVhcXJKS0UvSDBKK1BvZUEzYndBT0J3Y2NKeG5DYzZJUWd5WHRhK2pUMk96MXV2MU9y
+MXV2czB4dkhER01Jd2xaZ2xMRHlPVHp0TTFienZHc1VLUWxhVUl3SjFoR1U0U1NpS3pyT05Z
+M2xMQmVXU1VxRklYbEtaV01MNFoxVmhPUzFwV3RLR0JWQzlZNFkxcldOWVJRbERCUkxCWkJD
+TU1NNTQ1eHl4ak5TV0tsTFpKSlJsQzhZd3JPTjFid3hveWhDRnJXaEtFYlJUak9hZFpveWpP
+VXBJMnZreTRNTnJuWkNDejRyM0ttVE1xM2JiMHRsSlNVc29Ta3NpeXkwV0NXV1VsSlN3QUFz
+TEFnV1Vzc3NsSlFXQWxsbEZpeFlsRXRnQUJjb0VxVW13c0JMRmxsQWxTZ0FBUlVwVVh2dy9o
+MjBBQXpZSE5BQUROZ2ZzQUFNNEE1b0FCRGtCNzhBQUZ3b0tnd0praHZJRUo1QWhWQlFpRGds
+YldZSGlvQ0RnVUxFSXlEZzRDQ2hLaTdzSTZVbHBxUWtJNlFoSU9BaTRXTGc0MkJnWUpCUVJB
+eGNIT29tM3dCZ0ZDUXF0ckxtNHdITVFjSEF3OGJDeU1QSnlNak14TUxBUWtOR1NrNU5Sa3Bj
+VnRZQ0c4UlVIaUtoVTlNS21vUnNaQ1FNREJSVVhCUUtHaElDRmxJeTF3eFN3Y0xCdzFES1Nz
+QkF3U0hqb0dGZ0lLRmdZQ05oNENEaFkxQlJFQkZVZEV0YlJjM0dCY0NZQmxvR0xpSWlCUWtC
+RFFVUkx6VUZCUkVTaVp5YmdvU0ZoWVFDRGZBa1Ruam5qbkxLU2FtSmhKS0pDQW1KaVJFeE1T
+VENKaVlFaE1FMWRURWdUQ1l2cjhEMU4wQVlBQXdEbC8vLy9CRGtCMUFBQUJEa0IvY0FBQkRr
+QjJRQUE=
+</d>
+</data>
+</tabiword>

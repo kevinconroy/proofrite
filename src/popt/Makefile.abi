@@ -1,0 +1,60 @@
+#! gmake
+
+## AbiSource Program Utilities, libwv wrapper
+## Copyright (C) 1998 AbiSource, Inc.
+##
+## This program is free software; you can redistribute it and/or
+## modify it under the terms of the GNU General Public License
+## as published by the Free Software Foundation; either version 2
+## of the License, or (at your option) any later version.
+## 
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+## 
+## You should have received a copy of the GNU General Public License
+## along with this program; if not, write to the Free Software
+## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  
+## 02111-1307, USA.
+
+ABI_ROOT:=$(shell pwd)/../abi
+ABI_PEER:=/popt
+
+include $(ABI_ROOT)/src/config/abi_defs.mk
+
+CSRCS=  popt.c \
+		findme.c \
+		poptparse.c \
+		poptconfig.c \
+		popthelp.c 
+# Don't know where gettext is needed via intl - so assume it isn't for now
+#
+#		intl/bindtextdom.c \
+#		intl/dcgettext.c \
+#		intl/dgettext.c \
+#		intl/gettext.c \
+#		intl/finddomain.c \
+#		intl/loadmsgcat.c \
+#		intl/localealias.c \
+#		intl/textdomain.c \
+#		intl/l10nflist.c \
+#		intl/explodename.c \
+#		intl/intl-compat.c 
+
+CFLAGS+= -DHAVE_CONFIG_H -DHAVE_STRING_H -I. -I./intl
+
+LIBRARY_NAME=		Abi_libpopt
+LIBRARY_VERSION=	$(ABI_VERSION)
+TARGETS=			$(LIBRARY)
+
+ifeq ($(ABI_FE), Win32)
+	CFLAGS+= -DX_OK=0
+endif
+
+include $(ABI_ROOT)/src/config/abi_rules.mk
+
+build:: $(TARGETS)
+
+#leave this line here
+

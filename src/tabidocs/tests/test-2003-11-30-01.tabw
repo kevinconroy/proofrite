@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<tabiword template="false" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.9.4.1" xml:space="preserve" props="lang:en-US; dom-dir:ltr">
+<!-- =====================================================================  -->
+<!-- This file is a TAbiWord document.                                      -->
+<!-- TAbiWord is a free, Open Source word processor based on AbiWord.       -->
+<!-- More information about TAbiWord is availabe at http://tabiword.sourceforge.net -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Sun Nov 30 20:16:49 2003</m>
+</metadata>
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; dom-dir:ltr; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section>
+<p style="Normal"><c props="lang:en-US">hi there, h</c></p>
+<p style="Normal"><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US"></c></p>
+<p style="Normal"><c props="lang:en-US">						ow are </c><ink stroke="1"><c props="lang:en-US">y</c></ink><c props="lang:en-US">ou doing? good? glad to hear it</c></p>
+<p style="Normal"><c props="lang:en-US">no seriously, i really am</c></p>
+</section>
+<data>
+<d name="ink" mime-type="text/ink-xml" base64="yes">
+YmFzZTY0OkFMd0JIQU9BZ0FRZEE0WUJFZ0ZBV2I5ZzRadVhWa3FOYVlMTEZWcEpHZEhtSmNI
+SnI5WkFxbWZScjdDMWhxN2tvOXkya1Q5clNiVzdWdFBoSTgzakJranpxTlBRTFVXdjB0MHF6
+clNMWlFNRVNCQkZaQVVGQzJSbFptY1pGRElJQUlBTUFnQUF1RUV6Q0FDQUVBSUFBQ2hDRlow
+RUQwS2RCQTlDQUZpNFJRRGc3RVFLT2k2Qy9nRVQrQVJWa3NNYjY5NHV5eXhZc1dXWEtsQ2dn
+djFaK3JTVUZnQUFBSlpaVW9BRE5RNUFBQU00QTljQUJEa0IxWUFBQXpnRG9BQT0=
+</d>
+</data>
+</tabiword>

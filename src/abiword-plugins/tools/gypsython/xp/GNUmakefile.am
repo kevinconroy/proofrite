@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_GYPSY_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_GYPSY_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiGypsython.la
+
+libAbiGypsython_la_SOURCES = Gypsython.cpp
+
+libAbiGypsython_la_LIBADD = @ABI_LIBS@
+
+libAbiGypsython_la_LDFLAGS = -no-undefined -module -avoid-version

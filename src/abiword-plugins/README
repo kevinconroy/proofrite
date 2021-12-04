@@ -1,0 +1,132 @@
+===========
+Win32 build
+===========
+
+Under win32 you should use the 'Makefile' files that were created manually, you will find
+them in each plugin directory.  Do not use the nextgen.sh scripts or configure.
+
+==========
+UNIX build
+==========
+
+   =====================
+1. Copyright & Licensing
+   =====================
+
+   nextgen.sh is Copyright (C) 2001, 2002 AbiSource, Inc. and is licensed under the
+   GNU GPL (see COPYING).
+
+   See individual plugins for copyright and licensing. GNU GPL should be assumed unless
+   explicitly stated otherwise.
+
+   ==============================
+2. Configuring in abiword-plugins
+   ==============================
+   
+   './configure --help' lists a number of options.
+
+   Most importantly, plugins can be enabled/disabled via configure options. configure --help
+   will list these options. Recommended practice is to set the default to all disabled using
+   --disable-all option, and to enable specific plugins. For example, to build only the HTML
+   importer you would do:
+
+   ./configure --disable-all --enable-html [--with-libxml2=/opt/libxml2-2.4.13]
+
+   AbiWord's "make distribution" RPM target builds a number of plugins by default. See the
+   BUILD.TXT in the abi directory for instructions on changing which plugins are built.
+
+   The AbiWord sources are required for most plugins, and abiword-plugins/configure requires
+   them. It searches for a peer directory called 'abi' and (if found) assumes it to be the
+   AbiWord sources. Otherwise, or to override this selection, use the --with-AbiWord=<dir>
+   option to configure to specify the real location (dir) of the AbiWord sources.
+
+   An installation directory is required as well. If 'AbiWord' is in the PATH,
+   abiword-plugins/configure scans it for ABISUITE_HOME and sets $ABISUITE_HOME/plugins as
+   the plugin installation directory. Otherwise, or to override this selection, use the
+   --prefix=<dir> option to configure to install plugins in <dir>/plugins.
+
+   ===========================
+3. The nextgen.sh Build System
+   ===========================
+
+   -----------------
+   Developer's notes
+   -----------------
+
+   The recommended build method for UNIX et al. is to use the GNU development utilities autoconf,
+   automake and libtool, since building modules is tricky business and nothing does it better
+   (i.e., more portably) than libtool - which is not to say that libtool is without problems,
+   since even CVS libtool has problems with darwin (most of them zsh-related) and no doubt there
+   are issues on some other operating systems...
+
+   abiword-plugins/nextgen.sh is a script which (a) detects plugins, and (b) creates the umbrella
+   build system. This makes it easy to add new plugins.
+
+   a. Plugin Detection
+
+      Any subdirectory of abiword-plugins which contains a file called 'plugin.m4' is treated
+      as a plugin source directory. This file sets a number of variables that influence the
+      behaviours of both abiword-plugins/nextgen.sh and abiword-plugins/configure.
+
+      plugin.m4 has the following structure. At the top is a sequence of lines starting with
+      "dnl= ". This serves a dual purpose. autoconf/m4 will treat the "dnl" as a comment
+      indicator and will ignore the line. /bin/sh will treat the "dnl= " as an environment
+      variable statement, and will parse the rest of the line properly. This is necessary
+      because both nextgen.sh and autoconf use plugin.m4.
+
+      This variables set in the header for nextgen.sh are:
+
+      abi_plugin_macro
+	 The name of an autoconf/m4 macro defined later in the plugin.m4 that configure should
+	 use for plugin configuration.
+
+      abi_plugin_files
+	 A list of files, relative to the plugin directory, that configure should create.
+	 Typically this would be: abi_plugin_files="GNUmakefile xp/GNUmakefile".
+
+      abi_plugin_desc
+	 A short, one-line description of the plugin.
+
+      abi_plugin_enable
+	 A simple "yes" or "no" indicating whether the plugin should be enabled by default.
+	 [I'm not convinced this works - fjf]
+
+      The final shell statement in the header must be:
+
+	 dnl= return
+
+      This stops nextgen.sh from looking at the rest of the file, which can contain any
+      autoconf/m4 macros you care to define.
+
+      To disable the plugin, have your macro set abi_plugin_disable=yes
+      You can add status messages by using the ABI_PLUGIN_REPORT([...]) macro.
+
+      Substitutions @ABI_CPPFLAGS@ and @ABI_PLUGIN_DIR@ (the plugin installation directory)
+      are defined earlier by configure.
+
+   b. The Umbrella Build System
+
+      abiword-plugins/nextgen.sh will not recurse into directories with a 'plugin.m4'. Instead
+      it will tag these as plugins, and will construct a GNUmakefile.am tree that reaches all
+      plugin sources. These GNUmakefile.am files consist of a single SUBDIRS rule, e.g.:
+
+         SUBDIRS = OpenWriter bz2abw graphics
+
+      In this example, the first two are plugins and the 3rd is a subdirectory containing
+      further plugins (AbiGdkPixbuf and magick). abiword-plugins/nextgen.sh will therefore
+      create a GNUmakefile.am in graphics but not in OpenWriter or bz2abw.
+
+      NOTE: The use of 'GNUmakefile' presumes the use of GNU make.
+
+      NOTE: There is a bug in automake-1.5 which causes problems when using 'GNUmakefile'.
+            Either use an earlier version of automake or add the following at line 16 of
+            $prefix/share/aclocal/depout.m4:
+
+               GNUmakefile) dirpart=.;;
+               */GNUmakefile) dirpart=`echo "$mf" | sed -e 's|/[^/]*$||'`;;
+
+      Once the GNUmakefile.am tree is constrcuted, abiword-plugins/nextgen.sh creates
+      abiword-plugins/configure.{in,ac}, runs libtoolize, aclocal, automake and autoconf.
+      
+17th September, 2002
+Francis James Franklin <fjf@alinameridon.com>

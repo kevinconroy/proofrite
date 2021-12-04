@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_AIKSAURUS_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_AIKSAURUS_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiAikSaurus.la
+
+libAbiAikSaurus_la_SOURCES = AiksaurusABI.cpp
+
+libAbiAikSaurus_la_LIBADD = @ABI_LIBS@
+
+libAbiAikSaurus_la_LDFLAGS = -no-undefined -module -avoid-version

@@ -1,0 +1,11 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugin_LTLIBRARIES = libAbiWikipedia.la
+
+libAbiWikipedia_la_SOURCES = AbiWikipedia.cpp
+
+libAbiWikipedia_la_LIBADD = @ABI_LIBS@
+
+libAbiWikipedia_la_LDFLAGS = -no-undefined -module -avoid-version

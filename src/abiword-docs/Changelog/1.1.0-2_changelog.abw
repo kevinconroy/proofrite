@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" styles="unlocked" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:svg="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0" xml:space="preserve" props="lang:en-GB; dom-dir:ltr">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="abiword.date_last_changed">Sun Oct  6 13:34:17 2002</m>
+</metadata>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:0.3312in; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:0.1667in; line-height:1.000000; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.000000; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; margin-bottom:0.0417in; line-height:1.000000; font-weight:bold; font-family:Arial; margin-top:0.3056in"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:en-GB"></c>1.1.0 Changelog</p>
+<p style="Heading 2">Pierre Abbat</p>
+<p style="Normal">Lojban localisation work.</p>
+<p style="Heading 2">Joaquin Cuenca Abela</p>
+<p style="Normal">Massive patch so that AbiWord can use Xft to handle fonts on unix.</p>
+<p style="Normal">Performance improvements to xft patch.</p>
+<p style="Normal">Fix so that GNOME build builds with xft.</p>
+<p style="Normal">Fix for font aliasing.</p>
+<p style="Normal">Fix for printing under Xft.</p>
+<p style="Normal">Patch so that xft build can position individual glyphs.</p>
+<p style="Normal">Wonderful Insert Table widget. Click and drag to select table size and get it in the document.</p>
+<p style="Heading 2">Christian Biesinger</p>
+<p style="Normal">Documentation for Star Office importer.</p>
+<p style="Normal">Improvements to Star Office importer, including reading metadata.</p>
+<p style="Normal">Fix GDict plugin to build even when libgdict isn't installed.</p>
+<p style="Normal">AbiWord can import metadata from other formats.</p>
+<p style="Normal">Build fixes.</p>
+<p style="Normal">Work on UT_Map.</p>
+<p style="Normal">Framework for Hancom importer, and basic text import.</p>
+<p style="Normal">Build fix.</p>
+<p style="Normal">Work on translating documentation into German.</p>
+<p style="Heading 2">Scott Bingman</p>
+<p style="Normal">Build instructions update.</p>
+<p style="Heading 2">Johan Björk</p>
+<p style="Normal">QNX dialogs for revisions and metadata.</p>
+<p style="Normal">QNX dialog for downloading a file.</p>
+<p style="Normal">Implemented font preview on QNX.</p>
+<p style="Normal">QNX drag and drop.</p>
+<p style="Normal">QNX merge cells dialog.</p>
+<p style="Normal">Updated QNX port to work with single units.</p>
+<p style="Normal">True fullscreen for QNX/Photon.</p>
+<p style="Normal">Updated all QNX dialogs to use getValueUTF8.</p>
+<p style="Normal">Fixed scrolling with arrow keys, on all platforms, not just QNX.</p>
+<p style="Normal">Single units update for Font Preview feature.</p>
+<p style="Normal">Bug fixes: 3396.</p>
+<p style="Heading 2">Ivica Bogosavljevic</p>
+<p style="Normal">Serbian localisation work.</p>
+<p style="Heading 2">David Chart</p>
+<p style="Normal">Documentation work.</p>
+<p style="Normal">Build fix to xap_UnixFont.h. Under close supervision from Dom.</p>
+<p style="Heading 2">Jesus Corrius</p>
+<p style="Normal">Catalan localisation fix.</p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal">AbiPaint plugin menu fix.</p>
+<p style="Normal">AbiPaint fixes.</p>
+<p style="Normal">AbiMagick plugin fixes for Win32.</p>
+<p style="Normal">Patch to make libole2 work on Win32.</p>
+<p style="Normal">popt fix on Win32.</p>
+<p style="Normal">Commandline processing work on Win32.</p>
+<p style="Normal">Win32 build system fixes.</p>
+<p style="Normal">Work on the Win32 version of the dictionary hash downloader.</p>
+<p style="Normal">Consolidated XP code for dictionary hash downloader.</p>
+<p style="Normal">Win32 makefile support for dictionary hash downloader.</p>
+<p style="Normal">Win32 inclusion of ut_endian.</p>
+<p style="Normal">AikSaurus and SDW plugin fixes for Win32.</p>
+<p style="Normal">Implement UT_mtime on Win32.</p>
+<p style="Normal">Update peer libpng to 1.2.3.</p>
+<p style="Normal">NSI files for creating plugin installers.</p>
+<p style="Normal">Win32 build fixes.</p>
+<p style="Normal">Fix to unload plugins properly on Win32.</p>
+<p style="Normal">Small build fixes for file download dialog on Win32.</p>
+<p style="Normal">File download cancel dialog on Win32.</p>
+<p style="Normal">Fixes to the AbiGimp plugin on Win32.</p>
+<p style="Normal">Build fix arising from DocBook work.</p>
+<p style="Normal">Win32 build fixes, so that HEAD builds again.</p>
+<p style="Normal">Win32 has access to VERSION resource.</p>
+<p style="Heading 2">Andrew Dunbar</p>
+<p style="Normal">New version of the world.abw file which tests language and script support.</p>
+<p style="Normal">Support for ruby/furigana tags in HTML import. We should now display the furigana inline in brackets.</p>
+<p style="Normal">Added support for Yiddish in language dialog and spellchecker.</p>
+<p style="Normal">Added support for Marshallese.</p>
+<p style="Normal">Fixes to wv language support.</p>
+<p style="Normal">Tidied up indentation in ispell code.</p>
+<p style="Normal">Implemented spell-checking of selected text only.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">MacOS X port work, including new dialogs.</p>
+<p style="Normal">About dialog now works on MacOS X.</p>
+<p style="Normal">Fixed some breakage on Win32.</p>
+<p style="Normal">Fixes to documentation creation script.</p>
+<p style="Normal">Disabled some Cocoa (= MacOS X) code which was broken by Frank Franklin's spider work.</p>
+<p style="Normal">Cocoa build fixes.</p>
+<p style="Normal">More fixes for Cocoa threads.</p>
+<p style="Normal">Cleaned up the Cocoa timer a bit.</p>
+<p style="Normal">Updated libiconv to version 1.8.</p>
+<p style="Normal">Implemented getColor() on Cocoa.</p>
+<p style="Normal">UTF8 fixes on Cocoa.</p>
+<p style="Normal">Fix to MacOS X build.</p>
+<p style="Normal">Fixed a mis-sized array.</p>
+<p style="Normal">Removed a .nib file no longer needed by Cocoa port.</p>
+<p style="Normal">Bug fixes: 3109 (UNIX), 3781.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Version number fix.</p>
+<p style="Normal">Fixes to the dictionary hash downloader.</p>
+<p style="Normal">Build system fixes.</p>
+<p style="Normal">Clean up Aiksaurus CVS tree.</p>
+<p style="Normal">Ditch non-libxml2 html stuff.</p>
+<p style="Normal">Updated svenska.hash from external maintainers.</p>
+<p style="Normal">Something to do with libtoolize that he didn't seem to like much.</p>
+<p style="Normal">Added UT_UCS2_mbtowc &amp; UT_UCS4_mbtowc.</p>
+<p style="Normal">Next-gen build system for plug-ins.</p>
+<p style="Normal">Disabled freetranslation plugin, as it needs to be rewritten.</p>
+<p style="Normal">Work on the Cocoa (MacOS X) build system.</p>
+<p style="Normal">Build fix for ImageMagick plugin (thanks to Hub).</p>
+<p style="Normal">Added build option to build against glib2.</p>
+<p style="Normal">Fixed libxml2 build problems.</p>
+<p style="Normal">Changed build system to verify that pspell exists before building against it.</p>
+<p style="Normal">Added a -spec option to the plugin build system. This has something to do with getting sensible rpms, I think.</p>
+<p style="Normal">Make *BSD builds default to peer libiconv.</p>
+<p style="Normal">Added ABI_OPT_GNOME=2 option to build system.</p>
+<p style="Normal">Simplified autoconf build system and fixed it to support glib2.</p>
+<p style="Normal">Some fixes to wv build system.</p>
+<p style="Normal">Allow relative path to Abi source to be specified in plugin automake.</p>
+<p style="Normal">Added automake support for libpng.</p>
+<p style="Normal">Fix to plugin build system with wv.</p>
+<p style="Normal">Added some safety checks to wv.</p>
+<p style="Normal">Fix to allow wv to build as a dynamic library on MacOS X.</p>
+<p style="Normal">Fixes to AikSaurus namespace so that it builds with gcc 3.1.</p>
+<p style="Normal">Build fix so we no longer get missing -lXi.</p>
+<p style="Normal">Created a simple plugin interface (SPI). It is now possible to build plugins that depend on a particular version of Abi.</p>
+<p style="Normal">Build fix for wv.</p>
+<p style="Normal">Tidied XAP_Module.</p>
+<p style="Normal">Ported nautilus detection to auto* build. (Frank has no memory of this, but I'm sure he did.)</p>
+<p style="Normal">Added posix threads detection to build system.</p>
+<p style="Normal">Work on wv and abi bundling for Cocoa.</p>
+<p style="Normal">automake-execution for plugins. The script now runs automake twice in the hope that it will work on at least one occasion.</p>
+<p style="Normal">Hacks to stop optimizing compilers optimizing Abi into non-functionality.</p>
+<p style="Normal">Fixes to GTK2 build system.</p>
+<p style="Normal">Added fribidi detection and configuration to auto* build system.</p>
+<p style="Normal">Changed XML code to collect and merge characters before forwarding them to the parser.</p>
+<p style="Normal">Two new constructors for UT_UCS4String.</p>
+<p style="Normal">More UCS4 &lt;-&gt; UTF8 conversion code.</p>
+<p style="Normal">Fixes to Cocoa build so that it builds.</p>
+<p style="Normal">GTK2 related fixes to plugin build system.</p>
+<p style="Normal">Added experimental resource manager.</p>
+<p style="Normal">Attempted to clean up the web of dependencies between the various header files.</p>
+<p style="Normal">Fixes for thread system on UNIX-BE (e.g. MacOS X).</p>
+<p style="Normal">Fixed a damn silly error which was causing problems with accented characters.</p>
+<p style="Normal">Removed the autogen.sh framework from abiword-plugins.</p>
+<p style="Normal">Fixed a weird autoconf bug.</p>
+<p style="Normal">Fixed a segfault in wv.</p>
+<p style="Normal">Fixed detection and building of peer libraries.</p>
+<p style="Normal">Changed AbiWord's installation scripts to put everything in AbiWord-2.0 directories, so that you can install AbiWord 2 on a system that has AbiWord 1 already installed.</p>
+<p style="Normal">Added xap_StatusBar to provide generic support for sending messages to the status bar.</p>
+<p style="Normal">Added a new Cocoa splash screen.</p>
+<p style="Normal">Bug fixes: 3335, 3592.</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Changed Abi to use a 32-bit internal Unicode representation.</p>
+<p style="Normal">Pango related code.</p>
+<p style="Normal">Removed non-bidirectional layout code.</p>
+<p style="Normal">Added pango to the tree.</p>
+<p style="Normal">Added config.h.msvc to popt.</p>
+<p style="Normal">Fixed ut_xml_expat.cpp.</p>
+<p style="Normal">Fixed fribidi related out of bounds writes in xap_Strings.cpp  and ev_Toolbar_Labels.cpp.</p>
+<p style="Normal">Updated to latest fribidi.</p>
+<p style="Normal">Changed UT_Mbtowc to UT_UCS4_mbtowc.</p>
+<p style="Normal">Internal changes to handle encoding of large character sets properly.</p>
+<p style="Normal">Committed some fixes to fribidi.</p>
+<p style="Normal">Fixed a build failure on Linux.</p>
+<p style="Normal">Fixed a crashing bug in bidirectional code.</p>
+<p style="Normal">Changed the way foreground color works, to integrate with revisions code.</p>
+<p style="Normal">Fixed a bug with UT_wctomb.</p>
+<p style="Normal">Split fv_View into three files, because it was over 12000 lines long.</p>
+<p style="Normal">Did some code voodoo to lookupProperties.</p>
+<p style="Normal">Document-level properties for language and dominant direction.</p>
+<p style="Normal">Work on revision tracking, so that changes made to a document are visible, and associated with the person who made them.</p>
+<p style="Normal">Work on UI for using revision tracking.</p>
+<p style="Normal">Added hidden text formatting.</p>
+<p style="Normal">Added a 'hidden' formatting checkbox to the Win32 font dialog.</p>
+<p style="Normal">Fixes for hidden text.</p>
+<p style="Normal">Fixes for revision marks.</p>
+<p style="Normal">Fixes to import/export of document properties.</p>
+<p style="Normal">Fixes to language handling.</p>
+<p style="Normal">Fonts documentation update.</p>
+<p style="Normal">Fix to ttf tool to indicate that it shouldn't be used with CJK fonts.</p>
+<p style="Normal">Fixed an assert on startup.</p>
+<p style="Normal">Fixes for hyperlink insertion.</p>
+<p style="Normal">Substantial improvements to the way we handle runs of justified text.</p>
+<p style="Normal">Performance improvements in bidi-related code, to avoid unnecessary run splits.</p>
+<p style="Normal">Started moving Fribidi out of the source tree and into a peer module.</p>
+<p style="Normal">Added version info to peer fribidi module.</p>
+<p style="Normal">Some changes to Win32 project files in fribidi module.</p>
+<p style="Normal">Fixed a bug which was making Abi load documents backwards.</p>
+<p style="Normal">Removed some unnecessary calls to _lookupProperties.</p>
+<p style="Normal">Hack to the remapGlyph code to make it much faster.</p>
+<p style="Normal">Speedup in flDocSection, so that we only break sections when we need to.</p>
+<p style="Normal">Speedup in spellchecking, by changing the code to not look up the language of every single word.</p>
+<p style="Normal">Created isOnScreen methods, which should enable Abi to not update the display of things that aren't being displayed.</p>
+<p style="Normal">Started using isOnScreen.</p>
+<p style="Normal">Cached font information on Win32.</p>
+<p style="Normal">Speedup to the run width calculation code.</p>
+<p style="Normal">Changed updateBackgroundColor so that it can handle transparent backgrounds.</p>
+<p style="Normal">Fixed an assert on opening documents.</p>
+<p style="Normal">Silenced some compiler warnings.</p>
+<p style="Normal">Added tests for NULL pointers to fp_TextRun.</p>
+<p style="Normal">Fix to cursor blinking.</p>
+<p style="Normal">Changed the way that unknown characters are represented internally. This should help with handling larger character sets.</p>
+<p style="Normal">Removed fribidi from the abi tree, We now build against system fribidi.</p>
+<p style="Normal">Added version info to Win32.</p>
+<p style="Normal">Added a new parameter, pCharWidths, which should simplify a number of layout issues.</p>
+<p style="Normal"><c props="text-decoration:none">Updated data in UT_OverstrikingChars class to include generic unicode range for combining characters.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">More work on combining characters.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Added features to PP_Property to allow the code to learn the level of a property.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Fixes to fribidi to avoid including unnecessary files.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Implemented the toggle plain function, bound to control-spacebar. This removes all formatting properties.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Fixes to the NeedsReformat function, which avoid unnecessary redraws.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Removed layout units. AbiWord now uses one set of units for everything.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Started work on proper graphics transforms, for display at various zooms.</c><c props="text-decoration:none"></c></p>
+<p style="Normal"><c props="text-decoration:none">Fixes arising from fp_TextRun refactoring.</c><c props="text-decoration:none"></c></p>
+<p style="Normal">Fixed a couple of crasher bugs, which may be bug 2715.</p>
+<p style="Normal">Bug fixes: 2698, 3008, 3089, 3109, 3060, 3122, 3351, 3582, 3590, 3722</p>
+<p style="Heading 2">Gabriel Gerhardsson</p>
+<p style="Normal">Added a dictionary hash downloader.</p>
+<p style="Normal">curlhash fixes.</p>
+<p style="Normal">Build instructions update.</p>
+<p style="Normal">Swapped returns in UT_path.</p>
+<p style="Normal">Added dialog for file download.</p>
+<p style="Normal">Fixes to dictionary hash downloader, and cache of file list.</p>
+<p style="Normal">Added progress bar to file download dialog.</p>
+<p style="Normal">Fixed download dialog to use GTK2 progress bar on that platform.</p>
+<p style="Normal">Polish to UI of dictionary downloader.</p>
+<p style="Normal">Added a preference to always download missing dictionaries.</p>
+<p style="Normal">Update to BUILD.TXT.</p>
+<p style="Normal">Removed option to compile with threads, because we always do.</p>
+<p style="Normal">Moved the code to unpack tarballs from the dictionary downloader to its own file.</p>
+<p style="Normal">Removed the hash-encoding files from abispell and fixed the makepkg script. These files are now obsolete.</p>
+<p style="Normal">Added SpellHashDownloaderURL option to the curlhash code.</p>
+<p style="Normal">Added support for redirection to the curlhash code, so that we can move the dictionary list without causing problems.</p>
+<p style="Heading 2">Mark Gilbert</p>
+<p style="Normal">Tweak to wikipedia plugin.</p>
+<p style="Normal">Updated credits file.</p>
+<p style="Normal">Fixes to diving make system.</p>
+<p style="Normal">Work on new rpm spec template.</p>
+<p style="Normal">Fix for complatibility with gcc 3.1.</p>
+<p style="Normal">Allow unix to use peer libpng.</p>
+<p style="Normal">Complete overhaul of diving make system.</p>
+<p style="Normal">Fixes to architecture-specific optimization.</p>
+<p style="Normal">Fix to libpng build, with help from Jeremy Davis.</p>
+<p style="Normal">Fixes to table menu.</p>
+<p style="Normal">Removed a bit of code with the comment "Remove this before committing". Obviously, it wasn't...</p>
+<p style="Normal">Patch to wv to fix the build.</p>
+<p style="Normal">Fixes to makefiles for non-linux platforms after GTK2 merge.</p>
+<p style="Normal">Fixed both build systems to build GTK2 port.</p>
+<p style="Normal">Some fixes to snprintf.</p>
+<p style="Normal">Build fix for perl &gt; 5.8.</p>
+<p style="Normal">Bug fixes: 3095.</p>
+<p style="Heading 2">Eglã Girinaitã<c></c></p>
+<p style="Normal">Lithuanian localisation update.</p>
+<p style="Heading 2">Daniel Glassey</p>
+<p style="Normal">wv build fix.</p>
+<p style="Normal">Fix to build Abi with mingw on Win32.</p>
+<p style="Normal">Lots of mingw related fixes.</p>
+<p style="Heading 2">Masayuki Hatta</p>
+<p style="Normal">Japanese translation update.</p>
+<p style="Heading 2">Ariya Hidayat</p>
+<p style="Normal">Complete table of WordPerfect extended characters, allowing us to import them.</p>
+<p style="Heading 2">Alan Horkan</p>
+<p style="Normal">Bug fixes: 3532</p>
+<p style="Heading 2">Karl Ove Hufthammer</p>
+<p style="Normal">Norwegian Nynorsk localisation work.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian localisation work.</p>
+<p style="Heading 2">Nikolaj Brandt Jensen</p>
+<p style="Normal">Update to build.txt file.</p>
+<p style="Heading 2">Martin Junius</p>
+<p style="Normal">Added XML support to wv.</p>
+<p style="Heading 2">William Lachance</p>
+<p style="Normal">Fixes to import of lists from WordPerfect documents.</p>
+<p style="Normal">Other patches to WordPerfect exporter.</p>
+<p style="Normal">Improved extended character support in WordPerfect importer.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">Fix to About dialog in GTK2.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fix asserts on startup in GTK2.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Temporary hack to combo boxes in GTK2. They may be replaced with a different GTK2 feature.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fixed a problem restricting columns to a single character when using xft.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Major cleanup of GTK2 menu code and accelerators.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fix compile time syntax error when building with xft.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1958in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Fix bugs: 3851</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">RTF importer handles /sectd.</p>
+<p style="Normal">Moved most import/export filters to plugins.</p>
+<p style="Normal">ImageMagick fixes and improvements.</p>
+<p style="Normal">AbiGimp menu made more informative.</p>
+<p style="Normal">Added AP_App and AP_Frame as placeholders for the beginning of the refactoring. Turned AP_App into a real class.</p>
+<p style="Normal">Work on auto* build system.</p>
+<p style="Normal">AbiWidget fixes so that AbiWord embeds in GNOME applications.</p>
+<p style="Normal">Improvements to UT_ASSERT.</p>
+<p style="Normal">AbiWord can now save to a bonobo stream.</p>
+<p style="Normal">AbiWord can now use bonobo print commands.</p>
+<p style="Normal">Fixed a bug which was closing the GTK build as soon as it opened.</p>
+<p style="Normal">Minor abiwidget fixes.</p>
+<p style="Normal">Support for Bonobo/Zoomable:1.0 interface.</p>
+<p style="Normal">Added document properties/metadata, such as author and subject.</p>
+<p style="Normal">Added dialog to set document metadata.</p>
+<p style="Normal">Bare beginnings of the port to GTK2. Abi still builds against GTK 1.2, and still doesn't build against GTK2.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB">First eight GTK2 dialogs.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-GB"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Integrated help file support with the dialogs in GTK2.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Completed GTK2 port so that it builds and runs. Rough edges still need smoothing, though.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Smoothed out some of the rough edges of GTK2.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Added more AP dialogs in GTK2 and used GTK2 stock icons on the toolbar.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fix to the position of popup GTK2 dialogs.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fixes to several GTK2 dialogs.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fixed GTK2 preview picture.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Fixed a problem with closing modeless GTK2 dialogs with the esc key or X button on the window.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Use GdkPixBuf for GTK2 images.</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Rewrite of GdkPixBuf image loader plugin.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">Improvements to GdkPixBuf and ImageMagick plugins.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt">SVG import plugin. Unfortunately, the current version raterises on import, but at least we get them in.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; font-size:12pt"></c></p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; color:000000; lang:en-GB; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c>Advertised the PropertyBag information to the system, which should make Abi fully embeddable.</p>
+<p style="Normal" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.1965in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:justify; margin-right:0.0000in">Made perl scripts load on startup.</p>
+<p style="Normal">Fix Nautilus viewer.</p>
+<p style="Normal">Fix Abi so that it doesn't assume that LANG is set.</p>
+<p style="Normal">Fix to let us build against the latest versions of libxml2.</p>
+<p style="Normal">Bug fix in revisions to prevent a segfault on typing.</p>
+<p style="Normal">Transferring UT_ASSERT to use proper macros, and thus be more informative.</p>
+<p style="Normal">Fixed a build problem on Red Hat.</p>
+<p style="Normal">Bug fixes in revisions to allow building on Linux.</p>
+<p style="Normal">Beginnings of a system to let you press f1 when a dialog is open, and automatically get the help.</p>
+<p style="Normal">Removed lots of wchar_t's, and cleaned up dead bits of code.</p>
+<p style="Normal">Lots of work on threads, with plam.</p>
+<p style="Normal">Make pspell work again.</p>
+<p style="Normal">Revision UI for unix.</p>
+<p style="Normal">Added File &gt; Save Template.</p>
+<p style="Normal">Fixed a problem on Win32.</p>
+<p style="Normal">Fixes to properly use setlocale, which should solve problems for non en-US locales.</p>
+<p style="Normal">Fix for a small bug in ut_string.</p>
+<p style="Normal">XML parser work.</p>
+<p style="Normal">Complete rewrite of unix clipboard. We now handle UTF8 correctly, post correctly to PRIMARY, and basically handle cut and paste correctly, unlike before.</p>
+<p style="Normal">We now post image/png data to the clipboard. We can also read it, so we should be able to cut and paste from Mozilla and OpenOffice to Abi, and soon from the Gimp to Abi.</p>
+<p style="Normal">Patch for WinNT clipboard.</p>
+<p style="Normal">XHTML export to UNIX clipboard.</p>
+<p style="Normal">Minor tweaks to import/export plugins so that they don't choke on tables, footnotes, and endnotes. They don't necessarily import them properly (particularly not footnotes, which aren't implemented in Abi), but they don't give up in disgust.</p>
+<p style="Normal">Started work on exporting tables to XHTML.</p>
+<p style="Normal">XHTML export of tables.</p>
+<p style="Normal">DocBook export of tables.</p>
+<p style="Normal">WML export handles fields, images, bookmarks, hrefs, and tables.</p>
+<p style="Normal">XSL-FO export handles tables, links, and images.</p>
+<p style="Normal">Import tables from WML.</p>
+<p style="Normal">Export metadata to HTML.</p>
+<p style="Normal"><c></c>Fixed a crashing bug with Select All.</p>
+<p style="Normal">Work on fixing bug 3595, which is a big internationalization bug. Not completely fixed, but made much less serious.</p>
+<p style="Normal">Fixed unit handling, in part by initialising member variables. Also fixed tab dialog.</p>
+<p style="Normal">Fix for the reverse loading bug (with plam).</p>
+<p style="Normal">Created an ImageMagick graphics plugin which allows Abi to print to various graphics formats.</p>
+<p style="Normal">Clean-up of GTK2 menu code.</p>
+<p style="Normal">More clean-up of GTK2 code.</p>
+<p style="Normal">Updated localisation string support to handle UTF8 properly for GTK2 and QNX.</p>
+<p style="Normal">More work on UTF8 support for GTK+.</p>
+<p style="Normal">Fixed some bugs relating to non-ASCII character sets.</p>
+<p style="Normal">Fixed some ruler display bugs.</p>
+<p style="Normal">Fix button layouts to conform to GNOME style guide.</p>
+<p style="Normal">UTF-8 fixes for all exporters.</p>
+<p style="Normal">Fixed crashes in Insert-&gt;File and --print.</p>
+<p style="Normal">Fixed a couple of font preview bugs.</p>
+<p style="Normal">Some new icons from jimmac.</p>
+<p style="Normal">Format painter now works on unix again.</p>
+<p style="Normal">Added a table toolbar.</p>
+<p style="Normal">Import more image formats from clipboard.</p>
+<p style="Normal">Export most metadata to RTF.</p>
+<p style="Normal">Improvements to Insert Table widget.</p>
+<p style="Normal">Cleaned up code in UT_String and ie_Table.</p>
+<p style="Normal">Moved list of ispell dictionaries to external file for better extensibility (with Jordi Mas).</p>
+<p style="Normal">Lots of work on single units support on unix.</p>
+<p style="Normal">Removed snprintf from code.</p>
+<p style="Normal">Added --enable-extra-encodings flag to iconv.</p>
+<p style="Normal">Build fix for Cocoa.</p>
+<p style="Normal">Removed wchar_t from plugins.</p>
+<p style="Normal">Removed &lt;/endcell&gt; and &lt;endtable&gt; tags from native file format.</p>
+<p style="Normal">Fixed caret code (with plam).</p>
+<p style="Normal">Fixed perl bindings for perl 5.8.0, and earlier versions.</p>
+<p style="Normal">Fixed a bug in handling the size of the first frame for the application (the initial window).</p>
+<p style="Normal">Helped Michael Pritchett debug the move of toolbar strings to the strings files.</p>
+<p style="Normal">Fix a bunch of compile warnings on unix and XP.</p>
+<p style="Normal">New build documentation (with help from a bunch of other people).</p>
+<p style="Normal">Fixed some GTK criticals coming from the cursor.</p>
+<p style="Normal">Cleanup to spelling code.</p>
+<p style="Normal">Bug fixes: 1543, 1766, 3171, 3252, 3589, 3609, 3610, 3612, 3615, 3616, 3617, 3944.</p>
+<p style="Heading 2">Patrick Lam</p>
+<p style="Normal">Fix to AP_convert.</p>
+<p style="Normal">Converted to use libpopt for command-line parsing on GTK and GNOME builds.</p>
+<p style="Normal">Made AP_Args use AP_App.</p>
+<p style="Normal">UCS4Char fixes for MacOS X.</p>
+<p style="Normal">Timer implementation for MacOS X.</p>
+<p style="Normal">popt implementation for MacOS X.</p>
+<p style="Normal">Work on key input for MacOS X. (Yes, the ability to type and have it appear in the program. The MacOS X port is some way behind other platforms.)</p>
+<p style="Normal">Other MacOS X work.</p>
+<p style="Normal">Build cleanup.</p>
+<p style="Normal">Fix to ut_mutex.</p>
+<p style="Normal">Improvements to code for commandline options.</p>
+<p style="Normal">Fixes to LaTeX exporter.</p>
+<p style="Normal">Privatised fp_Run.cpp.</p>
+<p style="Normal">Removed redundant warnings.</p>
+<p style="Normal">Fixed fields to respect the formatting of surrounding text (so that a field inserted into italicised text is itself italicised).</p>
+<p style="Normal">Refactored some insertSpan code.</p>
+<p style="Normal">Committed a big ugly piece of code to reduce property leakage.</p>
+<p style="Normal">Fixed the bug that made text following an endnote reference appear in endnote reference style rather than normal.</p>
+<p style="Normal">Fixed crashes on undoing endnote insertion.</p>
+<p style="Normal">More fixes for endnotes, making them much more stable.</p>
+<p style="Normal">Code cleanup in layout code.</p>
+<p style="Normal">Fix for header/footer problem arising from table code.</p>
+<p style="Normal">Killed some annoying debug messages for menus.</p>
+<p style="Normal">Fixes to compiler warnings and such in wv.</p>
+<p style="Normal">Beginnings of work on footnotes.</p>
+<p style="Normal">Refactoring and more work on footnotes. The layout information gets created in the right place now.</p>
+<p style="Normal">More code cleanup.</p>
+<p style="Normal">Lots of work on threads, with dom.</p>
+<p style="Normal">Fixed a memory leak in font handling.</p>
+<p style="Normal">Refactoring in fp_Page.</p>
+<p style="Normal">Reactivated fp_ColumnBreaker preparatory to footnotes.</p>
+<p style="Normal">Infrastructure in fp_Line to support footnotes.</p>
+<p style="Normal">Applied Mike Nordell's fix for the footnote code to the table code he borrowed it from.</p>
+<p style="Normal">Fix for the reverse loading bug (with Dom).</p>
+<p style="Normal">Fixed caret code (with Dom).</p>
+<p style="Normal">Fixed the shadow caret resulting from the new caret code.</p>
+<p style="Normal">Implemented recursive locking.</p>
+<p style="Normal">Refactored code in the columnbreaker, to prepare for footnotes.</p>
+<p style="Normal">Even more code cleanup, refactoring header and footer code and renaming some variables to something sensible.</p>
+<p style="Normal">Modified the way that the caret is drawn on screen, to avoid cursor dirt.</p>
+<p style="Normal">Bug fixes: 1319, 1928, 3215, 3324, 3587, 3840</p>
+<p style="Heading 2">Per Larsson</p>
+<p style="Normal">Swedish localisation update.</p>
+<p style="Normal">Fixes for header and footer placement in RTF.</p>
+<p style="Heading 2">Frodo Looijaard</p>
+<p style="Normal">Bug fixes: 2223.</p>
+<p style="Heading 2">Ismo Makinen</p>
+<p style="Normal">Finnish system profile.</p>
+<p style="Heading 2">Jordi Mas</p>
+<p style="Normal">Insert Table dialog for Win32.</p>
+<p style="Normal">Beginnings of Win32 drag-n-drop editing.</p>
+<p style="Normal">Further work on Win32 drag-n-drop editing.</p>
+<p style="Normal">Catalan localisation update.</p>
+<p style="Normal">Updated the plugin README to give correct Win32 compile instructions.</p>
+<p style="Normal">Support for pasting BMP images under Win32.</p>
+<p style="Normal">Win32 support for commandline options.</p>
+<p style="Normal">Replace combo box with drop list for Format/Styles.</p>
+<p style="Normal">Added new options to Win32 Insert Table dialog.</p>
+<p style="Normal">Fix to make Win32 dialogs appear centred.</p>
+<p style="Normal">Fix to Win32 toolbar.</p>
+<p style="Normal">UI changes to Win32 Modify Styles dialog to make it more Win32 native.</p>
+<p style="Normal">Mitigated bug 1069.</p>
+<p style="Normal">Fix Win32 to display dialogs centred on the screen.</p>
+<p style="Normal">Implemented properties dialog on Win32.</p>
+<p style="Normal">Added menu icons to Win32.</p>
+<p style="Normal">Fixed a build problem on Win32.</p>
+<p style="Normal">Fixed behaviour on hitting return in the Win32 replace dialog.</p>
+<p style="Normal">Localisation support for Insert Table under Win32.</p>
+<p style="Normal">Fix double inclusion of Merge Cells in a makefile.</p>
+<p style="Normal">Win32 Merge Cells dialog.</p>
+<p style="Normal">Fixed a Win32 bitmap leak.</p>
+<p style="Normal">Win32 build fixes.</p>
+<p style="Normal">Moved ispell dictionary list to external file (with Dom).</p>
+<p style="Normal">Win32 stubs for Format Table dialog.</p>
+<p style="Normal">Win32 dialogs now centre from the parent window.</p>
+<p style="Normal">Centred Win32 metadata property sheet.</p>
+<p style="Normal">Added platform maintainers to CREDITS.TXT.</p>
+<p style="Normal">Initial support for barbarism checking under ispell.</p>
+<p style="Normal">Bug fixes: 2979, 3287, 3584, 3824, 4001, 4082</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Fixed a really embarrassing crash on startup for non-debug builds of the first attempt at releasing 1.1.0.</p>
+<p style="Normal"><c props="font-weight:normal">Build fixes for numerous plug-ins.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes for latest libxml2 snapshot.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to WordPerfect importer.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Import metadata from WordPerfect files.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Beginnings of a WordPerfect exporter. Got it to export a file that Abi's WordPerfect importer can read. Unfortunately, WordPerfect can't.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Further work on WordPerfect exporter. Now, even WordPerfect can read the files.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added more features to exported WordPerfect documents.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix to the rpm spec.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Changed WordPerfect plugin to share more code between importer and exporter.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Small code cleanup in ap_UnixApp.cpp.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix to HTML plugin.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Updated nl-NL translation to 100%.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Table import from WordPerfect.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed a typo in ap_convert.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">GTK &amp; GNOME Insert Table dialog.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added auto disabling of Table menu commands that don't apply when you aren't in a table.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed column resizing.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to the left ruler for tables.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed a table-related crash in the top ruler.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed general table-related ruler stuff.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added option to insert tables with a fixed column width.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added a couple of abstract functions to Win32 to fix build breakage.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Support for different table cell border colors, different background colors, line styles, and background styles.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix a segfault he created.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added some GTK2 icons.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Merged the GTK2 branch into HEAD. HEAD is now GTK2 only.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Ported File Download dialog to GTK2.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Ported the GNOME2 colour picker widget to GTK2 so that we can use it.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Removed extra border from GTK2 toolbar.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed scrollwheel under GTK2. Yay!</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fix the top and left rulers.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to GTK2 dialogs.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixes to Win32 Insert Table dialog.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed localisation errors with multi-line strings. The update scripts for po files now work.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added font preview.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Font preview shows currently-selected font name.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed GTK2 popup menus to popup where you click the mouse.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Cleaned up GTK2 columns dialog.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Aesthetic improvements to merge cells icons.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed a build error in the hash downloader.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Removed Xft2 include from GR_UnixGraphics.h.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Added an Anjuta project file to the tree.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Fixed a typo that was breaking the build.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Synced his tree with CVS, which committed a whole buncha stuff. Including a gtk2 warning in Insert Table, bug 3339, beginnings of a Format Table dialog, some nl-NL updates, and maybe other stuff.</c><c props="font-weight:normal"></c></p>
+<p style="Normal"><c props="font-weight:normal">Bug fixes: 3339, 3507, 3533, 3888.</c><c props="font-weight:normal"></c></p>
+<p style="Heading 2">Nicolas Mercier</p>
+<p style="Normal">Work on the DocBook plugin, fixing bug 2734.</p>
+<p style="Normal">Further work on DocBook plugin.</p>
+<p style="Normal">Created the coquille plugin, which adds a header to a docbook-like body. Apparently, only his firm uses it, but now anybody can.</p>
+<p style="Heading 2">Tim Mooney</p>
+<p style="Normal">Bug fixes: 3330, 3332.</p>
+<p style="Heading 2">Christian Neumair</p>
+<p style="Normal">German localisation update.</p>
+<p style="Heading 2">Mike Nordell</p>
+<p style="Normal">Fix a single character bug in the footnote layout code.</p>
+<p style="Normal">Fix a single character bug in the table code.</p>
+<p style="Normal">Fixes to MSVC6 project files.</p>
+<p style="Normal">Added a typedef to define XML_Char. Something to do with Win32 build, I think.</p>
+<p style="Heading 2">Iassen Pramatarov</p>
+<p style="Normal">Bulgarian localisation update.</p>
+<p style="Heading 2">Michael Pritchett</p>
+<p style="Normal">Diving make system for I/E plugins.</p>
+<p style="Normal">Fixes for popt use on Win32.</p>
+<p style="Normal">Changed default XML library to libxml2.</p>
+<p style="Normal">Removed the ask installer from the tree, as it is no longer used.</p>
+<p style="Normal">Win32 list fixes, allowing Arabic and Hebrew lists.</p>
+<p style="Normal">Fix for an extraneous define.</p>
+<p style="Normal">Build fixes on Win32.</p>
+<p style="Normal">Work on msxml XML parser.</p>
+<p style="Normal">Updated diving make build line.</p>
+<p style="Normal">Fixed Win32 build by adding getDefaultEncoding virtual function, fixing the include headers for ie_exp_text, and something about void functions in ie_Table.</p>
+<p style="Normal">Widened the Zoom combo box.</p>
+<p style="Normal">Moved the toolbar strings into the .strings files.</p>
+<p style="Normal">Fix a bunch of compile warnings for Win32.</p>
+<p style="Normal">Fix a bunch of compile warnings on Linux.</p>
+<p style="Normal">Bug fixes: 3523.</p>
+<p style="Heading 2">Andrzej Pruszynski</p>
+<p style="Normal">Polish localisation work.</p>
+<p style="Normal">Translated documentation into Polish.</p>
+<p style="Heading 2">Rhoslyn Prys</p>
+<p style="Normal">Welsh localisation update.</p>
+<p style="Heading 2">Gilles Saint-Denis</p>
+<p style="Normal">French translation of the documentation.</p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix for the doc generation script to allow for multiple languages.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Fix to header.xhtml in plugins documentation.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">French localisation update.</c><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Heading 2">Pablo Saratxaga</p>
+<p style="Normal">Vietnamese localisation work.</p>
+<p style="Heading 2">Andrew Schoenhofer</p>
+<p style="Normal">Documenation work.</p>
+<p style="Heading 2">Oliver Schurr</p>
+<p style="Normal">German localisation update.</p>
+<p style="Heading 2">Rui Miguel Seabra</p>
+<p style="Normal">Work on rpm spec template.</p>
+<p style="Normal">Added nautilus detection to diving make.</p>
+<p style="Normal">Added GTK2 into rpm spec, so RPMs will be GTK2.</p>
+<p style="Normal">True fullscreen mode on UNIX.</p>
+<p style="Normal">Portuguese localisation work.</p>
+<p style="Normal">Fixed a duplicated bit of code in ie_exp_KWord_1.cpp</p>
+<p style="Normal">Steps one and two of converting AiksaurusGTK to GTK2.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Turned AbiWord into an embeddable application in GNOME.</p>
+<p style="Normal">Fix to diving make.</p>
+<p style="Normal">Basics of a Nautilus viewer for AbiWord.</p>
+<p style="Normal">Put the next generation layout document into the source tree.</p>
+<p style="Normal">Refactored the container code for next-generation layout. No new layout features yet.</p>
+<p style="Normal">Refactored the fl_Layout classes. No new features yet.</p>
+<p style="Normal">Started work on new layout features. Tables!!!!!!</p>
+<p style="Normal">AbiWord can now import tables from a .abw file. There is no way to create them within the program yet, but we're getting there. (You get them into the file by ignoring the 'Do not edit by hand' warning at the top.)</p>
+<p style="Normal">AbiWord can edit tables within a document.</p>
+<p style="Normal">Abi splits tables properly across pages.</p>
+<p style="Normal">AbiWord can draw lines round tables.</p>
+<p style="Normal">AbiWord has nice ruler controls for tables.</p>
+<p style="Normal">AbiWord has a Table menu. Doesn't <c props="font-style:italic">do</c><c props="font-style:italic"></c><c props="font-style:normal"> anything yet.</c></p>
+<p style="Normal"><c props="font-style:normal">Fixed Insert Table so that you can make tables from within AbiWord. Still a bit buggy.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed width columns in tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed Undo/Redo for Insert Table.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Deleting selected text between table cells now deletes only the text.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Make it possible to delete whole tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed undo after deleting tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implement deleting rows and columns in tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implemented inserting columns in tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Reduced bleeding of table background colors.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Added the ability to nest tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed Insert Table after a code refactoring broke it.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Improvements to nested tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Tweak to default border width to avoid deletion of bottom border.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Made cursor navigation work in tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Tables now automatically adjust column widths to accommodate images.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fix export of nested tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Improved top ruler controls for tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implemented Insert Row within tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implemented Merge Cells.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Implemented Delete Table.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed the interaction of Word Count and tables so it doesn't crash and gets the right numbers.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Wrote a helper class for the import and export of tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Export of tables to RTF. Complicated, so lots of work here.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Import of tables from RTF. Also complicated, also lots of work.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Helper methods for tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">More work on helper methods for table import and export.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed some segfaults in merge cells.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed a crash on exit.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Small code refactoring.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Build fix.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixes to GNOME build.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed an assert on moving to the end of the document.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed a build problem in pd_Document.cpp.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed headers and footers.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Made the Format Table dialog compile and not crash.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed interaction of top ruler table cell handles and merged cells.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed some issues with nested tables.</c><c props="font-style:normal"></c></p>
+<p style="Normal"><c props="font-style:normal">Fixed a couple of segfaults in the fonts dropdown combo box.</c><c props="font-style:normal"></c></p>
+<p style="Normal">Bug fixes: 1928, 3423</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Code cleanup in fv_view.</p>
+<p style="Normal">Added comments to squiggles code.</p>
+<p style="Normal">Fix thread dependency building.</p>
+<p style="Normal">Fix the --geometry option, so that it actually works.</p>
+<p style="Normal">Fixed a bunch of compiler warnings.</p>
+<p style="Normal">Cleaned up access to view.</p>
+<p style="Normal">Cleaned up header dependencies.</p>
+<p style="Normal">Made all colors used by Abi user-configurable, rather than hardwired. Fixes bug 1747.</p>
+<p style="Normal">Tweak to default window size (800x600, not 600x800).</p>
+<p style="Normal">Fixed a number of build problems.</p>
+<p style="Normal">A couple of RTF fixes.</p>
+<p style="Normal">Fix to RTF list import.</p>
+<p style="Normal">Fix bugs: 3360</p>
+<p style="Heading 2">Tian Huisohu</p>
+<p style="Normal">Fix a memory leak in wv.</p>
+<p style="Heading 2">Olexij Tkatchenko</p>
+<p style="Normal">Ukrainian localisation update.</p>
+<p style="Heading 2">Sam Tobin-Hochstadt</p>
+<p style="Normal">Squashed some warnings in impexp.</p>
+<p style="Normal">Squashed wp/ap warnings.</p>
+<p style="Normal">Added some cvsignores.</p>
+<p style="Heading 2">Mugurel Tudor</p>
+<p style="Normal">Romanian localisation.</p>
+<p style="Heading 2">Robert Wilhelm</p>
+<p style="Normal">Fix bugs: 3618.</p>
+<p style="Heading 2">John Wyrwas</p>
+<p style="Normal">Beginnings of a PDF exporter plugin.</p>
+<p style="Heading 2">Daniel Yacob</p>
+<p style="Normal">Amharic localisation work.</p>
+<p style="Heading 2">Omer Zak</p>
+<p style="Normal">Hebrew localisation work.</p>
+<p style="Heading 2">Alfredo Barrainkua Zallo</p>
+<p style="Normal">Euskara localisation work.</p>
+</section>
+</abiword>

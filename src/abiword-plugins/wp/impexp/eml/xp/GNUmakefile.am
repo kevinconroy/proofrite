@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiEML.la
+
+libAbiEML_la_SOURCES = ie_exp_EML.cpp
+
+libAbiEML_la_LIBADD = @ABI_LIBS@
+
+libAbiEML_la_LDFLAGS = -no-undefined -module -avoid-version

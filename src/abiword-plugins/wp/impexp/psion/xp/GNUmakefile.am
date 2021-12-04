@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_PSION_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_PSION_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiPsion.la
+
+libAbiPsion_la_SOURCES = ie_exp_Psion.cpp ie_exp_Psion.h ie_impexp_Psion.cpp ie_imp_Psion.cpp ie_imp_Psion.h
+
+libAbiPsion_la_LIBADD = @ABI_LIBS@
+
+libAbiPsion_la_LDFLAGS = -no-undefined -module -avoid-version

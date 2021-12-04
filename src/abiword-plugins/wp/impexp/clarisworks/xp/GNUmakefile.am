@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiClarisWorks.la
+
+libAbiClarisWorks_la_SOURCES = ie_imp_ClarisWorks.cpp ie_imp_ClarisWorks.h
+
+libAbiClarisWorks_la_LIBADD = @ABI_LIBS@
+
+libAbiClarisWorks_la_LDFLAGS = -no-undefined -module -avoid-version

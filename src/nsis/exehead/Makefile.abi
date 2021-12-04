@@ -1,0 +1,73 @@
+#! gmake
+
+## AbiSource Setup Kit
+## Copyright (C) 2001 AbiSource, Inc.
+##
+## This program is free software; you can redistribute it and/or
+## modify it under the terms of the GNU General Public License
+## as published by the Free Software Foundation; either version 2
+## of the License, or (at your option) any later version.
+## 
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+## 
+## You should have received a copy of the GNU General Public License
+## along with this program; if not, write to the Free Software
+## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  
+## 02111-1307, USA.
+
+ABI_ROOT:=$(shell pwd)/../../abi
+ABI_PEER:=/nsis/exehead
+
+include $(ABI_ROOT)/src/config/abi_defs.mk
+
+CSRCS=			Main.c Ui.c util.c bgbg.c fileform.c exec.c crc32.c
+				
+RCSRCS=			resource.rc
+
+PROGRAM=		$(OBJDIR)/exehead$(EXE_SUFFIX)
+
+ifeq ($(OS_NAME), MINGW32)
+OS_LIBS= -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 \
+         -lshell32 -luuid -lcomctl32 -lole32 -loleaut32 -lodbc32 -lversion
+EXTRA_LIBS=     $(LIBDIR)/libNSIS_zlib.a
+else
+ABI_LDFLAGS=	/nologo /entry:"WinMain" /subsystem:windows /incremental:no /machine:$(LINK_ARCH) /profile /pdbtype:sept
+
+ABI_OTHLIBS=		
+OS_LIBS=		kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib \
+				shell32.lib uuid.lib comctl32.lib ole32.lib oleaut32.lib odbc32.lib odbccp32.lib version.lib 
+EXTRA_LIBS=     $(LIBDIR)/libNSIS_zlib_s.lib 
+GARBAGE=		exehead.map exehead.pdb
+endif
+CFLAGS+=  		-I../zlib
+
+TARGETS=		$(PROGRAM)
+
+
+include $(ABI_ROOT)/src/config/abi_rules.mk
+
+##################################################################
+## everything below here must *FOLLOW* abi_rules
+##################################################################
+
+ifeq ($(OS_NAME), MINGW32)
+$(PROGRAM): $(OBJS)
+	@$(MAKE_OBJDIR)
+	@echo Linking $(PROGRAM)
+	@$(CCC) -o $@ $(CFLAGS) $(OBJS) $(OS_LIBS) $(EXTRA_LIBS)
+else
+$(PROGRAM): $(OBJS)
+	@$(MAKE_OBJDIR)
+	@echo Linking $(PROGRAM)....
+	@$(CC) $(shell echo $(OBJS) | $(TRANSFORM_TO_DOS_PATH))		\
+		-Fe$(shell echo $@ | $(TRANSFORM_TO_DOS_PATH))		\
+		-link $(LDFLAGS) $(OS_LIBS) $(ABI_LDFLAGS) \
+              $(shell echo $(EXTRA_LIBS) | $(TRANSFORM_TO_DOS_PATH))
+endif
+
+build:: $(TARGETS)
+	@echo exehead built
+

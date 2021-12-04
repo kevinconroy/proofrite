@@ -1,0 +1,31 @@
+<oaf_info>		
+  <oaf_server
+              iid="OAFIID:AbiSource_AbiWord_ControlFactory"
+	      type="exe" location="/home/msevior/abidir/AbiSuite/bin/AbiWord">
+    
+    <oaf_attribute name="repo_ids" type="stringv">
+      <item value="IDL:Bonobo/GenericFactory:1.0" />
+    </oaf_attribute>
+
+    <oaf_attribute name="name" type="string" value="AbiWord Control Factory" />
+    <oaf_attribute name="description" type="string" value="Factory for AbiWord Controls" />
+
+  </oaf_server>
+  <oaf_server
+	      iid="OAFIID:AbiSource_AbiWord_Control"
+	      type="factory"
+	      location="OAFIID:AbiSource_AbiWord_ControlFactory">
+    
+    <oaf_attribute name="repo_ids" type="stringv">
+      <item value="IDL:Bonobo/Unknown:1.0" /> 
+	<item value="IDL:Bonobo/Control:1.0" />
+    </oaf_attribute>
+    
+    <oaf_attribute name="name" type="string"
+		   value="Bonobo control" />
+    
+    <oaf_attribute name="description" type="string"
+		   value="This is an AbiWord Control." />
+  </oaf_server>
+</oaf_info>
+

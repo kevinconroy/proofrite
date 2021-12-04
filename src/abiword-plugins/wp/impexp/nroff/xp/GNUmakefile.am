@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiNroff.la
+
+libAbiNroff_la_SOURCES = ie_exp_Nroff.cpp
+
+libAbiNroff_la_LIBADD = @ABI_LIBS@
+
+libAbiNroff_la_LDFLAGS = -no-undefined -module -avoid-version

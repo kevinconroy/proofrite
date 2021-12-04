@@ -1,0 +1,17 @@
+INCLUDES = -I$(srcdir) -I$(top_srcdir)/wp/impexp/docbook/xp
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiCoquille.la
+
+libAbiCoquille_la_SOURCES = coquille.cpp coquilleExp.cpp coquilleImp.cpp
+
+libAbiCoquille_la_LIBADD = @ABI_LIBS@
+
+libAbiCoquille_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = coquilleExp.h coquille.h coquilleImp.h
+
+EXTRA_DIST = $(OTHERHEADERS)

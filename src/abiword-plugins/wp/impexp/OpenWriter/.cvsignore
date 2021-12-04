@@ -1,0 +1,7 @@
+GNUmakefile
+GNUmakefile.in
+aclocal.m4
+confdefs.h
+config.log
+configure
+libtool

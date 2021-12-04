@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033
+{\fonttbl
+{\f0\fmodern\fcharset0\fprq1\fttruetype Courier New;}
+{\f1\fswiss\fcharset0\fprq2\ftnil NULL;}
+{\f2\froman\fcharset0\fprq2\fttruetype Times New Roman;}
+{\f3\fswiss\fcharset0\fprq2\ftnil Dingbats;}
+{\f4\froman\fcharset0\fprq2\fttruetype Symbol;}
+{\f5\fswiss\fcharset0\fprq2\fttruetype Arial;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s5\fi-431\li720 Dashed List;}
+{\s2\fi-431\li720 Box List;}
+{\s21\tx1584\sbasedon16\snext15 Section Heading;}
+{\s17\tx431\sbasedon9\snext15 Numbered Heading 2;}
+{\s20\f0\sbasedon15 Plain Text;}
+{\s12\fi-431\li720 Implies List;}
+{\s26\fi-431\li720\sbasedon19 Upper Case List;}
+{\s7\fi-431\li720 Hand List;}
+{\s27\fi-431\li720\sbasedon19 Upper Roman List;}
+{\s15\f2\fs24 Normal;}
+{\s1\li1440\ri1440\sa120\sbasedon15 Block Text;}
+{\s14\fi-431\li720\sbasedon15 Lower Roman List;}
+{\s11\fi-431\li720 Heart List;}
+{\s13\fi-431\li720\sbasedon19 Lower Case List;}
+{\s24\fi-431\li720 Tick List;}
+{\s8\sb440\sa60\f5\fs34\b\sbasedon15\snext15 Heading 1;}
+{\s9\sb440\sa60\f5\fs28\b\sbasedon15\snext15 Heading 2;}
+{\s10\sb440\sa60\f5\fs24\b\sbasedon15\snext15 Heading 3;}
+{\s19\fi-431\li720 Numbered List;}
+{\s23\fi-431\li720 Star List;}
+{\s16\tx431\sbasedon8\snext15 Numbered Heading 1;}
+{\s6\fi-431\li720 Diamond List;}
+{\s18\tx431\sbasedon10\snext15 Numbered Heading 3;}
+{\s4\tx1584\sbasedon16\snext15 Chapter Heading;}
+{\s22\fi-431\li720 Square List;}
+{\s25\fi-431\li720 Triangle List;}
+{\s3\fi-431\li720 Bullet List;}}
+\kerning0\cf0\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar{\f0\fs22\lang1033{\*\listtag0}$Id: AbiWord_FileImport.doc,v 1.1.1.1 2003/05/18 17:52:58 kmconroy Exp $}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\qc\ltrpar{\f2\fs48\b\lang1033{\*\listtag0}AbiSource File Import}
+\par\pard\plain\qc\ltrpar{\f2\fs24\lang1033{\*\listtag0}Version 1.0}
+\par\pard\plain\qc\ltrpar{\f2\fs24\lang1033{\*\listtag0}Copyright (C) 1999 AbiSource, Inc., All Rights Reserved.}
+\par\pard\plain\qc\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\qc\ltrpar{\f2\fs24\lang1033{\*\listtag0}Jeff Hostetler}
+\par\pard\plain\qc\ltrpar{\f0\fs24\lang1033{\*\listtag0}jeff@abisource.com}
+\par\pard\plain\qc\ltrpar{\f2\fs24\lang1033{\*\listtag0}AbiSource, Inc.}
+\par\pard\plain\qc\ltrpar{\f2\fs24\lang1033{\*\listtag0}$Date: 2003/05/18 17:52:58 $}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\b\lang1033{\*\listtag0}1.  Introduction}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}AbiWord can import documents in various different file formats.  This document provides an overview of the import mechanism and instructions for adding support for a new format.}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\b\lang1033{\*\listtag0}2.  class IE_Imp}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}The code for our current set of importers can be found in abi/src/wp/impexp/xp.}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}Class IE_Imp defines the base class for all importers.  All file importers are derived from this class.}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}Class IE_Imp also defines some methods which the actual file-open and file-open-dialog code will use.  This includes code to enumerate through the set of derived classes and to instantiate a specific derived class by name.}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\b\lang1033{\*\listtag0}3.  Adding a New File Type}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}Currently, we have defined a class called IE_ImpSniffer. This class is responsible for various duties, including creating new instances of our IE_Imp subclass (i.e. the actual importer).  The duties of the sniffer include:}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}[1] Importer registration}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}[2] Automatic recognition of a file\'92s contents}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}[3] Automatic recognition of a file\'92s suffix}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}[4] Creating a new importer object}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}Here are the steps to add support for a new file type:}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\tx720{\f2\fs24\lang1033{\*\listtag0}[1]\tab Create  a new sniffer class and register it via the ie_impexp_Register.cpp file}
+\par\pard\plain\fi-720\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\fi-720\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}[2]\tab Clone one of the existing importers and start hacking.}
+\par\pard\plain\fi-720\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\fi-720\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}[3]\tab As a first step in creating your importer, I recommend that you start by just  extracting the text of the document without worrying about formatting.  The most trivial document contains one section, one block (paragraph), and some content (one or more spans).  So you should be able to get something on the screen with nothing more than this:}
+\par\pard\plain\fi-720\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f0\fs24\lang1033{\*\listtag0}\tab \tab m_pDocument->appendStrux(PTX_Section,NULL);}
+\par\pard\plain\ltrpar{\f0\fs24\lang1033{\*\listtag0}\tab \tab m_pDocument->appendStrux(PTX_Block,NULL);}
+\par\pard\plain\ltrpar{\f0\fs24\lang1033{\*\listtag0}\tab \tab m_pDocument->appendSpan(data,length);}
+\par\pard\plain\ltrpar{\f0\fs24\lang1033{\*\listtag0}\tab \tab m_pDocument->appendSpan(data,length);}
+\par\pard\plain\ltrpar{\f0\fs24\lang1033{\*\listtag0}\tab \tab ...}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}You can make as many calls to appendSpan() within a block as you need.}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\fi-720\li720\ltrpar{\f2\fs24\lang1033{\*\listtag0}[4]\tab Once you get that working, you can start adding section, block and span formatting attributes using the second argument of appendStrux() and the appendFmt() method.  These consist of a series of CSS2-like name-value pairs.  See AbiWord_DocumentFormat.abw and the source for the other importers for details.}
+\par\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar{\f2\fs24\lang1033{\*\listtag0}}}

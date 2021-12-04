@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiWordPerfect.la
+
+libAbiWordPerfect_la_SOURCES = ie_impexp_WordPerfect.cpp ie_imp_WordPerfect.cpp ie_imp_WordPerfect.h ie_exp_WordPerfect.cpp ie_exp_WordPerfect.h
+
+libAbiWordPerfect_la_LIBADD = @ABI_LIBS@
+
+libAbiWordPerfect_la_LDFLAGS = -no-undefined -module -avoid-version

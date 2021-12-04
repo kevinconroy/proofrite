@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword xmlns:awml="http://www.abisource.com/awml.dtd" version="unnumbered" fileformat="1.0" styles="unlocked">
+<!-- =====================================================================  -->
+<!-- This file is an AbiWord document.                                      -->
+<!-- AbiWord is a free, Open Source word processor.                         -->
+<!-- You may obtain more information about AbiWord at www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-family:Arial; margin-top:24pt; font-style:normal; font-weight:bold; lang:en-GB; text-indent:0.00cm; text-align:center; keep-with-next:1; bgcolor:transparent; margin-bottom:12pt; font-size:24pt; field-font:NULL"/>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="text-indent:0.50cm; field-font:NULL; margin-top:0pt; margin-left:0pt; font-stretch:normal; line-height:1.0; text-align:justify; bgcolor:transparent; dom-dir:ltr; margin-bottom:0pt; font-weight:normal; text-decoration:none; font-variant:normal; color:000000; text-position:normal; font-size:12pt; margin-right:0pt; font-style:normal; widows:2; font-family:Times New Roman"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; font-size:14pt; field-font:NULL; margin-bottom:3pt; font-weight:bold; font-family:Arial; margin-top:22pt"/>
+</styles>
+<pagesize pagetype="A4" orientation="portrait" width="210.000000" height="297.000000" units="mm" page-scale="1.000000"/>
+<section props="page-margin-footer:0.0000in; page-margin-header:0.0000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1"><c props="lang:en-GB"></c>0.99.2 Changelog</p>
+<p style="Normal">These are the changes made between 0.99.1 and 0.99.2. As usual, not all may be visible in the final release.</p>
+<p style="Heading 2">Pierre Abbat</p>
+<p style="Normal">Fix language code for Slovenian.</p>
+<p style="Heading 2">Joaquin Cuenca Abela</p>
+<p style="Normal">Fixes to perl bindings.</p>
+<p style="Heading 2">Robert Altenburg</p>
+<p style="Normal">Bug fix for adjustable height columns.</p>
+<p style="Normal">Bug fixes, including 1957, 2050, 2374.</p>
+<p style="Heading 2">Piotr Banski</p>
+<p style="Normal">Polish localisation update.</p>
+<p style="Heading 2">Christian Biesinger</p>
+<p style="Normal">Build fix for BeOS.</p>
+<p style="Normal">Help with UT_String_printf methods.</p>
+<p style="Heading 2">Jared Davis</p>
+<p style="Normal">Fixes to Aiksaurus build system.</p>
+<p style="Normal">Removed old data files from the Aiksaurus directories.</p>
+<p style="Normal">Fixes to zoom dialog.</p>
+<p style="Normal">Enhanced Insert &gt; Field dialog.</p>
+<p style="Normal">Enhanced Insert &gt; Page Numbers dialog.</p>
+<p style="Heading 2">Jeremy Davis</p>
+<p style="Normal">Trivial fix for .bzabw saving.</p>
+<p style="Normal">Bug fixes, including 2549.</p>
+<p style="Heading 2">Damon Allen Davison</p>
+<p style="Normal">German translation update.</p>
+<p style="Heading 2">Tamas Decsi</p>
+<p style="Normal">Hungarian localisation update.</p>
+<p style="Heading 2">Mike Fabian</p>
+<p style="Normal">Patch to allow Chinese input in GNOME build.</p>
+<p style="Heading 2">Hubert Figuiere</p>
+<p style="Normal">More work on Mac OSX port.</p>
+<p style="Normal">Fix to HTML importer.</p>
+<p style="Normal">Fixed a memory leak.</p>
+<p style="Normal">Solaris build fix.</p>
+<p style="Normal">Fixed bugzilla.abisource.org to point at bugzilla rather than the main pages.</p>
+<p style="Normal">Build fixes arising from Martin's multithreaded loader.</p>
+<p style="Heading 2">Anthony Fok</p>
+<p style="Normal">Removed null characters in Turkish and Chinese profiles.</p>
+<p style="Normal">Turned off smart quotes in Chinese.</p>
+<p style="Normal">Fixed a conflict with unicode.</p>
+<p style="Normal">Bug fixes, including 1462.</p>
+<p style="Heading 2">Ramon Flores</p>
+<p style="Normal">Galician localisation update.</p>
+<p style="Heading 2">Frank Franklin</p>
+<p style="Normal">Plugins instructions update.</p>
+<p style="Normal">Increase wv version number to 0.7.1.</p>
+<p style="Normal">RPM fix for plugins.</p>
+<p style="Normal">Fixes to build scripts for plugins.</p>
+<p style="Normal">Extended automake system to eml importer.</p>
+<p style="Normal">Fixed build process to not assume that autoconf is a shell script.</p>
+<p style="Normal">Plugin fixes that affected rpm build.</p>
+<p style="Normal">Added debug flags to plugins.</p>
+<p style="Normal">XDarwin environment variable fixes.</p>
+<p style="Normal">Work on HTML importer plugin.</p>
+<p style="Normal">Support for Ukrainian spellchecking.</p>
+<p style="Normal">Build system fixes.</p>
+<p style="Normal">Added excessively hyped autoskip mechanism to plugin build system.</p>
+<p style="Normal">Began work on reinventing the wheel. Specifically, an SVG plugin.</p>
+<p style="Normal">Added UT_HashColor to allow conversion of color names.</p>
+<p style="Normal">Added a big-endian Hungarian dictionary.</p>
+<p style="Normal">Corrected script names in wv.</p>
+<p style="Normal">wv install instructions update.</p>
+<p style="Normal">Fix libwmf detection in wv.</p>
+<p style="Normal">Bug fixes, including 2650.</p>
+<p style="Heading 2">Tomas Frydrych</p>
+<p style="Normal">Bidi fixes.</p>
+<p style="Normal">Removed font trickery from wrapper script.</p>
+<p style="Normal">Small change in Win32 Open/Save dialog so that we don't append .abw etc to nonexistent filenames, and other extension handling fixes.</p>
+<p style="Normal">Lots of memory leak fixes, including some in wv and psiconv.</p>
+<p style="Normal">Fixed .zabw problems in Win32.</p>
+<p style="Normal">Fixes to field autoupdating.</p>
+<p style="Normal">Unix font fix.</p>
+<p style="Normal">Bug fixes, including 2476, 2487, 2500, 2523, 2547, 2548, 2551, 2570, 2585, 2606, 2615, 2624, 2636, 2640, 2645, 2660, 2670.</p>
+<p style="Heading 2">Gabriel Gerhardsson</p>
+<p style="Normal">Updates to abispell RPM script.</p>
+<p style="Heading 2">Marco Innocenti</p>
+<p style="Normal">Italian strings update.</p>
+<p style="Heading 2">Dom Lachowicz</p>
+<p style="Normal">Fixes to libole2.</p>
+<p style="Normal">Add header and footer export to HTML export.</p>
+<p style="Normal">Compile configuration changes.</p>
+<p style="Normal">Fixes to zoom dialog.</p>
+<p style="Normal">Large improvements to colour support, and to greyscale support.</p>
+<p style="Normal">Fixes to Normal and Web view modes.</p>
+<p style="Normal">Fix to build with scripting enabled.</p>
+<p style="Normal">Added Hungarian spellcheck support.</p>
+<p style="Normal">Added GNOME-2 icons.</p>
+<p style="Normal">Added UT_String-printf methods, so that we can avoid sprintf().</p>
+<p style="Normal">Bug fixes, including 1142, 1319, 1740, 2577, 2579, 2590, 2592, 2604.</p>
+<p style="Heading 2">Martin Lacko</p>
+<p style="Normal">Slovak localisation update.</p>
+<p style="Heading 2">Patrick Lam</p>
+<p style="Normal">Fix for building with scripting enabled.</p>
+<p style="Heading 2">Birger Langkjer</p>
+<p style="Normal">Danish localisation update.</p>
+<p style="Heading 2">Per Larsson</p>
+<p style="Normal">Swedish localisation update.</p>
+<p style="Heading 2">Frodo Looijaard</p>
+<p style="Normal">Fix memory leak in psiconv.</p>
+<p style="Normal">Big synchronisation update of psiconv.</p>
+<p style="Heading 2">Marc Maurer</p>
+<p style="Normal">Basic tab import in WordPerfect importer.</p>
+<p style="Normal">Fixed page break import in WordPerfect importer.</p>
+<p style="Normal">HTML exporter cleanup.</p>
+<p style="Heading 2">Bryce Nesbitt</p>
+<p style="Normal">Fix bug 1030.</p>
+<p style="Heading 2">Nikos Niktaris</p>
+<p style="Normal">Greek translation.</p>
+<p style="Heading 2">Adrian Philips</p>
+<p style="Normal">Fixed a bug with bookmarks with long names.</p>
+<p style="Heading 2">Michael Pritchett</p>
+<p style="Normal">Upgraded NSIS to 1.94.</p>
+<p style="Normal">Compilation fix in libole2.</p>
+<p style="Normal">Fixes to plug-in builds on Win32.</p>
+<p style="Normal">Made some Win32 dialog controls bigger.</p>
+<p style="Normal">Win32 Zoom dialog update.</p>
+<p style="Normal">Bug fixes, including 1583, 1759, 1795, 2171, 2340, 2420, 2497.</p>
+<p style="Heading 2">Rhoslyn Prys</p>
+<p style="Normal">Welsh localisation update.</p>
+<p style="Heading 2">Pavel Roskin</p>
+<p style="Normal">Fixed an invalid cast.</p>
+<p style="Heading 2">Gilles Saint-Denis</p>
+<p style="Normal">Fix to page break and paragraph dialogs to make localisations look better.</p>
+<p style="Heading 2">Rui Miguel Seabra</p>
+<p style="Normal">Fixes to RPM spec.</p>
+<p style="Heading 2">Martin Sevior</p>
+<p style="Normal">Added multi-threaded incremental loading, so that we get an hourglass while loading long documents, and the beginning appears before the end has finished.</p>
+<p style="Normal">Pixel dirt fix.</p>
+<p style="Normal">Fields now update automatically.</p>
+<p style="Normal">Fixes to import of documents with broken header/footer sections.</p>
+<p style="Normal">Very simple algorithm to find spelling suggestions in custom dictionary.</p>
+<p style="Normal">Bug fixes arising from the above (particularly the incremental loader).</p>
+<p style="Normal">Lots of list related fixes.</p>
+<p style="Normal">Removed a stupid debug message from the RTF importer.</p>
+<p style="Normal">Bug fixes, including 608, 1994, 2600, 2611, 2654, 2677, 2688, 2702, 2719, 2720.</p>
+<p style="Heading 2">Jesper Skov</p>
+<p style="Normal">Fix RTF import bug.</p>
+<p style="Heading 2">Vladimir Stoos</p>
+<p style="Normal">Russian localisation fix.</p>
+<p style="Heading 2">Petr Tesarik</p>
+<p style="Normal">Patch to allow Chinese input in GNOME build.</p>
+<p style="Heading 2">Jakub Travnik</p>
+<p style="Normal">Fix for ui-backport.pl.</p>
+<p style="Heading 2">Ries van Twisk</p>
+<p style="Normal">wv image import updates.</p>
+<p style="Heading 2">Robert Wilhelm</p>
+<p style="Normal">wv patches for picture import.</p>
+<p style="Normal">wv patch to remove a use of tmpfile().</p>
+<p style="Heading 2">Chris Winne</p>
+<p style="Normal">Patch for makewrapper.sh.</p>
+</section>
+</abiword>

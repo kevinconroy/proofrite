@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABIGDKPIXBUF_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABIGDKPIXBUF_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiGdkPixbuf.la
+
+libAbiGdkPixbuf_la_SOURCES = AbiGdkPixbuf.cpp
+
+libAbiGdkPixbuf_la_LIBADD = @ABI_LIBS@
+
+libAbiGdkPixbuf_la_LDFLAGS = -no-undefined -module -avoid-version

@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_GDICT_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_GDICT_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiGdict.la
+
+libAbiGdict_la_SOURCES = GdictAbiPlugin.cpp
+
+libAbiGdict_la_LIBADD = @ABI_LIBS@
+
+libAbiGdict_la_LDFLAGS = -no-undefined -module -avoid-version

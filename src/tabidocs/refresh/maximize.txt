@@ -1,0 +1,173 @@
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZE)
+xap_Win32Frame::WM_SIZE 592 - 746
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(WM_SIZE)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(WM_SIZE)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+GR_Win32Graphics: screen resolution 96
+FL_DocLayout::_toggleAutoSmartQuotes(false)
+fpPage: Deleting page e9c2a8 
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+SEVIOR: Doing Populate Section in DocListener 
+fl_DocListener::populateStrux for '(null)'
+SEVIOR: Doing Populate DocSection in DocListener 
+column order: ltr
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+Created Page e8e3a0 
+fl_DocListener::populate type 0 
+fp_TextRun size is 192
+fl_DocListener::populate type 6 
+Populate:InsertInk:
+fl_DocListener::populate type 0 
+fl_DocListener::populate type 6 
+Populate:InsertInk:
+fl_DocListener::populate type 0 
+fl_DocListener::populate type 0 
+fl_DocListener::populate type 0 
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+The thread 'Win32 Thread' (0xec) has exited with code 0 (0x0).
+fv_View:: Focus change focus = 0 selection 1 
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+The thread 'Win32 Thread' (0x960) has exited with code 0 (0x0).
+fv_View:: Focus change focus = 0 selection 1 
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SETFOCUS)
+fv_View:: Focus change focus = 0 selection 1 
+fv_View:: Focus change focus = 2 selection 1 
+KMC: AP_Win32FrameImpl::_ContainerWndProc(WM_SETFOCUS)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(WM_SETFOCUS)
+fv_View:: Focus change focus = 0 selection 1 
+The thread 'Win32 Thread' (0xd34) has exited with code 0 (0x0).
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+fv_View:: Focus change focus = 2 selection 1 
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SETFOCUS)
+fv_View:: Focus change focus = 0 selection 1 
+fv_View:: Focus change focus = 2 selection 1 
+KMC: AP_Win32FrameImpl::_ContainerWndProc(WM_SETFOCUS)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(WM_SETFOCUS)
+fv_View:: Focus change focus = 0 selection 1 
+The thread 'Win32 Thread' (0xd58) has exited with code 0 (0x0).
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(WM_SIZEWM_NOTIFY - NM_CUSTOMDRAW)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_ContainerWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(default)
+KMC: AP_Win32FrameImpl::_DocumentWndProc(WM_PAINT)
+The thread 'Win32 Thread' (0x77c) has exited with code 0 (0x0).
+SEVIOR: frame view updater 
+The thread 'Win32 Thread' (0xf28) has exited with code 0 (0x0).
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+KMC: XAP_Win32FrameImpl::_FrameWndProc(default)
+fv_View:: Focus change focus = 2 selection 1 

@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiMSWrite.la
+
+libAbiMSWrite_la_SOURCES = ie_impexp_MSWrite.cpp ie_impexp_MSWrite.h ie_imp_MSWrite.cpp ie_imp_MSWrite.h
+
+libAbiMSWrite_la_LIBADD = @ABI_LIBS@
+
+libAbiMSWrite_la_LDFLAGS = -no-undefined -module -avoid-version

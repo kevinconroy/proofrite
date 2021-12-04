@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_WMF_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_WMF_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiWMF.la
+
+libAbiWMF_la_SOURCES = ie_impGraphic_WMF.cpp ie_impGraphic_WMF.h
+
+libAbiWMF_la_LIBADD = @ABI_LIBS@
+
+libAbiWMF_la_LDFLAGS = -no-undefined -module -avoid-version

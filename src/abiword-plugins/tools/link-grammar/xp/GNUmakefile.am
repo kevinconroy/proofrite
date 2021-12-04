@@ -1,0 +1,19 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugin_LTLIBRARIES = libAbiLinkGrammar.la
+
+libAbiLinkGrammar_la_SOURCES = GrammarChecker.cpp
+
+libAbiLinkGrammar_la_LIBADD = @ABI_LIBS@
+
+libAbiLinkGrammar_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = \
+	GrammarChecker.h \
+	LinkGrammarChecker.h \
+	NullGrammarChecker.h \
+	dummy-link-includes.h
+
+EXTRA_DIST = $(OTHERHEADERS)

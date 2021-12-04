@@ -1,0 +1,506 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: AbiWord
+Date: Thu, 8 Aug 2002 16:54:41 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_01C23EFC.4A027170";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4910.0300
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C23EFC.4A027170
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://abisource.com/
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<?xml version=3D"1.0" encoding=3D"iso-8859-1"?><HTML lang=3Den =
+xml:lang=3D"en"=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>AbiWord</TITLE><LINK =
+
+href=3D"http://www.abisource.com/style.css" type=3Dtext/css =
+rel=3Dstylesheet><LINK=20
+href=3D"/favicon.ico" type=3Dimage/x-icon rel=3D"shortcut icon">
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<META content=3D"AbiSource - Open Source for the Desktop." =
+name=3Ddescription>
+<META=20
+content=3D"AbiSource, AbiWord, Open Source, Office Suite, Word =
+Processor, cross-platform, Linux, Windows, free, software, download"=20
+name=3Dkeywords>
+<META content=3D"MSHTML 5.50.4728.2300" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#000099 aLink=3D#ff0000 link=3D#0000ff =
+bgColor=3D#ffffff>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dlogobar colSpan=3D2><IMG class=3Dswish height=3D90 =
+alt=3D[Logo]=20
+      src=3D"http://www.abisource.com/gfx/swish-a.jpg" width=3D66 =
+align=3Dright><A=20
+      href=3D"http://www.abisource.com/"><IMG class=3Dlogo height=3D90=20
+      alt=3D"AbiWord: Word Processing for Everyone"=20
+      src=3D"http://www.abisource.com/gfx/abilogo.jpg" width=3D293=20
+  border=3D0></A></TD></TR>
+  <TR>
+    <TD class=3Dnavbar vAlign=3Dtop width=3D150 bgColor=3D#b0d0b0>
+      <DIV class=3Dnavigation><BR><STRONG><A =
+href=3D"http://abisource.com/">AbiWord=20
+      Home</A></STRONG><BR>&nbsp; <A=20
+      =
+href=3D"http://abisource.com/screenshots/">Screenshots</A><BR>&nbsp; <A=20
+      href=3D"http://abisource.com/download/">Download</A><BR>&nbsp; <A=20
+      =
+href=3D"http://abisource.com/download/plugins.phtml">Plugins</A><BR>&nbsp=
+;=20
+      <A href=3D"http://abisource.com/reviews/">Reviews</A><BR>&nbsp; <A =
+
+      href=3D"http://abisource.com/awards/">Awards</A><BR><BR><STRONG><A =
+
+      =
+href=3D"http://abisource.com/information/">Information</A></STRONG><BR>&n=
+bsp;=20
+      <A href=3D"http://abisource.com/information/about/">About=20
+      AbiWord</A><BR>&nbsp; <A=20
+      href=3D"http://abisource.com/information/news/">Weekly =
+News</A><BR>&nbsp; <A=20
+      =
+href=3D"http://abisource.com/information/license/">License</A><BR>&nbsp; =
+<A=20
+      href=3D"http://abisource.com/mailinglists/">Mailing=20
+      Lists</A><BR><BR><STRONG><A=20
+      =
+href=3D"http://abisource.com/papers/">Publications</A></STRONG><BR><BR><S=
+TRONG><A=20
+      =
+href=3D"http://abisource.com/support/">Support</A></STRONG><BR>&nbsp; <A =
+
+      href=3D"http://abisource.com/support/require/">System =
+Reqs.</A><BR>&nbsp; <A=20
+      href=3D"http://abisource.com/support/manual/">User's =
+Manual</A><BR>&nbsp; <A=20
+      =
+href=3D"http://abisource.com/twiki/bin/view/Abiword/AbiWordFAQ">FAQ</A><B=
+R>&nbsp;=20
+      <A href=3D"http://abisource.com/support/bugs/">Report a =
+Bug</A><BR>&nbsp; <A=20
+      href=3D"http://abisource.com/support/vote/">Vote on =
+Bugs</A><BR>&nbsp; <A=20
+      href=3D"http://abisource.com/support/help/">Get =
+Help</A><BR><BR><STRONG><A=20
+      =
+href=3D"http://abisource.com/contribute/">Contribute</A></STRONG><BR>&nbs=
+p;=20
+      <A href=3D"http://abisource.com/contribute/suggest/">Suggest=20
+      Ideas</A><BR>&nbsp; <A=20
+      href=3D"http://abisource.com/contribute/bugtracking/">Track=20
+      Bugs</A><BR>&nbsp; <A=20
+      =
+href=3D"http://abisource.com/contribute/translate/">Translate</A><BR><BR>=
+<STRONG><A=20
+      =
+href=3D"http://abisource.com/developers/">Developers</A></STRONG><BR><BR>=
+</DIV>
+      <FORM action=3D/cgi-bin/htsearch method=3Dpost><INPUT =
+type=3Dhidden value=3Dor=20
+      name=3Dmethod><INPUT type=3Dhidden value=3Dbuiltin-long =
+name=3Dformat><INPUT=20
+      type=3Dhidden value=3Dscore name=3Dsort><INPUT type=3Dhidden =
+value=3Dhtdig=20
+      name=3Dconfig><INPUT type=3Dhidden name=3Drestrict><INPUT =
+type=3Dhidden=20
+      name=3Dexclude><A=20
+      =
+href=3D"http://abisource.com/search/"><STRONG>Search:</STRONG></A><BR><IN=
+PUT=20
+      size=3D12 name=3Dwords><INPUT type=3Dsubmit value=3DGo></FORM>
+      <HR align=3Dleft width=3D149 noShade SIZE=3D1>
+
+      <DIV align=3Dcenter><BR><A=20
+      href=3D"http://abisource.com/index.phtml?printable=3D1"><IMG =
+height=3D30=20
+      alt=3D[Printer] src=3D"http://www.abisource.com/gfx/printer.gif" =
+width=3D32=20
+      border=3D0><BR><SMALL>Printer=20
+    Friendly<BR>Version</SMALL></A></DIV><BR><BR></TD>
+    <TD vAlign=3Dtop>
+      <DIV class=3Dcontent>
+      <H2>Welcome to AbiWord!</H2>
+      <P>AbiWord is a free <STRONG>word processing program</STRONG> =
+similar to=20
+      Microsoft=AE Word. It is suitable for typing papers, letters, =
+reports,=20
+      memos, and so forth. </P>
+      <DL>
+        <DT><STRONG><A href=3D"http://abisource.com/download/">Download =
+AbiWord=20
+        1.0.2</A></STRONG>=20
+        <DD>Version <STRONG>1.0.2</STRONG> is our latest release. It's =
+available=20
+        for a number of languages and operating systems. <A=20
+        href=3D"http://abisource.com/release-notes/1.0.2.html">Release =
+Notes</A>.=20
+        </DD></DL>
+      <DL>
+        <DT><STRONG><A=20
+        =
+href=3D"http://abisource.com/screenshots/">Screenshots</A></STRONG>=20
+        <DD>Screenshots let you see what AbiWord looks like while it's =
+running.=20
+        They can give you a good feel for what AbiWord is like without=20
+        downloading the program. </DD></DL>
+      <DL>
+        <DT><STRONG><A =
+href=3D"http://abisource.com/reviews/">Reviews</A></STRONG>=20
+
+        <DD>AbiWord is a great word processor, and has attracted a lot =
+of=20
+        attention. We've assembled a collection of the many reviews that =
+people=20
+        have written about AbiWord. </DD></DL>
+      <DL>
+        <DT><STRONG><A =
+href=3D"http://abisource.com/awards/">Awards</A></STRONG>=20
+        <DD>Here you can see photos of the impressive awards that =
+AbiWord has=20
+        received. Thanks to the AbiWord developers for creating such a =
+great=20
+        program! </DD></DL>
+      <H3>Version 1.0 released !</H3>
+      <P><STRONG>April 19th, 2002</STRONG><BR>AbiWord version 1.0 has =
+been=20
+      released. Please visit our <A=20
+      href=3D"http://abisource.com/download/">download section</A>. </P>
+      <H3>New Award!</H3>
+      <P><STRONG>November 8, 2001</STRONG><BR>AbiWord has just been =
+awarded=20
+      LinuxJournal's <A=20
+      =
+href=3D"http://www2.linuxjournal.com/articles/buzz/0052.html">Editors'=20
+      Choice Award</A> for the Office Suite category. Congrats to =
+everyone who=20
+      made this possible! </P>
+      <H3>About AbiWord</H3>
+      <P>AbiWord has been created by a worldwide group of=20
+      <STRONG>volunteers</STRONG> and currently supports many <A=20
+      href=3D"http://abisource.com/languages.phtml">languages</A> and <A =
+
+      href=3D"http://abisource.com/opsystems.phtml">operating =
+systems</A>. </P>
+      <P>AbiWord is <A =
+href=3D"http://www.gnu.org/philosophy/philosophy.html">GNU=20
+      Free Software</A> software, which means that you will always have =
+the=20
+      freedom to use it, make copies of it, and improve it. You are =
+encouraged=20
+      to make use of these freedoms and share the program with your =
+family and=20
+      friends! </P></DIV></TD></TR></TBODY></TABLE>
+<HR noShade SIZE=3D1>
+
+<DIV class=3Dcopyright><SMALL>Copyright (C) 1998-2001 SourceGear =
+Corporation and=20
+other contributors. All rights reserved.<BR>AbiSource, AbiSuite, and =
+AbiWord are=20
+<A =
+href=3D"http://abisource.com/information/license/tm_guide.phtml">trademar=
+ks</A>=20
+of SourceGear Corporation. All other product names, company names, or =
+logos=20
+cited herein are property of their respective owners. <BR>Site feedback =
+to <A=20
+href=3D"mailto:webmaster@abisource.com">webmaster@abisource.com</A></SMAL=
+L>=20
+</DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C23EFC.4A027170
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.abisource.com/gfx/swish-a.jpg
+
+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
+2Q==
+
+------=_NextPart_000_0000_01C23EFC.4A027170
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.abisource.com/gfx/abilogo.jpg
+
+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
+
+------=_NextPart_000_0000_01C23EFC.4A027170
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.abisource.com/gfx/printer.gif
+
+R0lGODlhIAAeALMAAAAAAAD/ADEAITFCQjFjY2NKKWNSY2OcAGOcY5ycY5zOzqWtnMa9zv8AnP//
+AP///yH5BAEAAA0ALAAAAAAgAB4AAAT+sMlJmwCg6s2leMyCZV1Jfc/ChMpolsBgPPSqithbAYYh
+EwXaQ2FjuF48w8pQ+AVrihtG0AEQZlBG4QrEgkKr3K4nLIMLBiBQyBJRkuxQ2drrERiH58NAasDL
+gDEGCQsGCCB5B1oDJDEJbFFzdYULXyEFDEwZAGgJSoA0PDIIZCEODit7jAA1S4UMQladg5YLkTIF
+GHKtmYWilDMhAQGpV2kYKmBxmQbAllEKD2gyfAAsRZW8mSBRynZMBBhRC+QrYNl7X8mwMrhXuujk
+6+aQcmlM97kAySpC8jc2yvgARxAeESL9aMjrZgNXvnd+Qsgzl8xfORUDB6AB0mhXinJPDIgE/Kig
+x0Y0ffYVsUgOYSoQTUyGe6OLIiyF/1x2kdFnB7IiN1OsQPitJ4cR12y4XJRLx4QRtoCG6GHUqR9x
+5xgwslpFF5GqXDVcAEshAgA7
+
+------=_NextPart_000_0000_01C23EFC.4A027170
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.abisource.com/style.css
+
+BODY {
+	MARGIN: 5px 0px 0px
+}
+.padright {
+	MARGIN-RIGHT: 0.2in
+}
+.copyright {
+	MARGIN-BOTTOM: 0.1in; MARGIN-LEFT: 0.1in
+}
+.navbar {
+	BACKGROUND-IMAGE: url(/gfx/navbar.jpg)
+}
+.logobar {
+	BACKGROUND-IMAGE: url(/gfx/bgfade.jpg)
+}
+.logo {
+	PADDING-LEFT: 0.2in
+}
+.content {
+	PADDING-RIGHT: 0.2in; PADDING-LEFT: 0.2in; PADDING-BOTTOM: 0.2in; =
+PADDING-TOP: 0.2in
+}
+.content H3 {
+	MARGIN-LEFT: 0.15in
+}
+.content H4 {
+	MARGIN-LEFT: 0.2in
+}
+.content H5 {
+	MARGIN-LEFT: 0.3in
+}
+.swish {
+	PADDING-RIGHT: 0.2in
+}
+.content P {
+	MARGIN-LEFT: 0.3in; MARGIN-RIGHT: 0.3in; FONT-FAMILY: "times", "times =
+new roman", "charter", "utopia", serif; TEXT-ALIGN: justify
+}
+LI {
+	MARGIN-LEFT: 0.3in; MARGIN-RIGHT: 0.3in; FONT-FAMILY: "times", "times =
+new roman", "charter", "utopia", serif; TEXT-ALIGN: justify
+}
+DL {
+	MARGIN-LEFT: 0.3in; MARGIN-RIGHT: 0.3in; FONT-FAMILY: "times", "times =
+new roman", "charter", "utopia", serif; TEXT-ALIGN: justify
+}
+.centerp {
+	TEXT-ALIGN: center
+}
+.navigation {
+	MARGIN-LEFT: 0.1in
+}
+.navigation A {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif; TEXT-DECORATION: none
+}
+.navigation A:hover {
+	BACKGROUND-COLOR: #ffffa0; TEXT-DECORATION: underline
+}
+HR {
+	COLOR: #999999
+}
+H1 {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif
+}
+H2 {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif
+}
+H3 {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif
+}
+H4 {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif
+}
+H5 {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif
+}
+H6 {
+	FONT-FAMILY: "tahoma", "verdana", "arial", "helvetica", "LuciduxSans", =
+sans-serif
+}
+
+------=_NextPart_000_0000_01C23EFC.4A027170--

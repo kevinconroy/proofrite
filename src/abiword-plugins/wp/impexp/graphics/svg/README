@@ -1,0 +1,20 @@
+The code in this directory tree may some day be adopted into the main AbiSuite
+tree but at the moment it is highly experimental, even speculative, and is
+therefore being developed as a plugin, and may even become an official SVG
+plugin at some point.
+
+I'm fulfilling a dream I've had for 10 years, a dream that probably every
+programmer has - to write a scanline converter & graphics package. I'm working
+from scratch, aided only by two trusty volumes:
+
+[1] "Computer Graphics" Foley, van Dam, et al.
+[2] "Advanced Animation and Rendering" Watt & Watt
+
+I know I'm reinventing the wheel here. I haven't researched as rigorously as I
+might, but I haven't seen any wheels out there that satisfy me.
+
+Currently the code will not even compile, but I've added it into CVS anyway,
+partly for backup and partly because some people are curious about it.
+
+Francis James Franklin
+18th February, 2002

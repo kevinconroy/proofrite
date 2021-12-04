@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrokeDataViewer", "StrokeDataViewer.csproj", "{7353B958-F55A-4FDA-A2E2-164149D5E6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingTabletApps", "..\..\BuildingTabletApps\BuildingTabletApps.csproj", "{122CFE53-804E-4F08-8830-EB54BC50EB4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7353B958-F55A-4FDA-A2E2-164149D5E6C2}.Debug.ActiveCfg = Debug|.NET
+		{7353B958-F55A-4FDA-A2E2-164149D5E6C2}.Debug.Build.0 = Debug|.NET
+		{7353B958-F55A-4FDA-A2E2-164149D5E6C2}.Release.ActiveCfg = Release|.NET
+		{7353B958-F55A-4FDA-A2E2-164149D5E6C2}.Release.Build.0 = Release|.NET
+		{122CFE53-804E-4F08-8830-EB54BC50EB4F}.Debug.ActiveCfg = Debug|.NET
+		{122CFE53-804E-4F08-8830-EB54BC50EB4F}.Debug.Build.0 = Debug|.NET
+		{122CFE53-804E-4F08-8830-EB54BC50EB4F}.Release.ActiveCfg = Release|.NET
+		{122CFE53-804E-4F08-8830-EB54BC50EB4F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

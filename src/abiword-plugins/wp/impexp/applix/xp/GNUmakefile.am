@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiApplix.la
+
+libAbiApplix_la_SOURCES = ie_exp_Applix.cpp ie_exp_Applix.h ie_imp_Applix.cpp ie_imp_Applix.h ie_impexp_Applix.cpp
+
+libAbiApplix_la_LIBADD = @ABI_LIBS@
+
+libAbiApplix_la_LDFLAGS = -no-undefined -module -avoid-version

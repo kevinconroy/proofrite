@@ -1,0 +1,9 @@
+#!/bin/sh
+echo ""
+echo "This is test 'eg'!"
+echo "------------------"
+echo "abi_plugin_source=$abi_plugin_source"
+echo "abi_plugin_target=$abi_plugin_target"
+echo "abi_plugin_version=$abi_plugin_version"
+echo ""
+

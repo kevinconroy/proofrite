@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiMIF.la
+
+libAbiMIF_la_SOURCES = ie_exp_MIF.cpp ie_exp_MIF.h ie_imp_MIF.cpp ie_imp_MIF.h ie_impexp_MIF.cpp
+
+libAbiMIF_la_LIBADD = @ABI_LIBS@
+
+libAbiMIF_la_LDFLAGS = -no-undefined -module -avoid-version

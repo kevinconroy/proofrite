@@ -1,0 +1,1670 @@
+From: <Mit Microsoft Internet Explorer 5 gespeichert>
+Subject: Bug 40873 - RFE: Save as rfc 2557 MHTML; complete webpage in one file
+Date: Mon, 9 Dec 2002 14:22:56 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_0000_01C29F8E.780633C0";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C29F8E.780633C0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://bugzilla.mozilla.org/show_bug.cgi?id=40873
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- 1.0@bugzilla.org --><!-- 1.0@bugzilla.org --><HTML><HEAD><TITLE>Bug =
+40873 - RFE: Save as rfc 2557 MHTML; complete webpage in one =
+file</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252"><LINK=20
+href=3D"http://mozilla.org/images/mozilla-16.png" type=3Dimage/png =
+rel=3Dicon><!-- 1.0@bugzilla.org --><LINK=20
+href=3D"http://bugzilla.mozilla.org/css/edit_bug.css" type=3Dtext/css=20
+rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.2722.900" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#551a8b aLink=3D#ff0000 link=3D#0000ee =
+bgColor=3D#ffffff=20
+onload=3D""><!-- 1.0@bugzilla.org -->
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" bgColor=3D#000000 =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD><A href=3D"http://www.mozilla.org/"><IMG height=3D58 alt=3D""=20
+      src=3D"http://mozilla.org/images/mozilla-banner.gif" width=3D600=20
+    border=3D0></A></TD></TR></TBODY></TABLE>
+<CENTER><FONT size=3D-1><A =
+href=3D"http://www.bugzilla.org/">Bugzilla</A> Version=20
+2.17.1 </FONT></CENTER><!--=0A=
+<p><big><b><font color=3D"red">=0A=
+Note: Bugzilla has been upgraded.  Regressions are being tracked in =0A=
+<a =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3Dbmo-regressions">me=
+ta-bug 179176.</a>=0A=
+If you think you have found a regression, check in that bug first to see =
+if it has already=0A=
+been reported, and file it as a blocker to that bug if not.=0A=
+</font></b></big></p>=0A=
+-->
+<TABLE cellSpacing=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop align=3Dleft>
+      <TABLE cellSpacing=3D2 cellPadding=3D0 border=3D0>
+        <TBODY>
+        <TR>
+          <TD vAlign=3Dtop noWrap align=3Dleft><FONT =
+size=3D+1><B>Bugzilla Bug=20
+            40873</B></FONT> </TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=3Dcenter align=3Dleft>&nbsp;</TD>
+    <TD vAlign=3Dcenter align=3Dleft>RFE: Save as rfc 2557 MHTML; =
+complete webpage=20
+      in one file</TD>
+    <TD vAlign=3Dcenter align=3Dright>Last modified: 2002-12-06=20
+11:10</TD></TR></TBODY></TABLE><!-- 1.0@bugzilla.org =
+-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+href=3D"http://bugzilla.mozilla.org/query.cgi">Query page</A>=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+href=3D"http://bugzilla.mozilla.org/enter_bug.cgi">Enter new bug</A><!-- =
+1.0@bugzilla.org -->
+<SCRIPT language=3DJavaScript type=3Dtext/javascript>=0A=
+<!--=0A=
+var fRemainingTime =3D 0.00; // holds the original value=0A=
+function adjustRemainingTime() {=0A=
+   // subtracts time spent from remaining time=0A=
+   var new_time;=0A=
+=0A=
+   new_time =3D=0A=
+      fRemainingTime - document.changeform.work_time.value;=0A=
+   // get upto 2 decimal places=0A=
+   document.changeform.remaining_time.value =3D =0A=
+        Math.round(new_time * 100)/100;=0A=
+}=0A=
+=0A=
+function updateRemainingTime() {=0A=
+   // if the remaining time is changed manually, update fRemainingTime=0A=
+   fRemainingTime =3D document.changeform.remaining_time.value;=0A=
+}=0A=
+=0A=
+//-->=0A=
+</SCRIPT>
+=20
+<HR>
+
+<FORM name=3Dchangeform action=3Dprocess_bug.cgi method=3Dpost><INPUT =
+type=3Dhidden=20
+value=3D20021206111013 name=3Ddelta_ts> <INPUT type=3Dhidden value=3D51=20
+name=3Dlongdesclength> <INPUT type=3Dhidden value=3D40873 name=3Did>=20
+<TABLE cellSpacing=3D1 cellPadding=3D1 border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dright><B>Bug#:</B> </TD>
+    <TD><A =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873">40873</A>=20
+      <LABEL=20
+      title=3D"a name for the bug that can be used in place of its ID =
+number, f.e. when adding it to a list of dependencies"><B>alias:</B>=20
+      <INPUT maxLength=3D20 name=3Dalias> </LABEL></TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><U>H</U>ardware:</B> </TD>
+    <TD><LABEL accessKey=3Dh for=3Drep_platform><SELECT =
+id=3Drep_platform=20
+      name=3Drep_platform> <OPTION value=3DAll selected>All</OPTION> =
+<OPTION=20
+        value=3DDEC>DEC</OPTION> <OPTION value=3DHP>HP</OPTION> <OPTION=20
+        value=3DMacintosh>Macintosh</OPTION> <OPTION =
+value=3DPC>PC</OPTION> <OPTION=20
+        value=3DSGI>SGI</OPTION> <OPTION value=3DSun>Sun</OPTION> =
+<OPTION=20
+        value=3DOther>Other</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B>Reporter:</B> </TD>
+    <TD>sidr@albedo.net (Sean Richardson) </TD></TR>
+  <TR>
+    <TD align=3Dright><B><U>P</U>roduct:</B> </TD>
+    <TD><LABEL accessKey=3Dp for=3Dproduct><SELECT id=3Dproduct =
+name=3Dproduct>=20
+        <OPTION value=3DBrowser selected>Browser</OPTION> <OPTION=20
+        value=3DBugzilla>Bugzilla</OPTION> <OPTION=20
+        value=3DCalendar>Calendar</OPTION> <OPTION =
+value=3DCCK>CCK</OPTION> <OPTION=20
+        value=3DChimera>Chimera</OPTION> <OPTION=20
+        value=3DDirectory>Directory</OPTION> <OPTION=20
+        value=3DDocumentation>Documentation</OPTION> <OPTION=20
+        value=3DGrendel>Grendel</OPTION> <OPTION =
+value=3DJSS>JSS</OPTION> <OPTION=20
+        value=3DMailNews>MailNews</OPTION> <OPTION=20
+        value=3D"Mozilla Localizations">Mozilla Localizations</OPTION> =
+<OPTION=20
+        value=3Dmozilla.org>mozilla.org</OPTION> <OPTION =
+value=3DNSPR>NSPR</OPTION>=20
+        <OPTION value=3DNSS>NSS</OPTION> <OPTION =
+value=3DPhoenix>Phoenix</OPTION>=20
+        <OPTION value=3DPSM>PSM</OPTION> <OPTION =
+value=3DRhino>Rhino</OPTION>=20
+        <OPTION value=3D"Tech Evangelism">Tech Evangelism</OPTION> =
+<OPTION=20
+        value=3DWebtools>Webtools</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><U>O</U>S:</B> </TD>
+    <TD><LABEL accessKey=3Do for=3Dop_sys><SELECT id=3Dop_sys =
+name=3Dop_sys> <OPTION=20
+        value=3DAll selected>All</OPTION> <OPTION value=3D"Windows =
+3.1">Windows=20
+        3.1</OPTION> <OPTION value=3D"Windows 95">Windows 95</OPTION> =
+<OPTION=20
+        value=3D"Windows 98">Windows 98</OPTION> <OPTION=20
+        value=3D"Windows ME">Windows ME</OPTION> <OPTION=20
+        value=3D"Windows 2000">Windows 2000</OPTION> <OPTION=20
+        value=3D"Windows NT">Windows NT</OPTION> <OPTION=20
+        value=3D"Windows XP">Windows XP</OPTION> <OPTION value=3D"Mac =
+System 7">Mac=20
+        System 7</OPTION> <OPTION value=3D"Mac System 7.5">Mac System =
+7.5</OPTION>=20
+        <OPTION value=3D"Mac System 7.6.1">Mac System 7.6.1</OPTION> =
+<OPTION=20
+        value=3D"Mac System 8.0">Mac System 8.0</OPTION> <OPTION=20
+        value=3D"Mac System 8.5">Mac System 8.5</OPTION> <OPTION=20
+        value=3D"Mac System 8.6">Mac System 8.6</OPTION> <OPTION=20
+        value=3D"Mac System 9.x">Mac System 9.x</OPTION> <OPTION=20
+        value=3D"MacOS X">MacOS X</OPTION> <OPTION =
+value=3DLinux>Linux</OPTION>=20
+        <OPTION value=3DBSDI>BSDI</OPTION> <OPTION =
+value=3DFreeBSD>FreeBSD</OPTION>=20
+        <OPTION value=3DNetBSD>NetBSD</OPTION> <OPTION=20
+        value=3DOpenBSD>OpenBSD</OPTION> <OPTION =
+value=3DAIX>AIX</OPTION> <OPTION=20
+        value=3DBeOS>BeOS</OPTION> <OPTION value=3DHP-UX>HP-UX</OPTION> =
+<OPTION=20
+        value=3DIRIX>IRIX</OPTION> <OPTION =
+value=3DNeutrino>Neutrino</OPTION>=20
+        <OPTION value=3DOpenVMS>OpenVMS</OPTION> <OPTION =
+value=3DOS/2>OS/2</OPTION>=20
+        <OPTION value=3DOSF/1>OSF/1</OPTION> <OPTION=20
+        value=3DSolaris>Solaris</OPTION> <OPTION =
+value=3DSunOS>SunOS</OPTION>=20
+        <OPTION value=3Dother>other</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><U>A</U>dd&nbsp;CC:</B> </TD>
+    <TD><INPUT accessKey=3Da size=3D30 name=3Dnewcc> </TD></TR>
+  <TR>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/describecomponents.cgi?product=3DBrow=
+ser">Co<U>m</U>ponent</A>:=20
+      </B></TD>
+    <TD><LABEL accessKey=3Dm for=3Dcomponent><SELECT id=3Dcomponent =
+name=3Dcomponent>=20
+        <OPTION value=3D"Accessibility APIs">Accessibility APIs</OPTION> =
+<OPTION=20
+        value=3D"BiDi Hebrew &amp; Arabic">BiDi Hebrew &amp; =
+Arabic</OPTION>=20
+        <OPTION value=3DBookmarks>Bookmarks</OPTION> <OPTION=20
+        value=3DBrowser-General>Browser-General</OPTION> <OPTION=20
+        value=3D"Build Config">Build Config</OPTION> <OPTION=20
+        value=3DChatZilla>ChatZilla</OPTION> <OPTION=20
+        value=3D"Complex Text Layout">Complex Text Layout</OPTION> =
+<OPTION=20
+        value=3DCookies>Cookies</OPTION> <OPTION value=3D"DOM Abstract =
+Schemas">DOM=20
+        Abstract Schemas</OPTION> <OPTION value=3D"DOM Core">DOM =
+Core</OPTION>=20
+        <OPTION value=3D"DOM Events">DOM Events</OPTION> <OPTION=20
+        value=3D"DOM HTML">DOM HTML</OPTION> <OPTION value=3D"DOM =
+Inspector">DOM=20
+        Inspector</OPTION> <OPTION value=3D"DOM Level 0">DOM Level =
+0</OPTION>=20
+        <OPTION value=3D"DOM Load and Save">DOM Load and Save</OPTION> =
+<OPTION=20
+        value=3D"DOM Mozilla Extensions">DOM Mozilla Extensions</OPTION> =
+<OPTION=20
+        value=3D"DOM Other">DOM Other</OPTION> <OPTION value=3D"DOM =
+Style">DOM=20
+        Style</OPTION> <OPTION value=3D"DOM to Text Conversion">DOM to =
+Text=20
+        Conversion</OPTION> <OPTION value=3D"DOM Traversal-Range">DOM=20
+        Traversal-Range</OPTION> <OPTION value=3D"DOM Views and =
+Formatting">DOM=20
+        Views and Formatting</OPTION> <OPTION value=3D"Download =
+Manager">Download=20
+        Manager</OPTION> <OPTION value=3D"Editor: Composer">Editor:=20
+        Composer</OPTION> <OPTION value=3D"Editor: Core">Editor: =
+Core</OPTION>=20
+        <OPTION value=3D"Editor: CSS Editor">Editor: CSS Editor</OPTION> =
+<OPTION=20
+        value=3D"Embedding: ActiveX Wrapper">Embedding: ActiveX =
+Wrapper</OPTION>=20
+        <OPTION value=3D"Embedding: APIs">Embedding: APIs</OPTION> =
+<OPTION=20
+        value=3D"Embedding: Docshell">Embedding: Docshell</OPTION> =
+<OPTION=20
+        value=3D"Embedding: GRE Core">Embedding: GRE Core</OPTION> =
+<OPTION=20
+        value=3D"Embedding: GTK Widget">Embedding: GTK Widget</OPTION> =
+<OPTION=20
+        value=3D"Embedding: Mac">Embedding: Mac</OPTION> <OPTION=20
+        value=3D"Event Handling">Event Handling</OPTION> <OPTION=20
+        value=3D"File Handling" selected>File Handling</OPTION> <OPTION=20
+        value=3D"Form Manager">Form Manager</OPTION> <OPTION=20
+        value=3D"Form Submission">Form Submission</OPTION> <OPTION=20
+        value=3D"GFX Compositor">GFX Compositor</OPTION> <OPTION=20
+        value=3DHelp>Help</OPTION> <OPTION value=3D"History: =
+Global">History:=20
+        Global</OPTION> <OPTION value=3D"History: Session">History:=20
+        Session</OPTION> <OPTION value=3D"Image Blocking">Image =
+Blocking</OPTION>=20
+        <OPTION value=3D"Image: GFX">Image: GFX</OPTION> <OPTION=20
+        value=3D"Image: Layout">Image: Layout</OPTION> <OPTION=20
+        value=3DImageLib>ImageLib</OPTION> <OPTION=20
+        value=3DInstaller>Installer</OPTION> <OPTION=20
+        value=3D"Installer: GRE">Installer: GRE</OPTION> <OPTION=20
+        value=3D"Installer: MFCEmbed">Installer: MFCEmbed</OPTION> =
+<OPTION=20
+        value=3D"Installer: XPI Packages">Installer: XPI =
+Packages</OPTION> <OPTION=20
+        value=3D"Installer: XPInstall Engine">Installer: XPInstall =
+Engine</OPTION>=20
+        <OPTION =
+value=3DInternationalization>Internationalization</OPTION> <OPTION=20
+        value=3D"Java APIs for DOM">Java APIs for DOM</OPTION> <OPTION=20
+        value=3D"Java APIs to WebShell">Java APIs to WebShell</OPTION> =
+<OPTION=20
+        value=3D"Java to XPCOM Bridge">Java to XPCOM Bridge</OPTION> =
+<OPTION=20
+        value=3D"Java-Implemented Plugins">Java-Implemented =
+Plugins</OPTION>=20
+        <OPTION value=3D"JavaScript Console">JavaScript Console</OPTION> =
+<OPTION=20
+        value=3D"JavaScript Debugger">JavaScript Debugger</OPTION> =
+<OPTION=20
+        value=3D"JavaScript Engine">JavaScript Engine</OPTION> <OPTION=20
+        value=3D"Keyboard Navigation">Keyboard Navigation</OPTION> =
+<OPTION=20
+        value=3DLayout>Layout</OPTION> <OPTION=20
+        value=3D"Layout: Block &amp; Inline">Layout: Block &amp; =
+Inline</OPTION>=20
+        <OPTION value=3D"Layout: Floats">Layout: Floats</OPTION> <OPTION =
+
+        value=3D"Layout: Fonts and Text">Layout: Fonts and Text</OPTION> =
+<OPTION=20
+        value=3D"Layout: Form Controls">Layout: Form Controls</OPTION> =
+<OPTION=20
+        value=3D"Layout: HTML Frames">Layout: HTML Frames</OPTION> =
+<OPTION=20
+        value=3D"Layout: Misc Code">Layout: Misc Code</OPTION> <OPTION=20
+        value=3D"Layout: R &amp; A Pos">Layout: R &amp; A Pos</OPTION> =
+<OPTION=20
+        value=3D"Layout: Tables">Layout: Tables</OPTION> <OPTION=20
+        value=3D"Live Connect">Live Connect</OPTION> <OPTION=20
+        value=3DLocalization>Localization</OPTION> <OPTION=20
+        value=3DMathML>MathML</OPTION> <OPTION=20
+        value=3DNetworking>Networking</OPTION> <OPTION=20
+        value=3D"Networking: Cache">Networking: Cache</OPTION> <OPTION=20
+        value=3D"Networking: File">Networking: File</OPTION> <OPTION=20
+        value=3D"Networking: FTP">Networking: FTP</OPTION> <OPTION=20
+        value=3D"Networking: HTTP">Networking: HTTP</OPTION> <OPTION=20
+        value=3DOJI>OJI</OPTION> <OPTION value=3D"Page Info">Page =
+Info</OPTION>=20
+        <OPTION value=3DParser>Parser</OPTION> <OPTION=20
+        value=3D"Password Manager">Password Manager</OPTION> <OPTION=20
+        value=3DPlug-ins>Plug-ins</OPTION> <OPTION=20
+        value=3DPreferences>Preferences</OPTION> <OPTION=20
+        value=3D"Preferences: Backend">Preferences: Backend</OPTION> =
+<OPTION=20
+        value=3D"Print Preview">Print Preview</OPTION> <OPTION=20
+        value=3DPrinting>Printing</OPTION> <OPTION=20
+        value=3D"Printing: Xprint">Printing: Xprint</OPTION> <OPTION=20
+        value=3D"Profile Manager BackEnd">Profile Manager =
+BackEnd</OPTION> <OPTION=20
+        value=3D"Profile Manager FrontEnd">Profile Manager =
+FrontEnd</OPTION>=20
+        <OPTION value=3D"Profile Migration">Profile Migration</OPTION> =
+<OPTION=20
+        value=3D"QuickLaunch (AKA turbo mode)">QuickLaunch (AKA turbo=20
+        mode)</OPTION> <OPTION value=3DRDF>RDF</OPTION> <OPTION=20
+        value=3DSearch>Search</OPTION> <OPTION value=3D"Security: =
+CAPS">Security:=20
+        CAPS</OPTION> <OPTION value=3D"Security: General">Security:=20
+        General</OPTION> <OPTION value=3DSelection>Selection</OPTION> =
+<OPTION=20
+        value=3DSidebar>Sidebar</OPTION> <OPTION=20
+        value=3DSkinability>Skinability</OPTION> <OPTION=20
+        value=3DString>String</OPTION> <OPTION value=3D"Style =
+System">Style=20
+        System</OPTION> <OPTION value=3DSVG>SVG</OPTION> <OPTION=20
+        value=3D"Tabbed Browser">Tabbed Browser</OPTION> <OPTION=20
+        value=3DTalkback>Talkback</OPTION> <OPTION =
+value=3DThemes>Themes</OPTION>=20
+        <OPTION value=3DTracking>Tracking</OPTION> <OPTION value=3D"URL =
+Bar">URL=20
+        Bar</OPTION> <OPTION value=3D"Viewer App">Viewer App</OPTION> =
+<OPTION=20
+        value=3DViews>Views</OPTION> <OPTION =
+value=3DViewSource>ViewSource</OPTION>=20
+        <OPTION value=3DX-remote>X-remote</OPTION> <OPTION =
+value=3DXBL>XBL</OPTION>=20
+        <OPTION value=3DXML>XML</OPTION> <OPTION value=3D"XP Apps">XP =
+Apps</OPTION>=20
+        <OPTION value=3D"XP Apps: Autocomplete">XP Apps: =
+Autocomplete</OPTION>=20
+        <OPTION value=3D"XP Apps: Cmd-line Features">XP Apps: Cmd-line=20
+        Features</OPTION> <OPTION value=3D"XP Apps: Drag and Drop">XP =
+Apps: Drag=20
+        and Drop</OPTION> <OPTION value=3D"XP Apps: GUI Features">XP =
+Apps: GUI=20
+        Features</OPTION> <OPTION value=3D"XP Miscellany">XP =
+Miscellany</OPTION>=20
+        <OPTION value=3D"XP Toolkit/Widgets">XP Toolkit/Widgets</OPTION> =
+<OPTION=20
+        value=3D"XP Toolkit/Widgets: Menus">XP Toolkit/Widgets: =
+Menus</OPTION>=20
+        <OPTION value=3D"XP Toolkit/Widgets: Trees">XP Toolkit/Widgets:=20
+        Trees</OPTION> <OPTION value=3D"XP Toolkit/Widgets: XUL">XP=20
+        Toolkit/Widgets: XUL</OPTION> <OPTION =
+value=3DXPCOM>XPCOM</OPTION> <OPTION=20
+        value=3D"XPCOM Registry">XPCOM Registry</OPTION> <OPTION=20
+        value=3DXPConnect>XPConnect</OPTION> <OPTION =
+value=3Dxpidl>xpidl</OPTION>=20
+        <OPTION value=3DXSLT>XSLT</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><U>V</U>ersion:</B> </TD>
+    <TD><LABEL accessKey=3Dv for=3Dversion><SELECT id=3Dversion =
+name=3Dversion>=20
+        <OPTION value=3D"1.0 Branch">1.0 Branch</OPTION> <OPTION=20
+        value=3D"Other Branch">Other Branch</OPTION> <OPTION =
+value=3DTrunk=20
+        selected>Trunk</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD>
+    <TD vAlign=3Dtop align=3Dright rowSpan=3D4><B>CC:</B> </TD>
+    <TD vAlign=3Dtop rowSpan=3D4><SELECT multiple size=3D5 name=3Dcc> =
+<OPTION=20
+        value=3Dags@gmx.net>ags@gmx.net</OPTION> <OPTION=20
+        value=3Dalexbishopuk@yahoo.com>alexbishopuk@yahoo.com</OPTION> =
+<OPTION=20
+        value=3Damfc@yahoo.com>amfc@yahoo.com</OPTION> <OPTION=20
+        value=3Dasj@ipa.net>asj@ipa.net</OPTION> <OPTION=20
+        value=3Dask@swva.net>ask@swva.net</OPTION> <OPTION=20
+        value=3Dbamm@upastrosoc.org>bamm@upastrosoc.org</OPTION> <OPTION =
+
+        value=3Dbugzilla@uxp.de>bugzilla@uxp.de</OPTION> <OPTION=20
+        value=3Dchanial@noos.fr>chanial@noos.fr</OPTION> <OPTION=20
+        value=3Dcmanske@netscape.com>cmanske@netscape.com</OPTION> =
+<OPTION=20
+        value=3Ddkoppenh@null.net>dkoppenh@null.net</OPTION> <OPTION=20
+        value=3Dezh@infonet.ee>ezh@infonet.ee</OPTION> <OPTION=20
+        value=3Dhamill@mac.com>hamill@mac.com</OPTION> <OPTION=20
+        value=3Dhorkana@tcd.ie>horkana@tcd.ie</OPTION> <OPTION=20
+        value=3Djmd@pobox.com>jmd@pobox.com</OPTION> <OPTION=20
+        =
+value=3Djonasj.bugzilla@jonasj.dk>jonasj.bugzilla@jonasj.dk</OPTION>=20
+        <OPTION value=3Djoschi@eds.org>joschi@eds.org</OPTION> <OPTION=20
+        value=3Dkeyoar@yahoo.co.uk>keyoar@yahoo.co.uk</OPTION> <OPTION=20
+        value=3Dkmike@iname.com>kmike@iname.com</OPTION> <OPTION=20
+        value=3Dksheka@yahoo.com>ksheka@yahoo.com</OPTION> <OPTION=20
+        value=3Dmabus@runbox.no>mabus@runbox.no</OPTION> <OPTION=20
+        value=3Dmanko@zhurnal.ru>manko@zhurnal.ru</OPTION> <OPTION=20
+        value=3DMarko.Macek@gmx.net>Marko.Macek@gmx.net</OPTION> <OPTION =
+
+        value=3Dmatty@chariot.net.au>matty@chariot.net.au</OPTION> =
+<OPTION=20
+        value=3Dmozilla@grull.com>mozilla@grull.com</OPTION> <OPTION=20
+        =
+value=3Dmozillamail@myrealbox.com>mozillamail@myrealbox.com</OPTION>=20
+        <OPTION value=3Dmporta@mail.vu>mporta@mail.vu</OPTION> <OPTION=20
+        value=3Dmpt@myrealbox.com>mpt@myrealbox.com</OPTION> <OPTION=20
+        =
+value=3Dpatrickhendriks@hotmail.com>patrickhendriks@hotmail.com</OPTION> =
+
+        <OPTION value=3Dpirat@anime.cz>pirat@anime.cz</OPTION> <OPTION=20
+        value=3Dprognathous@hotmail.com>prognathous@hotmail.com</OPTION> =
+<OPTION=20
+        value=3Dr_rom@yahoo.com>r_rom@yahoo.com</OPTION> <OPTION=20
+        =
+value=3Drakesh.krishna@musambi.com>rakesh.krishna@musambi.com</OPTION>=20
+        <OPTION =
+value=3Druairif@netscape.net>ruairif@netscape.net</OPTION> <OPTION=20
+        =
+value=3Dsailfish@unforgettable.com>sailfish@unforgettable.com</OPTION>=20
+        <OPTION =
+value=3Dsfraser@netscape.com>sfraser@netscape.com</OPTION> <OPTION=20
+        value=3Dtomer@gmx.net>tomer@gmx.net</OPTION> <OPTION=20
+        value=3Dtrfinc.il@netzero.net>trfinc.il@netzero.net</OPTION> =
+<OPTION=20
+        value=3Dvolkris@tamu.edu>volkris@tamu.edu</OPTION></SELECT> =
+<BR><INPUT=20
+      type=3Dcheckbox name=3Dremovecc>Remove selected CCs <BR></TD></TR>
+  <TR>
+    <TD align=3Dright><B><A=20
+      href=3D"http://bugzilla.mozilla.org/bug_status.html">Status</A>: =
+</B></TD>
+    <TD>ASSIGNED</TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/bug_status.html#priority">Pr<U>i</U>o=
+rity</A>:</B>=20
+    </TD>
+    <TD><LABEL accessKey=3Di for=3Dpriority><SELECT id=3Dpriority =
+name=3Dpriority>=20
+        <OPTION value=3D-->--</OPTION> <OPTION value=3DP1>P1</OPTION> =
+<OPTION=20
+        value=3DP2>P2</OPTION> <OPTION value=3DP3 selected>P3</OPTION> =
+<OPTION=20
+        value=3DP4>P4</OPTION> <OPTION value=3DP5>P5</OPTION></SELECT> =
+</LABEL></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/bug_status.html">Resolution</A>: =
+</B></TD>
+    <TD></TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/bug_status.html#severity">S<U>e</U>ve=
+rity</A>:</B>=20
+    </TD>
+    <TD><LABEL accessKey=3De for=3Dbug_severity><SELECT =
+id=3Dbug_severity=20
+      name=3Dbug_severity> <OPTION value=3Dblocker>blocker</OPTION> =
+<OPTION=20
+        value=3Dcritical>critical</OPTION> <OPTION =
+value=3Dmajor>major</OPTION>=20
+        <OPTION value=3Dnormal>normal</OPTION> <OPTION =
+value=3Dminor>minor</OPTION>=20
+        <OPTION value=3Dtrivial>trivial</OPTION> <OPTION =
+value=3Denhancement=20
+        selected>enhancement</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/bug_status.html#assigned_to">Assigned=
+&nbsp;To</A>:=20
+      </B></TD>
+    <TD>c@c07.de (Andreas M. "Clarence" Schneider)</TD>
+    <TD>&nbsp;</TD>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://www.mozilla.org/roadmap.html#new-milestones"><U>T</U>arget=
+=20
+      Milestone</A>: </B></TD>
+    <TD><LABEL accessKey=3Dt for=3Dtarget_milestone><SELECT =
+id=3Dtarget_milestone=20
+      name=3Dtarget_milestone> <OPTION value=3DM1>M1</OPTION> <OPTION=20
+        value=3DM2>M2</OPTION> <OPTION value=3DM3>M3</OPTION> <OPTION=20
+        value=3DM4>M4</OPTION> <OPTION value=3DM5>M5</OPTION> <OPTION=20
+        value=3DM6>M6</OPTION> <OPTION value=3DM7>M7</OPTION> <OPTION=20
+        value=3DM8>M8</OPTION> <OPTION value=3DM9>M9</OPTION> <OPTION=20
+        value=3DM10>M10</OPTION> <OPTION value=3DM11>M11</OPTION> =
+<OPTION=20
+        value=3DM12>M12</OPTION> <OPTION value=3DM13>M13</OPTION> =
+<OPTION=20
+        value=3DM14>M14</OPTION> <OPTION value=3DM15>M15</OPTION> =
+<OPTION=20
+        value=3DM16>M16</OPTION> <OPTION value=3DM17>M17</OPTION> =
+<OPTION=20
+        value=3DM18>M18</OPTION> <OPTION =
+value=3Dmozilla0.6>mozilla0.6</OPTION>=20
+        <OPTION value=3Dmozilla0.8>mozilla0.8</OPTION> <OPTION=20
+        value=3Dmozilla0.8.1>mozilla0.8.1</OPTION> <OPTION=20
+        value=3Dmozilla0.9>mozilla0.9</OPTION> <OPTION=20
+        value=3Dmozilla0.9.1>mozilla0.9.1</OPTION> <OPTION=20
+        value=3Dmozilla0.9.2>mozilla0.9.2</OPTION> <OPTION=20
+        value=3Dmozilla0.9.3>mozilla0.9.3</OPTION> <OPTION=20
+        value=3Dmozilla0.9.4>mozilla0.9.4</OPTION> <OPTION=20
+        value=3Dmozilla0.9.5>mozilla0.9.5</OPTION> <OPTION=20
+        value=3Dmozilla0.9.6>mozilla0.9.6</OPTION> <OPTION=20
+        value=3Dmozilla0.9.7>mozilla0.9.7</OPTION> <OPTION=20
+        value=3Dmozilla0.9.8>mozilla0.9.8</OPTION> <OPTION=20
+        value=3Dmozilla0.9.9>mozilla0.9.9</OPTION> <OPTION=20
+        value=3Dmozilla1.0>mozilla1.0</OPTION> <OPTION=20
+        value=3Dmozilla1.0.1>mozilla1.0.1</OPTION> <OPTION=20
+        value=3Dmozilla1.0.2>mozilla1.0.2</OPTION> <OPTION=20
+        value=3Dmozilla1.0.3>mozilla1.0.3</OPTION> <OPTION=20
+        value=3Dmozilla1.1alpha>mozilla1.1alpha</OPTION> <OPTION=20
+        value=3Dmozilla1.1beta>mozilla1.1beta</OPTION> <OPTION=20
+        value=3Dmozilla1.1final>mozilla1.1final</OPTION> <OPTION=20
+        value=3Dmozilla1.2alpha>mozilla1.2alpha</OPTION> <OPTION=20
+        value=3Dmozilla1.2beta>mozilla1.2beta</OPTION> <OPTION=20
+        value=3Dmozilla1.2final>mozilla1.2final</OPTION> <OPTION =
+value=3D---=20
+        selected>---</OPTION> <OPTION=20
+        value=3Dmozilla1.3alpha>mozilla1.3alpha</OPTION> <OPTION=20
+        value=3Dmozilla1.3beta>mozilla1.3beta</OPTION> <OPTION=20
+        value=3Dmozilla1.4alpha>mozilla1.4alpha</OPTION> <OPTION=20
+        value=3Dmozilla1.4beta>mozilla1.4beta</OPTION> <OPTION=20
+        value=3DFuture>Future</OPTION></SELECT> </LABEL></TD>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD align=3Dright><B><U>Q</U>A Contact:</B> </TD>
+    <TD colSpan=3D7><INPUT accessKey=3Dq size=3D60 =
+value=3Dpetersen@netscape.com=20
+      name=3Dqa_contact> </TD></TR>
+  <TR>
+    <TD align=3Dright><B><U>U</U>RL: </B></TD>
+    <TD colSpan=3D5><INPUT accessKey=3Du size=3D60 name=3Dbug_file_loc> =
+</TD>
+    <TD vAlign=3Dtop colSpan=3D2 rowSpan=3D4><!-- 1.0@bugzilla.org -->
+      <SCRIPT type=3Dtext/javascript>=0A=
+  // Enables or disables a requestee field depending on whether or not=0A=
+  // the user is requesting the corresponding flag.=0A=
+  function toggleRequesteeField(flagField)=0A=
+  {=0A=
+    // Convert the ID of the flag field into the ID of its corresponding=0A=
+    // requestee field and then use the ID to get the field.=0A=
+    var id =3D flagField.name.replace(/flag(_type)?-(\d+)/, =
+"requestee$1-$2");=0A=
+    var requesteeField =3D document.getElementById(id);=0A=
+    if (!requesteeField) return;=0A=
+    =0A=
+    // Enable or disable the requestee field based on the value=0A=
+    // of the flag field.=0A=
+    if (flagField.value =3D=3D "?") requesteeField.disabled =3D false;=0A=
+    else                        requesteeField.disabled =3D true;=0A=
+  }=0A=
+  =0A=
+  // Disables requestee fields when the window is loaded since they =
+shouldn't=0A=
+  // be enabled until the user requests that flag type.=0A=
+  function disableRequesteeFields()=0A=
+  {=0A=
+    var inputElements =3D document.getElementsByTagName("input");=0A=
+    var inputElement, id, flagField;=0A=
+    for ( var i=3D0 ; i<inputElements.length ; i++ )=0A=
+    {=0A=
+      inputElement =3D inputElements.item(i);=0A=
+      if (inputElement.name.search(/^requestee(_type)?-(\d+)$/) !=3D -1)=0A=
+      {=0A=
+        // Convert the ID of the requestee field into the ID of its =
+corresponding=0A=
+        // flag field and then use the ID to get the field.=0A=
+        id =3D inputElement.name.replace(/requestee(_type)?-(\d+)/, =
+"flag$1-$2");=0A=
+        flagField =3D document.getElementById(id);=0A=
+        if (flagField && flagField.value !=3D "?")=0A=
+            inputElement.disabled =3D true;=0A=
+      }=0A=
+    }=0A=
+  }=0A=
+  window.onload =3D disableRequesteeFields;=0A=
+</SCRIPT>
+
+      <TABLE id=3Dflags>
+        <TBODY>
+        <TR>
+          <TH colSpan=3D3>Flags: (<A=20
+            =
+href=3D"http://bugzilla.mozilla.org/flag-help.html">Help!</A>) </TH>
+          <TH>Requestee: </TH></TR>
+        <TR>
+          <TD>&nbsp;</TD>
+          <TD>blocking1.3a</TD>
+          <TD><SELECT id=3Dflag_type-39 =
+onchange=3DtoggleRequesteeField(this);=20
+            name=3Dflag_type-39> <OPTION value=3DX selected></OPTION> =
+<OPTION=20
+              value=3D+>+</OPTION> <OPTION value=3D->-</OPTION> <OPTION=20
+              value=3D?>?</OPTION></SELECT> </TD>
+          <TD></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD align=3Dright><B><U>S</U>ummary:</B> </TD>
+    <TD colSpan=3D5><INPUT accessKey=3Ds size=3D60=20
+      value=3D"RFE: Save as rfc 2557 MHTML; complete webpage in one =
+file"=20
+      name=3Dshort_desc> </TD></TR>
+  <TR>
+    <TD align=3Dright><B>Status <U>W</U>hiteboard:</B> </TD>
+    <TD colSpan=3D5><INPUT accessKey=3Dw size=3D60 =
+name=3Dstatus_whiteboard> </TD></TR>
+  <TR>
+    <TD align=3Dright><B><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/describekeywords.cgi"><U>K</U>eywords=
+</A>:=20
+      </B>
+    <TD colSpan=3D5><INPUT accessKey=3Dk size=3D60 name=3Dkeywords>=20
+</TD></TR></TBODY></TABLE><!-- 1.0@bugzilla.org --><BR>
+<TABLE cellSpacing=3D0 cellPadding=3D4 border=3D1>
+  <TBODY>
+  <TR>
+    <TH align=3Dleft bgColor=3D#cccccc>Attachment</TH>
+    <TH align=3Dleft bgColor=3D#cccccc>Type</TH>
+    <TH align=3Dleft bgColor=3D#cccccc>Created</TH>
+    <TH align=3Dleft bgColor=3D#cccccc>Flags</TH>
+    <TH align=3Dleft bgColor=3D#cccccc>Actions</TH></TR>
+  <TR>
+    <TD colSpan=3D4><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/attachment.cgi?bugid=3D40873&amp;acti=
+on=3Denter">Create=20
+      a New Attachment</A> (proposed patch, testcase, etc.) </TD>
+    <TD><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/attachment.cgi?bugid=3D40873&amp;acti=
+on=3Dviewall">View=20
+      All</A> </TD></TR></TBODY></TABLE><BR>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH align=3Dright>Bug 40873 <U>d</U>epends on:</TH>
+    <TD><A=20
+      title=3D"ASSIGNED - RFE: Full rfc2557 MHTML multipart/related =
+support in BROWSER"=20
+      =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D18764">18764</A>=20
+      <STRIKE><A title=3D"VERIFIED DUPLICATE"=20
+      =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D36419">36419</A></S=
+TRIKE>=20
+      <STRIKE><A=20
+      title=3D"VERIFIED FIXED - composer doesn't save images with =
+webpage"=20
+      =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D98550">98550</A></S=
+TRIKE>=20
+    </TD>
+    <TD><INPUT accessKey=3Dd value=3D"18764, 36419, 98550" =
+name=3Ddependson> </TD>
+    <TD rowSpan=3D2><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/showdependencytree.cgi?id=3D40873">Sh=
+ow=20
+      dependency tree</A> <BR><A=20
+      =
+href=3D"http://bugzilla.mozilla.org/showdependencygraph.cgi?id=3D40873">S=
+how=20
+      dependency graph</A> </TD></TR>
+  <TR>
+    <TH align=3Dright>Bug 40873 <U>b</U>locks:</TH>
+    <TD><A=20
+      title=3D"NEW - Tracking bug for Saving/Sending/Viewing HTML pages =
+(e.g., as a single file, MHTML)"=20
+      =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D82118">82118</A> =
+</TD>
+    <TD><INPUT accessKey=3Db value=3D82118 name=3Dblocked> =
+</TD></TR></TBODY></TABLE>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TH><A href=3D"http://bugzilla.mozilla.org/votehelp.html">Votes</A>: =
+</TH>
+    <TD>40&nbsp;&nbsp;&nbsp; <A=20
+      =
+href=3D"http://bugzilla.mozilla.org/votes.cgi?action=3Dshow_bug&amp;bug_i=
+d=3D40873">Show=20
+      votes for this bug</A>&nbsp;&nbsp;&nbsp; <A=20
+      =
+href=3D"http://bugzilla.mozilla.org/votes.cgi?action=3Dshow_user&amp;bug_=
+id=3D40873">Vote=20
+      for this bug</A> </TD></TR></TBODY></TABLE><BR><B>Additional=20
+<U>C</U>omments:</B> <BR><TEXTAREA accessKey=3Dc name=3Dcomment =
+rows=3D10 wrap=3Dhard cols=3D80></TEXTAREA>=20
+<BR><BR><INPUT type=3Dradio CHECKED value=3Dnone name=3Dknob> Leave as=20
+<B>ASSIGNED&nbsp;</B> <BR><INPUT type=3Dradio value=3Dresolve =
+name=3Dknob> Resolve=20
+bug, changing <A=20
+href=3D"http://bugzilla.mozilla.org/bug_status.html">resolution</A> to =
+<SELECT=20
+onchange=3Ddocument.changeform.knob[1].checked=3Dtrue name=3Dresolution> =
+<OPTION=20
+  value=3DFIXED selected>FIXED</OPTION> <OPTION =
+value=3DINVALID>INVALID</OPTION>=20
+  <OPTION value=3DWONTFIX>WONTFIX</OPTION> <OPTION=20
+  value=3DWORKSFORME>WORKSFORME</OPTION></SELECT> <BR><INPUT =
+type=3Dradio=20
+value=3Dduplicate name=3Dknob> Resolve bug, mark it as duplicate of bug =
+# <INPUT=20
+onchange=3D"if (this.value !=3D '')&#10;                       =
+{document.changeform.knob[2].checked=3Dtrue}"=20
+size=3D6 name=3Ddup_id> <BR><INPUT type=3Dradio value=3Dreassign =
+name=3Dknob> <A=20
+href=3D"http://bugzilla.mozilla.org/bug_status.html#assigned_to">Reassign=
+</A> bug=20
+to <INPUT=20
+onchange=3D"if ((this.value !=3D 'c@c07.de') &amp;&amp; &#10;            =
+                (this.value !=3D '')) {&#10;                         =
+document.changeform.knob[3].checked=3Dtrue; &#10;                       =
+}"=20
+size=3D32 value=3Dc@c07.de name=3Dassigned_to> <BR><INPUT type=3Dradio=20
+value=3Dreassignbycomponent name=3Dknob> Reassign bug to owner and QA =
+contact of=20
+selected component <BR><INPUT type=3Dsubmit value=3DCommit> <INPUT =
+type=3Dhidden=20
+value=3Dprocess_bug name=3Dform_name>=20
+<P><FONT size=3D+1><B><A=20
+href=3D"http://bugzilla.mozilla.org/show_activity.cgi?id=3D40873">View =
+Bug=20
+Activity</A> &nbsp; | &nbsp; <A=20
+href=3D"http://bugzilla.mozilla.org/long_list.cgi?buglist=3D40873">Format=
+ For=20
+Printing</A> </B></FONT></P>
+<TABLE>
+  <TBODY>
+  <TR>
+    <TD align=3Dleft><B><A=20
+      href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c0"=20
+      name=3Dc0>Description</A>: </B></TD>
+    <TD align=3Dright width=3D"100%">Opened: 2000-05-28 01:45 =
+</TD></TR></TBODY></TABLE>
+<HR>
+<!-- 1.0@bugzilla.org -->
+<DIV><PRE>As an option to IE-style saving of complete webpages, =
+including stylesheets,
+images, objects, and applets, in a subdirectory (see <STRIKE><A =
+title=3D"VERIFIED FIXED - [RFE] Save Page With Images, Stylesheets, =
+Objects, Applets" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D11632">bug =
+11632</A></STRIKE>), it might be=20
+useful to save all of those in one file with the webpage, as an MHTML =
+file.=20
+
+Quoting from the RFC:
+"While initially designed to support e-mail transfer of complete
+multi-resource HTML multimedia documents, these conventions can also
+be employed to resources retrieved by other transfer protocols such
+as HTTP and FTP to retrieve a complete multi-resource HTML multimedia
+document in a single transfer or for storage and archiving of
+complete HTML-documents." &lt;URL:<A =
+href=3D"http://www.faqs.org/rfcs/rfc2557.html">http://www.faqs.org/rfcs/r=
+fc2557.html</A>&gt;,
+"MIME Encapsulation of Aggregate Documents, such as HTML (MHTML)"
+
+This enhancement would only make sense if <A title=3D"ASSIGNED - RFE: =
+Full rfc2557 MHTML multipart/related support in BROWSER" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D18764">bug =
+18764</A>, "RFE: Full rfc2557 MHTML=20
+multipart/related support in BROWSER", were also implemented, so that =
+pages
+saved as MHTML could also be viewed again! Also, implementing this =
+feature
+would imply adding .mhtml to the list in filepicker.properties (see =
+<STRIKE><A title=3D'VERIFIED FIXED - .shtml, .xhtml should be "HTML =
+Files" in file pickers' =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D39951">bug =
+39951</A></STRIKE>,
+".shtml, .xhtml should be "HTML Files" in file pickers".</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c1" =
+name=3Dc1>#1</A> From=20
+<A href=3D"mailto:sfraser@netscape.com">Simon Fraser</A> 2000-05-30 =
+10:56 -------=20
+</I><PRE>Editor would want to do something similar here as well, and it =
+may well fit in=20
+with our (as yet nonexistent) publishing plans.
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c2" =
+name=3Dc2>#2</A> From=20
+<A href=3D"mailto:don@netscape.com">don@netscape.com</A> 2000-06-07 =
+17:10 -------=20
+</I><PRE>Cool idea.  I like it.  But let's wait on it for awhile and =
+ship this puppy
+first.
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c3" =
+name=3Dc3>#3</A> From=20
+<A href=3D"mailto:cmanske@netscape.com">Charles Manske</A> 2000-06-08 =
+10:52=20
+------- </I><PRE>Composer already has this as a "future" bug: 36419. =
+It's technically a=20
+regression  relative to 4.x, and is part of publishing work. Linking =
+these bugs.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c4" =
+name=3Dc4>#4</A> From=20
+<A href=3D"mailto:rkaa-lst@online.no">R.K.Aa</A> 2000-07-13 13:19 =
+------- </I><PRE>is this a dup of <STRIKE><A title=3D"VERIFIED FIXED - =
+[RFE] Save Page With Images, Stylesheets, Objects, Applets" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D11632">bug =
+11632</A></STRIKE> ?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c5" =
+name=3Dc5>#5</A> From=20
+<A href=3D"mailto:lordpixel@mac.com">lordpixel@mac.com</A> 2000-07-13 =
+16:16=20
+------- </I><PRE>&gt;is this a dup of <STRIKE><A title=3D"VERIFIED FIXED =
+- [RFE] Save Page With Images, Stylesheets, Objects, Applets" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D11632">bug =
+11632</A></STRIKE> ?
+
+Kind of, but I actually this this bug is more useful, as it proposes a =
+good=20
+general solution. Set one up as blocking/depending on the other?
+
+While we're on this, we should also mark a dependency between these bugs =
+and:
+
+<A =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D41480">http://bugzi=
+lla.mozilla.org/show_bug.cgi?id=3D41480</A>
+
+I'd do it but I've been told off for getting "blocks" and "depends on" =
+the wrong=20
+way around before. I'm not sure I understand the difference well =
+enough...=20
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c6" =
+name=3Dc6>#6</A> From=20
+<A href=3D"mailto:sidr@albedo.net">Sean Richardson</A> 2000-07-13 20:24 =
+-------=20
+</I><PRE>It's good to have both <STRIKE><A title=3D"VERIFIED FIXED - =
+[RFE] Save Page With Images, Stylesheets, Objects, Applets" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D11632">bug =
+11632</A></STRIKE>, "[RFE] Save Page With Images, Stylesheets,=20
+Objects, Applets" and <A title=3D"ASSIGNED - Support drag &amp; drop of =
+complex selections from browser" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D41480">bug =
+41480</A>, "[RFE] Support drag and drop of complex=20
+selections from browser", mentioned here, but strictly there are no =
+dependency=20
+relationships nor any duplicate relationships among these three bugs.=20
+
+This bug is a feature request for a particular way of saving complete =
+web pages=20
+in one file, which has its advantages. In both of the other bugs, there =
+is no=20
+clear consensus that using MHTML is the best way to solve the problems =
+they were
+created for.=20
+
+Depending on those decisions, this RFE could become either a blocker or =
+a=20
+WONTFIX, but as all three are marked "Future", such decisions will be =
+waiting
+until after shipping.
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c7" =
+name=3Dc7>#7</A> From=20
+<A href=3D"mailto:rkaa-lst@online.no">R.K.Aa</A> 2000-07-14 02:16 =
+------- </I><PRE>Perhaps 11632 should be marked dup of this one? They =
+seem to suggest the same
+improvements, but this bug (40873) has an explicit suggestion about how =
+to
+approach it.
+
+Questions about a feature like this "comes up" a lot, people mention it =
+on irc
+etc. and are referred to these bugs. I suspect there's a handful of
+"undiscovered" dups floating around as well. Thing is.. when they are =
+scattered
+around like this it's hard to get a real overview of how "hot" the topic =
+is, but
+i believe it would soon be a "mostfreq" if more collected.
+
+There is 11632 with 3 dups, one of the dups (23027) had a dup, there is =
+<STRIKE><A title=3D"VERIFIED DUPLICATE - [RFE] Enhanced `file-> save =
+as'" href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D25756">bug
+25756</A></STRIKE> "[RFE] Enhanced `file-&gt; save as'"
+
+With this one, there are in other words at least 7 bugs till now, about =
+what is
+really the same feature request. Perhaps at least a collection bug would =
+be an idea?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c8" =
+name=3Dc8>#8</A> From=20
+<A href=3D"mailto:vishy@netscape.com">Viswanath Ramachandran</A> =
+2000-12-06 11:27=20
+------- </I><PRE>Since Don has left, Vishy is taking his bugs in bulk, =
+pending reassignment.
+thanks,
+	Vishy</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c9" =
+name=3Dc9>#9</A> From=20
+<A href=3D"mailto:pchen@netscape.com">Paul Chen</A> 2000-12-29 14:27 =
+------- </I><PRE>nav triage team:
+
+This would be way cool, but we won't get to this for beta1, marking =
+nsbeta1-,=20
+adding helpwanted</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c10" =
+name=3Dc10>#10</A>=20
+From <A href=3D"mailto:Peter@Lairo.com">Peter Lairo</A> 2001-05-22 08:32 =
+-------=20
+</I><PRE>I created a tracking (meta) <A title=3D"NEW - Tracking bug for =
+Saving/Sending/Viewing HTML pages (e.g., as a single file, MHTML)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D82118">bug =
+82118</A> to track these kinds of bugs and to unify
+the efforts.
+
+Maybe a few duplicates will also become aparent this way - then we can =
+assign
+the keyword MostFreq.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c11" =
+name=3Dc11>#11</A>=20
+From <A href=3D"mailto:alexbishopuk@yahoo.com">Alex Bishop</A> =
+2001-05-22 10:49=20
+------- </I><PRE>Removing dependancy to <A title=3D"NEW - Tracking bug =
+for Saving/Sending/Viewing HTML pages (e.g., as a single file, MHTML)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D82118">bug =
+82118</A> as it should be the other way round (<A title=3D"NEW - =
+Tracking bug for Saving/Sending/Viewing HTML pages (e.g., as a single =
+file, MHTML)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D82118">bug =
+82118</A>
+depends on this bug).
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c12" =
+name=3Dc12>#12</A>=20
+From <A href=3D"mailto:c@c07.de">Andreas M. "Clarence" Schneider</A> =
+2001-07-18=20
+22:12 ------- </I><PRE>I'll try to implement this together with <A =
+title=3D"ASSIGNED - RFE: Full rfc2557 MHTML multipart/related support in =
+BROWSER" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D18764">bug =
+18764</A>.
+This is easy to do for normal web pages, but rather hard when frames are
+involved, because we have to rewrite the SRC attribute of &lt;frame&gt; =
+and &lt;iframe&gt;
+if the user has browsed within the frameset. Rewriting must be done at =
+the
+parser level, because writing a sequentialized DOM would break scripts =
+that
+change the DOM. Rewriting will suffer from the same bugs as view-source =
+does,
+but I'm about to fix many of them too (some of them are not only =
+cosmetic).
+
+BTW, the target milestone is for the worst case I thought about when I =
+began to
+work on <A title=3D"ASSIGNED - RFE: Full rfc2557 MHTML multipart/related =
+support in BROWSER" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D18764">bug =
+18764</A>; this may be ready within the 0.9.4 timeframe, but I don't
+promise anything.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c13" =
+name=3Dc13>#13</A>=20
+From <A href=3D"mailto:bzbarsky@mit.edu">Boris Zbarsky (vacation Dec 11 =
+-- Jan=20
+4)</A> 2001-08-13 11:49 ------- </I><PRE>*** <STRIKE><A =
+title=3D"RESOLVED DUPLICATE - MHT support for offline storage of pages" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D95090">Bug =
+95090</A></STRIKE> has been marked as a duplicate of this bug. =
+***</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c14" =
+name=3Dc14>#14</A>=20
+From <A href=3D"mailto:sairuh@netscape.com">sairuh (se)</A> 2001-10-09 =
+15:05=20
+------- </I><PRE>spam: over to File Handling. i have not changed the =
+assigned developer [or the
+other fields for that matter], so if anyone realizes that a bug should =
+have a
+more appropriate owner, go ahead and change it. :)</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c15" =
+name=3Dc15>#15</A>=20
+From <A href=3D"mailto:mporta@mail.vu">matteo porta</A> 2001-12-22 07:53 =
+-------=20
+</I><PRE>since 0.9.7 is possible to save a page with its images, however
+the images are saved in a folder. instead of write lot of code to
+implement mhtml you can simply zip the html page and images in a
+single .zip archive, like kde konqueror does (it uses a tar gzip
+with the filename extension changed).
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c16" =
+name=3Dc16>#16</A>=20
+From <A href=3D"mailto:davedenis@yahoo.com">David Denis</A> 2001-12-27 =
+20:05=20
+------- </I><PRE>saving the files as a zip is not the same, it is not an =
+acceptable solution to=20
+this bug.  Clarence was working on this bug awhile ago, any =
+update?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c17" =
+name=3Dc17>#17</A>=20
+From <A href=3D"mailto:bzbarsky@mit.edu">Boris Zbarsky (vacation Dec 11 =
+-- Jan=20
+4)</A> 2002-01-25 08:40 ------- </I><PRE>*** <A title=3D"REOPENED - RFE: =
+Save complete webpage in one file using data: protocol (RFC 2397)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D121793">Bug =
+121793</A> has been marked as a duplicate of this bug. ***</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c18" =
+name=3Dc18>#18</A>=20
+From <A href=3D"mailto:manko@zhurnal.ru">manko@zhurnal.ru</A> 2002-01-28 =
+00:22=20
+------- </I><PRE><A title=3D"REOPENED - RFE: Save complete webpage in =
+one file using data: protocol (RFC 2397)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D121793">Bug =
+121793</A> is reopened, please, discuss it, I think, this is very =
+interesting
+suggestion comparing with MHTML.
+<A =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D121793">http://bugz=
+illa.mozilla.org/show_bug.cgi?id=3D121793</A></PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c19" =
+name=3Dc19>#19</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-03-06 =
+12:09=20
+------- </I><PRE>IE has this option already. It uses mht extension. =
+Maybe they are using MHTML=20
+standard? Can anyone find out? Interoperability would useful, meaning if =
+
+Mozilla and IE shared the same format, hopefully a standard based. Maybe =
+Opera=20
+would get on the bandwagon too.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c20" =
+name=3Dc20>#20</A>=20
+From <A href=3D"mailto:mporta@mail.vu">matteo porta</A> 2002-03-06 15:23 =
+-------=20
+</I><PRE>yes, a common file format based on mhtml is highly desirable
+(at least to me :-)
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c21" =
+name=3Dc21>#21</A>=20
+From <A href=3D"mailto:beppe@netscape.com">beppe@netscape.com</A> =
+2002-03-08 12:00=20
+------- </I><PRE>removing myself from the cc list</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c22" =
+name=3Dc22>#22</A>=20
+From <A href=3D"mailto:rmathew@hotmail.com">Ranjit Mathew</A> 2002-03-18 =
+00:41=20
+------- </I><PRE>With reference to the comment made by "r_roman", IE =
+does use
+the MHTML format as can be seen on this page:
+
+<A =
+href=3D"http://support.microsoft.com/support/kb/articles/q221/7/87.asp">h=
+ttp://support.microsoft.com/support/kb/articles/q221/7/87.asp</A>
+
+or as you can find out for yourself by either opening the file
+in a text editor or in Mozilla.
+
+MHTML is indeed a very useful feature, at least for people like
+me who would like to have the convenience of a single complete
+document which can be rendered clearly, as opposed to the
+unfriendly manner in which PDFs are rendered, at least by=20
+Acrobat Reader.
+
+Therefore, it is highly desirable for Mozilla to support MHTML -
+this would not result in using an MS-proprietary file format
+and will actually help interoperability.
+
+Actually I would have really liked a feature similar to what
+Konquerer has (as has been pointed out) - a complete, self-
+contained Web Archive, compressed, and containing related
+HTML pages (e.g. a tutorial broken into chapters) and resources
+like images, stylesheets, etc. Composer should be able to
+produce such archives and Navigator should be able to render
+them  properly.
+
+In the interim, we should definitely have proper support for
+MHTML and get rid of PDFs as much as possible!
+
+Ranjit.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c23" =
+name=3Dc23>#23</A>=20
+From <A href=3D"mailto:d_yerrick@hotmail.com">Damian Yerrick</A> =
+2002-03-18 21:32=20
+------- </I><PRE>&gt; get rid of PDFs as much as possible!
+
+Not gonna happen until Mozilla gets support for CSS paged media (<A =
+title=3D"NEW - Paged media doesn't work" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D72321">bug =
+72321</A>
+and <A title=3D'ASSIGNED - Add support for CSS2 "paged media" to editor' =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D110154">bug =
+110154</A>).  One of the primary reasons I've seen in practice for
+using PDF is not that it's all one filesystem object but rather that it
+preserves page breaks, especially for forms that the user prints to =
+paper,
+fills out, and submits by mail or in person.  PDF has also been popping =
+up
+as a replacement for .ppt slides because more users have the Acrobat =
+viewer
+than the PowerPoint viewer.
+
+Mozilla + SVG + MHTML (or the XML format discussed in <A =
+title=3D"REOPENED - RFE: Save complete webpage in one file using data: =
+protocol (RFC 2397)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D121793">bug =
+121793</A>)
+equals .pdf and .ppt killer.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c24" =
+name=3Dc24>#24</A>=20
+From <A href=3D"mailto:matti@mversen.de">Matti (marquee sucks more than=20
+libpr0n)</A> 2002-04-03 19:53 ------- </I><PRE>*** <STRIKE><A =
+title=3D'RESOLVED DUPLICATE - "Save As"  lacks options' =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D131544">Bug =
+131544</A></STRIKE> has been marked as a duplicate of this bug. =
+***</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c25" =
+name=3Dc25>#25</A>=20
+From <A href=3D"mailto:rkaa-lst@online.no">R.K.Aa</A> 2002-05-01 19:06 =
+-------=20
+</I><PRE>*** <STRIKE><A title=3D"RESOLVED DUPLICATE - Complete web page =
+saved as single archive file" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D141650">Bug =
+141650</A></STRIKE> has been marked as a duplicate of this bug. =
+***</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c26" =
+name=3Dc26>#26</A>=20
+From <A href=3D"mailto:mporta@mail.vu">matteo porta</A> 2002-06-26 04:50 =
+-------=20
+</I><PRE>this is scheduled for mozilla 1.1 alpha. is there any work =
+going on ?
+thanks.
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c27" =
+name=3Dc27>#27</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+09:10 ------- </I><PRE>Its not clear from reading the above whether =
+MHTML supports multi-page saves but
+it seems to me that this should be the target for this implementation.
+Specifically, while there may be a lot of single-page information pages =
+out
+there, anymore (what with all the ad stuff), many sites break their =
+topic
+content into many pages (ref. CNET or Tom's Hardware, for example.)
+
+What is really needed is the ability for the user to enable some type of =
+URL
+recorder such that, once enabled, it will grab "clicked" links until the =
+user
+signifies the recording setup session over. At which time, Mozilla =
+should then
+traverse the saved URL list and save all pages in a self-contained file.
+
+Also, some means should be implemented for saving the root URL withing =
+the saved
+content so that the user can easily return to the page at some later =
+point to
+see if the content has been updated.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c28" =
+name=3Dc28>#28</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+10:35=20
+------- </I><PRE>Yes, yes! Those are excellent suggestions. While I have =
+enjoyed IE's ability to=20
+save a page along with images in one file, I didn't like the fact that=20
+sometimes I had to end up with multiple files. I usually zip them up to =
+have=20
+just one file. Using a good file manager, like Servant Salamander=20
+(<A =
+href=3D"http://www.altap.cz/salam_en/index.html">http://www.altap.cz/sala=
+m_en/index.html</A>), makes working with archive files=20
+very easy. You can "go into" the archive as if it were a =
+folder.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c29" =
+name=3Dc29>#29</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+10:54 ------- </I><PRE>r_rom, thinking about it a bit more, Mozilla =
+could exploit its group-bookmark
+design when saving multi-page content, i.e., when the saved pages are
+re-openned, each one should be openned in its own tab. In this way, =
+saving
+multi-page content would appear more like saving a book having the tabs
+representing the chapters. The tabs, of course, should having the =
+respective
+page's title in the tab and expanded for mouse-over hints.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c30" =
+name=3Dc30>#30</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+11:24=20
+------- </I><PRE>Another alternative:
+It opens in one window -- one that contains two frames. One of the =
+frames=20
+contains a tree with links to sections/pages. Click a link, and the =
+other frame=20
+loads its content.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c31" =
+name=3Dc31>#31</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+11:32 ------- </I><PRE>The problem I see with using the "frame" paradigm =
+is that many sites already use
+them. Thus, creating a framelist for a "framed" site would be =
+problematic and,
+perhaps, a bit busy looking...</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c32" =
+name=3Dc32>#32</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+11:38=20
+------- </I><PRE>That is true. But do you really want to load all pages =
+at once, even if you=20
+want to read one of them. Mozilla is already slow as it is, so I =
+wouldn't want=20
+to load more than necessary. And imaging what the UI would like with you =
+
+suddenly got 20 tabs. I think some other way of selecting pages should =
+be=20
+found. Perhaps a quick pop up window (on a shortcut press) that would =
+display=20
+the list of pages?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c33" =
+name=3Dc33>#33</A>=20
+From <A href=3D"mailto:ask@swva.net">Aaron Kaluszka</A> 2002-07-12 11:47 =
+-------=20
+</I><PRE>Re <A =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c30">comment =
+30</A>:  It would be better to utilize the Sidebar for the tree =
+frame.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c34" =
+name=3Dc34>#34</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+11:55 ------- </I><PRE>My thought is that openning all the pages in tabs =
+is a convenient way to show
+that one, its a multipage document and two, which pages were actually =
+saved
+(versus, all the other potential links on the pages that weren't =
+selected.)
+
+The loading of the pages shouldn't slow it down too much since they will =
+all be
+on the local disk already. Although, maybe there could be a way to save =
+the
+group-bookmark as an embedded link during the save. Then, when the =
+saved-pages
+are loaded, it would open the "root" page and the user could then decide =
+to
+click the group-bookmark link to open the other pages as =
+tabs??</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c35" =
+name=3Dc35>#35</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+12:04=20
+------- </I><PRE>"Then, when the saved-pages are loaded, it would open =
+the "root" page and the=20
+user could then decide to click the group-bookmark link to open the =
+other pages=20
+as tabs??"
+
+As tabs or in place of the main page.
+
+I was talking about slowness of overall Mozilla's UI and memory =
+consumption. If=20
+you load 20 (it could be many more) pages at once, much resources will =
+be=20
+waisted. And it will be difficult to select tabs because they would =
+become=20
+small if number of pages is large. You wouldn't be able to read their =
+titles.
+
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c36" =
+name=3Dc36>#36</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+12:18 ------- </I><PRE>My latter suggestion (using a pseudo =
+group-bookmark) would solve this, no? In
+effect, it would load the "root" page and then allow the user to click =
+the
+embedded bookmark to expand the multi-pages into tabbed pages, if they =
+desire.
+Of course, if they choose not to, then they could still move through the =
+saved
+pages using the regular links on it.
+
+As to the scrunched tabs, the mouse-over hint capability would allow the =
+to see
+the full titles, no?
+
+Actually, now that I think about it, perhaps a better design would be to =
+allow
+one to save a tabbed browser window as a single file. That way, one =
+would be
+able to create tabs of disparate, yet related, articles and then save =
+them as a
+file for later offline perusal/reference?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c37" =
+name=3Dc37>#37</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+12:26=20
+------- </I><PRE>Yes, the pseudo group-bookmark mechanism would solve =
+that.
+
+Your last suggestion is not bad.
+
+Now I have a concern. If the multiple page saving is not supported by =
+the=20
+standard, then only Mozilla will be able to open these files, and that =
+is not=20
+good at all. In that case, I would probably stick with using compressed =
+files.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c38" =
+name=3Dc38>#38</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+12:51 ------- </I><PRE>Hmmm, needing them to be viewed in other =
+non-Mozilla browsers could be
+problematic? Take the case where one opens several pages in a tabbed =
+window.
+Since the user can open and close tabbed pages at will, its highly =
+likely that
+the page containing the link to a tabbed page has been closed, thus, =
+removing
+the ability for one to "get" to it without a tabbed interface.
+
+I suppose that the saving algorithm could save a TOC page containing all =
+the
+links that were saved, thus, allowing non-tabbed browsers the ability to =
+get to
+the other pages but that seems kinda kludgey to me? Perhaps it could be
+implemented in such a way that only non-tab browsers are presented with =
+this TOC???
+
+Anyway, following through with my previous thoughts, it seems that =
+"keying-off"
+the fact that a window has tabs as the flag for multi-page saves may =
+make the
+implementation of this feature easier (rather than designing some type =
+of
+recorder on/off feature?) This would certainly be a positive extension =
+to the
+tabbed design, I think...</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c39" =
+name=3Dc39>#39</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+13:04 ------- </I><PRE>Here's a thought.
+
+Mozilla saves the tabbed pages in a single file but includes a "flag" in =
+the
+file for later interrogation. Now, for non-Mozilla browsers, the file =
+will open
+with a TOC page listing the offline links contained in the saved file. =
+However,
+for Mozilla, it could detect this flag and then query whether the user =
+wish to
+open the TOC page or the root page with the others in tabs?
+
+That way, it should be able to work with most browsers, no?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c40" =
+name=3Dc40>#40</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+13:17=20
+------- </I><PRE>Sounds good to me... if other browser wouldn't get =
+confused by all this=20
+additional info (flags, etc.). I haven't studied the standard, so I =
+don't know=20
+if it's flexible enough.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c41" =
+name=3Dc41>#41</A>=20
+From <A href=3D"mailto:bamm@upastrosoc.org">Bamm Gabriana</A> 2002-07-12 =
+19:08=20
+------- </I><PRE>Pat, I think Mozilla should find another way of doing =
+this, since MHTML
+is about a single document. Should this be another bug or =
+RFE?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c42" =
+name=3Dc42>#42</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-12=20
+20:24 ------- </I><PRE>Bamm, yeah, an RFE is 'prolly the more =
+appropriate vehicle. Now, if I only
+understood how one goes about doing that?</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c43" =
+name=3Dc43>#43</A>=20
+From <A href=3D"mailto:r_rom@yahoo.com">r_rom@yahoo.com</A> 2002-07-12 =
+20:42=20
+------- </I><PRE>Just make sure Mozilla supports MHTML too. Or this will =
+be another layer tag.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c44" =
+name=3Dc44>#44</A>=20
+From <A href=3D"mailto:Martin.T.Kutschker@blackbox.net">Martin =
+Kutschker</A>=20
+2002-07-13 01:44 ------- </I><PRE>Pat and r_rom, this bug is about =
+*saving* *one* html file with images and
+embedded objects in one MHTML file (RFC 2557). It is not about =
+displaying them
+or creating proprietary file formats.
+
+Please file one ore more bugs with summaries of your ideas concerning =
+saving and
+displaying multiple html files.
+
+Note: MHTML is IMHO not built to support frames. But in theory one could =
+create
+an "envelop" of type multipart/related with the frame and the related =
+parts
+would be again of type multipart/related containg the frames. Dunno if =
+any mail
+client or browser supports this.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c45" =
+name=3Dc45>#45</A>=20
+From <A href=3D"mailto:sailfish@unforgettable.com">Patrick Thompson</A> =
+2002-07-14=20
+10:13 ------- </I><PRE>Martin, done. It's <A title=3D"NEW - Saving =
+Multiple Tabs as Single File" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D157422">bug =
+157422</A></PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c46" =
+name=3Dc46>#46</A>=20
+From <A href=3D"mailto:horkana@tcd.ie">Alan</A> 2002-07-15 05:42 ------- =
+</I><PRE>If i wanted to be able to save as Mulitpart Hypertext Gzipped =
+(.mhgz? which does
+not exist AFAIK) should i file a seperate bug report / feature request?
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c47" =
+name=3Dc47>#47</A>=20
+From <A href=3D"mailto:jmd@pobox.com">Jeremy M. Dolan</A> 2002-07-15 =
+13:03 -------=20
+</I><PRE>You would save it as MHTML, then type 'gzip foo.mhtml', just =
+like for an HTML
+file or anything else. Please people, the next comment should contain a =
+patch or
+some damned technical discussion on how to go about creating one.
+
+No comment from the assignee in over a year. Removing past-due =
+target.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c48" =
+name=3Dc48>#48</A>=20
+From <A href=3D"mailto:mporta@mail.vu">matteo porta</A> 2002-07-26 14:18 =
+-------=20
+</I><PRE>so when this will be (finally) implemented?
+please set a milestone, at least...
+thanks.</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c49" =
+name=3Dc49>#49</A>=20
+From <A href=3D"mailto:matti@mversen.de">Matti (marquee sucks more than=20
+libpr0n)</A> 2002-07-26 14:28 ------- </I><PRE><A =
+href=3D"mailto:mporta@mail.vu">mporta@mail.vu</A>: Feel free to assign =
+it to you and attach a patch.
+</PRE></DIV>
+<DIV><BR><I>------- Additional Comment <A=20
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D40873#c50" =
+name=3Dc50>#50</A>=20
+From <A href=3D"mailto:matti@mversen.de">Matti (marquee sucks more than=20
+libpr0n)</A> 2002-08-13 14:14 ------- </I><PRE>*** <STRIKE><A =
+title=3D"RESOLVED DUPLICATE - save as html, complete (and zipped in a =
+single file!)" =
+href=3D"http://bugzilla.mozilla.org/show_bug.cgi?id=3D162549">Bug =
+162549</A></STRIKE> has been marked as a duplicate of this bug. =
+***</PRE></DIV><!-- 1.0@bugzilla.org --></FORM>
+<HR>
+<!-- 1.0@bugzilla.org -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+href=3D"http://bugzilla.mozilla.org/query.cgi">Query page</A>=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A=20
+href=3D"http://bugzilla.mozilla.org/enter_bug.cgi">Enter new bug</A> =
+<BR><!-- 1.0@bugzilla.org -->
+<TABLE border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop bgColor=3D#000000>
+      <TABLE cellSpacing=3D0 cellPadding=3D10 width=3D"100%" =
+bgColor=3Dlightyellow=20
+      border=3D0>
+        <TBODY>
+        <TR>
+          <TD><!-- 1.0@bugzilla.org -->
+            <FORM action=3Dshow_bug.cgi method=3Dget>
+            <TABLE width=3D"100%">
+              <TBODY>
+              <TR>
+                <TD>Actions: </TD>
+                <TD vAlign=3Dcenter noWrap><A=20
+                  =
+href=3D"http://bugzilla.mozilla.org/enter_bug.cgi">New</A> | <A=20
+                  =
+href=3D"http://bugzilla.mozilla.org/query.cgi">Query</A> | <INPUT =
+type=3Dsubmit value=3DFind> bug # <INPUT size=3D6 name=3Did> |=20
+                  <A =
+href=3D"http://bugzilla.mozilla.org/report.cgi">Reports</A> |=20
+                  <A =
+href=3D"http://bugzilla.mozilla.org/request.cgi">Requests</A>=20
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD vAlign=3Dcenter align=3Dright><A=20
+                  =
+href=3D"http://bugzilla.mozilla.org/createaccount.cgi">New&nbsp;Account</=
+A>=20
+                  | <A=20
+                  =
+href=3D"http://bugzilla.mozilla.org/query.cgi?GoAheadAndLogIn=3D1">Log&nb=
+sp;In</A>=20
+                =
+</TD></TR></TBODY></TABLE></FORM></TD></TR></TBODY></TABLE></TD></TR></TB=
+ODY></TABLE></BODY></HTML>
+
+------=_NextPart_000_0000_01C29F8E.780633C0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://mozilla.org/images/mozilla-banner.gif
+
+R0lGODdhWAI6AP8AAAICBPKiBP7+/P4qBP4mBAYCBCYaBJJiBOomBPomBA4CBMYeBN4iBE42BJ6e
+nPYmBAoCBHYSBO4mBAoGBC4GBLoeBPImBCIGBI4WBBICBM4iBBYOBNYiBIKChIoWBGoSBB4GBBIK
+BMIeBJYWBLp+BBYCBBIOBCYGBDoKBA4KBN6WBDYmBBoSBOIiBKYaBKIaBNoiBKoaBEpKTJIWBDYK
+BOYmBJ4aBEYKBNaSBD4qBE4OBG4SBBoGBMoeBGpKBAYGBEIKBNIiBF4OBG5KBLIaBFIOBCoGBEoy
+BHZOBH4SBGIOBHJOBK4aBC4eBLYeBGYOBL4eBB4WBDIGBHZ2dGJCBOaeBBoaHLIeBCYmJCoeBD4K
+BFoOBJoaBHoSBIYWBCIWBMqKBBISFE4yBBoCBEIuBJ5qBEoKBKZyBFYOBA4ODHISBC4uLEZGRKpy
+BN7e3L6+vO6iBGYSBLZ+BAoKDIJaBL5+BJpmBH5WBCIiJDIiBM6KBDo6PG5ubOYiBLJ6BLJ2BHp6
+fE4KBEIqBCoqLIZaBFI2BOKaBIIWBNLS1GpqbJoWBB4SBLa2tI5iBFZWVDomBJ5uBJKSlIqKjK6u
+rIZeBLZ6BEJCRMLCxDY2NJJmBMaGBL6CBGJiZM7OzOqeBFo+BMKGBKJuBFI6BFY6BH4WBHpSBNKO
+BIaGhIpeBH5+fGZmZJZmBNqSBD4+PObm5OaaBNqWBE5OTFpaXPLy9DIKBK52BB4eHJaWlAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAWAI6AAAI/wABCBxI
+sKDBgwgTKlzIsKHDhxAjSpxIsaLFixgzatzIsaPHjyBDihxJsqTJkyhTqlzJsqXLlzBjypxJs6bN
+mzhz6tzJs6fPn0CDCh1KdKgRDgSSKl3qBMJBCEpgLJ2alMEMLQUOKqBxgeGQAGDDih1LtqzZs2jT
+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
+
+------=_NextPart_000_0000_01C29F8E.780633C0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+Content-Location: http://bugzilla.mozilla.org/css/edit_bug.css
+
+.bz_private {
+	BACKGROUND: #f3eeee; COLOR: darkred
+}
+TABLE#flags TH {
+	VERTICAL-ALIGN: baseline; TEXT-ALIGN: left
+}
+TABLE#flags TD {
+	VERTICAL-ALIGN: baseline; TEXT-ALIGN: left
+}
+
+------=_NextPart_000_0000_01C29F8E.780633C0--

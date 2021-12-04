@@ -1,0 +1,43 @@
+<oaf_info>
+
+<oaf_server iid="OAFIID:nautilus_abiword_view_factory" type="exe" location="abiword">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:GNOME/ObjectFactory:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="AbiWord View Factory"/>
+	<oaf_attribute name="description" type="string" value="Factory for WordProcessing View"/>
+</oaf_server>
+
+<oaf_server iid="OAFIID:nautilus_abiword_view:" type="factory" location="OAFIID:nautilus_abiword_view_factory">
+	<oaf_attribute name="repo_ids" type="stringv">
+		<item value="IDL:Bonobo/Control:1.0" />
+	        <item value="IDL:Bonobo/Embeddable:1.0"/>	
+		<item value="IDL:Bonobo/Persist:1.0"/>
+		<item value="IDL:Bonobo/PersistFile:1.0"/>
+		<item value="IDL:Bonobo/PersistStream:1.0"/>
+		<item value="IDL:Bonobo/Print:1.0"/>
+		<item value="IDL:Bonobo/PropertyBag:1.0"/>
+	      	<item value="IDL:Bonobo/Unknown:1.0" /> 
+		<item value="IDL:Bonobo/Zoomable:1.0"/>
+		<item value="IDL:Nautilus/View:1.0"/>
+	</oaf_attribute>
+	<oaf_attribute name="name" type="string" value="AbiWord view"/>
+	<oaf_attribute name="description" type="string" value="Word Processing View"/>
+	<oaf_attribute name="bonobo:supported_mime_types" type="stringv">
+		<item value="application/msword"/>
+		<item value="application/rtf"/>
+		<item value="application/x-abiword"/>
+		<item value="application/x-applix-word"/>
+		<item value="application/wordperfect5.1"/>
+		<item value="application/vnd.palm"/>
+		<item value="text/abiword"/>
+		<item value="text/plain"/>
+		<item value="text/richtext"/>
+		<item value="text/vnd.wap.wml"/>
+		<item value="text/*"/>
+	</oaf_attribute>
+	<oaf_attribute name="nautilus:view_as_name" type="string" value="Word Processing"/>
+	<oaf_attribute name="nautilus:view_as_label" type="string" value="View as AbiWord"/>
+</oaf_server>
+
+</oaf_info>

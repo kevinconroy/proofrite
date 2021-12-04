@@ -1,0 +1,24 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_SDW_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_SDW_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiSDW.la
+
+libAbiSDW_la_SOURCES = ie_imp_StarOffice.cpp \
+			ie_imp_StarOffice_encodings.cpp \
+			sdw_cryptor.cpp \
+			docinfo.cpp
+
+libAbiSDW_la_LIBADD = @ABI_LIBS@
+
+libAbiSDW_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = \
+	ie_imp_StarOffice.h \
+	ie_imp_StarOffice_encodings.h \
+	sdw_cryptor.h \
+	docinfo.h
+
+EXTRA_DIST = $(OTHERHEADERS) Makefile

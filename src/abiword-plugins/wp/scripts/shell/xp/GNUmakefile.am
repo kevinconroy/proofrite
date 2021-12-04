@@ -1,0 +1,11 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugin_LTLIBRARIES = libAbiScriptHappy.la
+
+libAbiScriptHappy_la_SOURCES = ScriptHappy.cpp
+
+libAbiScriptHappy_la_LIBADD = @ABI_LIBS@
+
+libAbiScriptHappy_la_LDFLAGS = -no-undefined -module -avoid-version

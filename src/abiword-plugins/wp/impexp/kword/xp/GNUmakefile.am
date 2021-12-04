@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiKWord.la
+
+libAbiKWord_la_SOURCES = ie_exp_KWord_1.cpp ie_exp_KWord_1.h ie_imp_KWord_1.cpp ie_imp_KWord_1.h ie_impexp_KWord_1.cpp
+
+libAbiKWord_la_LIBADD = @ABI_LIBS@
+
+libAbiKWord_la_LDFLAGS = -no-undefined -module -avoid-version

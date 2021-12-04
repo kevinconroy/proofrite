@@ -1,0 +1,15 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_OPENWRITER_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_OPENWRITER_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiOpenWriter.la
+
+libAbiOpenWriter_la_SOURCES = ie_impexp_OpenWriter.cpp \
+				ie_imp_OpenWriter.cpp \
+				ie_exp_OpenWriter.cpp
+
+libAbiOpenWriter_la_LIBADD = @ABI_LIBS@
+
+libAbiOpenWriter_la_LDFLAGS = -no-undefined -module -avoid-version

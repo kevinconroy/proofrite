@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_GDA_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_GDA_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiGDA.la
+
+libAbiGDA_la_SOURCES = AbiGDA.cpp
+
+libAbiGDA_la_LIBADD = @ABI_LIBS@
+
+libAbiGDA_la_LDFLAGS = -no-undefined -module -avoid-version

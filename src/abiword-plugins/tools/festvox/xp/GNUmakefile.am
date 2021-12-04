@@ -1,0 +1,11 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugin_LTLIBRARIES = libAbiFestVox.la
+
+libAbiFestVox_la_SOURCES = AbiFestVox.cpp
+
+libAbiFestVox_la_LIBADD = @ABI_LIBS@
+
+libAbiFestVox_la_LDFLAGS = -no-undefined -module -avoid-version

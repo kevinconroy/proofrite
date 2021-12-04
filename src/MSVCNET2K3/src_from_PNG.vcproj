@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="src_from_PNG"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MakeFileProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory=".\Release\obj"
+			IntermediateDirectory=".\Release\obj\src_from_png"
+			ConfigurationType="10"
+			UseOfMFC="0">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\Debug"
+			IntermediateDirectory=".\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath="..\abi\src\wp\ap\xp\sidebar.png">
+			<FileConfiguration
+				Name="Release|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine=".\Release\tools_cdump\cdump.exe $(InputPath) g_pngSidebar &gt; ./ap_wp_sidebar.cpp
+"
+					Outputs=".\ap_wp_sidebar.cpp"/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Debug|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine=".\Debug\tools_cdump\cdump.exe $(InputPath) g_pngSidebar &gt; .\ap_wp_sidebar.cpp
+"
+					Outputs=".\ap_wp_sidebar.cpp"/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="..\abi\src\wp\ap\xp\splash.png">
+			<FileConfiguration
+				Name="Release|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine=".\Release\tools_cdump\cdump.exe $(InputPath) g_pngSplash &gt; ./ap_wp_splash.cpp
+"
+					Outputs=".\ap_wp_splash.cpp"/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Debug|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine=".\Debug\tools_cdump\cdump.exe $(InputPath) g_pngSplash &gt; .\ap_wp_splash.cpp
+"
+					Outputs=".\ap_wp_splash.cpp"/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

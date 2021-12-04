@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiDocBook.la
+
+libAbiDocBook_la_SOURCES = ie_exp_DocBook.cpp ie_exp_DocBook.h ie_imp_DocBook.cpp ie_imp_DocBook.h ie_impexp_DocBook.cpp
+
+libAbiDocBook_la_LIBADD = @ABI_LIBS@
+
+libAbiDocBook_la_LDFLAGS = -no-undefined -module -avoid-version

@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @BZ2ABW_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @BZ2ABW_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiBZ2.la
+
+libAbiBZ2_la_SOURCES = ie_impexp_BZ2Abw.cpp
+
+libAbiBZ2_la_LIBADD = @ABI_LIBS@
+
+libAbiBZ2_la_LDFLAGS = -no-undefined -module -avoid-version

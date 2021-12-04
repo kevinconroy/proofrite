@@ -1,0 +1,13 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @LIBRSVG_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @LIBRSVG_LDFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiRSVG.la
+
+libAbiRSVG_la_SOURCES = AbiRSVG.cpp
+
+libAbiRSVG_la_LIBADD = @ABI_LIBS@
+
+libAbiRSVG_la_LDFLAGS = -no-undefined -module -avoid-version

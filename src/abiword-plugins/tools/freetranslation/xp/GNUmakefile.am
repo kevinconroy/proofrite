@@ -1,0 +1,11 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugin_LTLIBRARIES = libAbiFreeTranslation.la
+
+libAbiFreeTranslation_la_SOURCES = AbiFreeTranslation.cpp
+
+libAbiFreeTranslation_la_LIBADD = @ABI_LIBS@
+
+libAbiFreeTranslation_la_LDFLAGS = -no-undefined -module -avoid-version

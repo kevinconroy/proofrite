@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiLaTeX.la
+
+libAbiLaTeX_la_SOURCES = ie_exp_LaTeX.cpp ie_exp_LaTeX.h
+
+libAbiLaTeX_la_LIBADD = @ABI_LIBS@
+
+libAbiLaTeX_la_LDFLAGS = -no-undefined -module -avoid-version

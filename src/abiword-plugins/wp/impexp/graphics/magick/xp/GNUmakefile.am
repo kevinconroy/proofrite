@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_MAGICK_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_MAGICK_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiMagick.la
+
+libAbiMagick_la_SOURCES = AbiMagick.cpp MagickGraphics.cpp
+
+libAbiMagick_la_LIBADD = @ABI_LIBS@
+
+libAbiMagick_la_LDFLAGS = -no-undefined -module -avoid-version

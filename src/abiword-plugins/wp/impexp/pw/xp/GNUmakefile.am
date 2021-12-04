@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiPW.la
+
+libAbiPW_la_SOURCES = ie_exp_PW.cpp ie_exp_PW.h ie_imp_PW.cpp ie_imp_PW.h
+
+libAbiPW_la_LIBADD = @ABI_LIBS@
+
+libAbiPW_la_LDFLAGS = -no-undefined -module -avoid-version

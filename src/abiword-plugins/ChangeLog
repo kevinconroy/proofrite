@@ -1,0 +1,5 @@
+6th December 2001, Francis James Franklin <fjf@alinameridon.com>
+	o autogen.sh v0.3: plugin-build is now properly configurable
+3rd December 2001, Francis James Franklin <fjf@alinameridon.com>
+	o added autogen.sh
+	o added README

@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiBMP.la
+
+libAbiBMP_la_SOURCES = ie_impGraphic_BMP.cpp ie_impGraphic_BMP.h
+
+libAbiBMP_la_LIBADD = @ABI_LIBS@
+
+libAbiBMP_la_LDFLAGS = -no-undefined -module -avoid-version

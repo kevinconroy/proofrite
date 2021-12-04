@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<tabiword template="false" fileformat="1.1" xmlns="http://www.abisource.com/awml.dtd" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="http://www.w3.org/1999/XSL/Format" props="lang:en-US; dom-dir:ltr">
+<!-- =====================================================================  -->
+<!-- This file is a TAbiWord document.                                      -->
+<!-- TAbiWord is a free, Open Source word processor based on AbiWord.       -->
+<!-- More information about TAbiWord is availabe at http://tabiword.sourceforge.net -->
+<!-- More information about AbiWord is available at http://www.abisource.com     -->
+<!-- You should not edit this file by hand.                                 -->
+<!-- =====================================================================  -->
+
+<metadata>
+<m key="dc.format">application/x-abiword</m>
+<m key="dc.contributor">Kevin Conroy</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.title">Render Stack</m>
+<m key="abiword.date_last_changed">Tue Nov 11 14:21:51 2003</m>
+<m key="dc.creator">Kevin Conroy</m>
+</metadata>
+<lists>
+<l id="1460299025" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="."/>
+</lists>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section props="page-margin-right:1.2500in; section-restart-value:1; section-space-after:0.0000in; page-margin-header:0.5000in; page-margin-left:1.2500in; page-margin-footer:0.5000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold">Stack Traces to Ink</c><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"></c></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">Insert Ink</c><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">PD_Document::insertObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Pt_PieceTable::insertObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Pt_PieceTable::_realI</c><ink stroke="8"><c props="lang:en-US; font-size:10pt; font-family:Verdana">n</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">sertObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">PD_Do</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="7"><c props="lang:en-US; font-size:10pt; font-family:Verdana">c</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">ument::notifyListeners</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fl_DocListener::</c><ink stroke="15"><c props="lang:en-US; font-size:10pt; font-family:Verdana">c</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">h</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="1"><c props="lang:en-US; font-size:10pt; font-family:Verdana">a</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">nge</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><ink stroke="16"><c props="lang:en-US; font-size:10pt; font-family:Verdana">F</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">l_SectionLayout::docli_insertObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fl_BlockLayout::docli_</c><ink stroke="17"><c props="lang:en-US; font-size:10pt; font-family:Verdana">i</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">nsertObject (this is where PTO_Ink/Hyperlink comes in)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="10"></ink></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">_doInerstInkRun</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">fp_InkRUn:fp</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="2"><c props="lang:en-US; font-size:10pt; font-family:Verdana">_</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">InkRun</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">XAP_Win32F</c><ink stroke="14"><c props="lang:en-US; font-size:10pt; font-family:Verdana">r</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">ameI</c><ink stroke="18"><c props="lang:en-US; font-size:10pt; font-family:Verdana">m</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">pl</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="9"></ink></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Ap_EditMethods::insertInk (see insertHyperlink)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><ink stroke="3"></ink></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">See FV_View::cmdInsertHyperlink</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p level="1" listid="1460299025" parentid="0" props="text-align:left; start-value:0; dom-dir:ltr; line-height:1.0; list-style:Bullet List; field-font:Symbol"><field type="list_label"></field><c props="lang:en-US; font-size:10pt; font-family:Verdana">	insert end tag then start</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p level="1" listid="1460299025" parentid="0" props="text-align:left; start-value:0; dom-dir:ltr; line-height:1.0; list-style:Bullet List; field-font:Symbol"><field type="list_label"></field><c props="lang:en-US; font-size:10pt; font-family:Verdana">	forms into a </c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="4"><c props="lang:en-US; font-size:10pt; font-family:Verdana">s</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">ingle block (ok for now)</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">PT_PieceTable::_readInsertObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fl_DocListener interfaces to pieceTable</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fl_BlockLayout will render </c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="5"><c props="lang:en-US; font-size:10pt; font-family:Verdana">(</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">or fl_SectionLayout)</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Ap_Edit</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c><ink stroke="6"><c props="lang:en-US; font-size:10pt; font-family:Verdana">M</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana">ethods::warpInstPtToXY()</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">contextHyperlink</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">insertInk</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">AP_Win32FrameImpl::translateDocumenttoScreen!!</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">Render Stack</c><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Give</c><ink stroke="12"><c props="lang:en-US; font-size:10pt; font-family:Verdana">n</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana"> an fp_InkRun</c><ink stroke="11"><c props="lang:en-US; font-size:10pt; font-family:Verdana">,</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana"> how do I redisplay th</c><ink stroke="13"><c props="lang:en-US; font-size:10pt; font-family:Verdana">e</c></ink><c props="lang:en-US; font-size:10pt; font-family:Verdana"> ink?</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fv_View needs a pointer to the IInkCollector in ap_Win32FrameImpl. Then, in fp_InkRun::draw, determine our current location, offset and scale ink appropriately and place on IInkCollector (thru fv_View pointer)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">APWin32::translateDocumentToScreen</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">See FV_View::generalUpdate (line 2291)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">invalidateRgn(hWnd, NULL, trace)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">UpdateWindow(hWnd)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:fr-FR; font-size:10pt; font-family:Verdana">Piece table -&gt; fp code -&gt; fl code</c><c props="lang:fr-FR; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">FV_View::_draw</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fp_Page::draw</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fp_verticalContainer::draw</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fp_Line::draw</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fp_Run::draw</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Fp_HyperlinkRun::draw</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">_draw and _clearScreen!!!</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Dg_DrawArgs – do I need to add an IInkOverlay?</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Image stuff uses GR_Image::getImage();</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">How about a getInk()?</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">GR_Image</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">FG_Graphic</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"><pbr/>Variable Names/Ink Flags</c><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">FPRUN_INK and FPRUN_TEXT</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold">Potentially Useful Functions:</c><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">Undo:</c><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">fl_DocListener::PXT_InsertObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">fl_DocListener::PXT_DeleteObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">fl_DocListener::PXT_ChangeObject</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">looks like you’ll need to create a PX_ChangeRecord to enable UndoInk</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold">To Do/Fix:</c><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">XML_Char * copy problem at cmdInsertInk level (not certain that it will copy base64 xml 100% correctly)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Allow user to turn stylus on and off. See EV_Win32Menu::toggleInk</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">StrokeEvent</c><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Desperately need to improve the tablet event code. Will want to look at the following to help get a respectable event sink:</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Win32FrameImpl needs to pass stroke onto event handler</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_Table::onStroke</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_EditMethod::Fn(…)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Ap_EditMethods::insertInk</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">…</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">…</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">…</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">FV_View::cmdInsertInk (see cmdInsertHyperlink)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana; text-decoration:underline">EditBindingMap!!</c><c props="lang:en-US; font-size:10pt; font-family:Verdana; text-decoration:underline"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EditEventMapper &lt;- add to Tablet; all mouse clicks and drags</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">See the “Building TabletPC Applications” books to note how mouse events map to stylus events; Try to hook into the TabletSDK events and disable the mouse (yes, that means that we have the dreaded HCI mode of being in mouse or stylus mode!)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">p-&gt;m_peb [n_emp][n_ems][n_emc]</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_IsMouse(eb) &lt;-EV_EditBits</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_IsTablet</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">ev_EB_MouseTable</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">           NVK_Table</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">           Char_Table</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Ev_EditBindingMap</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_EditBits (See below)</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">_ _ _ _   _ _ _ _</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">in order:</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_EMC</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_EMS</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EMB &amp; EVIKP</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EMO &amp; EVIKP</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Last four: EVK &amp; NVK</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Last place: EV_EMV_Other</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Emc = 13</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">EV_EditMethodsContainer</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Defined in AP_EditMethods -&gt; EV_EditMethod</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">m_iInsPoint</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">getPoint = getInsPoint!!</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"><pbr/>Design Decisions</c><c props="lang:en-US; font-size:16pt; font-family:Verdana; font-weight:bold"></c></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">How will we store ink in the piece table?</c><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold">Q</c><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold"></c><c props="lang:en-US; font-size:10pt; font-family:Verdana">: Could define each run to have ink or can make InkRuns to sandwich TextRuns.</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold">A</c><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold"></c><c props="lang:en-US; font-size:10pt; font-family:Verdana">: Decided initially to try InkRuns because it allows us to mix various types of objects and it allows us to quickly identify ink in the xml document. Also, it simplifies adding ink to the piece table since we don’t have to worry about modifying a bunch of existing objects; we merely had to create a new object of the piece table known as an InkRun. We can now more easily interact with ink and can define a set of policies for where one may and may not ink. </c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Initially, we based the InkRun of the HyperlinkRun object. The benefit of this is that since hyperlinks also span a section of text, we were able to quickly discover the correct functions to call what objects needed to be modified. The downside, however, was that AbiWord’s policy on hyperlinks is that it may not span multiple paragraphs or tables, nor may a hyperlink go past the end of the document. I also means that we cannot have nested ink objects. Thus, our initial experiments with the stylus had to be carefully penned otherwise we’d cause invalid piece table exceptions to occur. </c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">The benefit of adding an ink property to each TextRun is that we can simply insert the ink that applies to that run. Meaning, they’ve already gone through the trouble of determining the span of that run, so any ink that is associated with a TextRun could be said to span all of the text within that run. However, I’m not certain that this matches jives with the intended use of a TextRun since ink would then be a formatting property of a text run, which is not really the purpose that ink serves in the document. Ink is a separate object which relates to text but provides lots of additional information within itself. Formatting merely adds additional meaning to text.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; margin-top:12pt; line-height:1.0; dom-dir:ltr; keep-with-next:yes"><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold">How will we store ink in the XML document?</c><c props="lang:en-US; font-size:12pt; font-family:Arial; font-weight:bold"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold">Q</c><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold"></c><c props="lang:en-US; font-size:10pt; font-family:Verdana">: Should ink tags (in the TAbiWord xml file format) be allowed to have children or are they leaf nodes? Meaning, can we do something like “so &lt;ink stroke=”xxxxx”&gt;how are&lt;/ink&gt; you?” or will it be “so &lt;ink stroke=”xxx” /&gt;how are you?”</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold">A</c><c props="lang:en-US; font-size:10pt; font-family:Verdana; font-weight:bold"></c><c props="lang:en-US; font-size:10pt; font-family:Verdana">: The benefits of allowing the ink tag to have children are that you can clearly define the portion of text that the ink should span. This may make it easier to scale and transform the ink in a fluid document (at least, I speculate that it will be). The downside is that you can have ink tags nested in ink tags, and unless the stroke is fully nested inside of the outer stroke, the end ink tags lose their meaning. Take this for example:</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:center; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:23pt; font-family:Verdana">The University of Maryland College Park</c><c props="lang:en-US; font-size:23pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">As you can see, neither stroke is fully contained within the span of another stroke. If we did a simple conversion to xml, we’d find the following:</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:center; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">“The Unive&lt;ink stroke=”sss” color=”red”&gt;rsity &lt;ink stroke=”yyy” color=”blue”&gt;of M&lt;/ink&gt;aryland College Park&lt;/ink&gt;”</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">According to xml notation, the blue ink object ends after the M in Maryland, which is not the case. Thus, nested XML has some problems which must be overcome.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">One possible way to accomplish this is to slice the ink into many smaller objects. The idea is to split the ink on the hyphenation points or even at each letter. The purpose for this is two fold. Not only can we then avoid the problems of having partially nested ink objects, but we’ve already accounted for how to reflow the document.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">One hurdle that such an approach presents is what to do when you get ink that is written in the margin and spans part or all of a paragraph. In such a situation it is important to split the ink in such a way that it will span the correct portion of ink during a reflow but also ensure that the ink maintains the correct shape.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">This may also violate the property of grouping ink together as it may cause words to be split into two pieces which we may not realize need to be together on a reflow.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Thus, the solution is a complex one which must be carefully designed.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"><c props="lang:en-US; font-size:10pt; font-family:Verdana">Regardless, a separate import/export class will be made for the TAbiWord format. Initially, at least, it will be a straight copy of the AbiWord import/export classes will additional support for Ink objects. I hope to make it a derived class of the AbiWord import/export, but right now I’m just trying to get a rough solution together and more elegant fixes will be made as we see fit.</c><c props="lang:en-US; font-size:10pt; font-family:Verdana"></c></p>
+<p></p>
+<table props="table-column-props:3.3250in/3.3250in/; table-line-thickness:0.8pt; table-col-spacing:0in; table-line-type:1; table-line-ignore:0">
+<cell props="right-thickness:0.000000px; left-color:5b0f345a14e800; bot-style:1; left-attach:0; bot-thickness:0.000000px; right-attach:1; top-thickness:0.000000pt; top-attach:0; right-color:5b0f345a14e800; top-color:5b0f345a14e800; bot-attach:1; bgcolor:5b0f345a14e800; top-style:1; color:5b0f345a14e800; bot-color:5b0f345a14e800; left-thickness:0.000000px; right-style:1; left-style:1">
+<p props="text-align:left; tabstops:3.0000in/C,6.0000in/C; dom-dir:ltr; line-height:1.0"><c props="lang:en-US; font-size:8pt; font-family:Verdana; font-style:italic">TAbiWord Notes</c><c props="lang:en-US; font-size:8pt; font-family:Verdana; font-style:italic"></c></p>
+</cell>
+<cell props="right-thickness:0.000000px; left-color:5b0f345a14e800; bot-style:1; left-attach:1; bot-thickness:0.000000px; right-attach:2; top-thickness:0.000000pt; top-attach:0; right-color:5b0f345a14e800; top-color:5b0f345a14e800; bot-attach:1; bgcolor:5b0f345a14e800; top-style:1; color:5b0f345a14e800; bot-color:5b0f345a14e800; left-thickness:0.000000px; right-style:1; left-style:1">
+<p props="text-align:right; tabstops:3.0000in/C,6.0000in/C; dom-dir:ltr; line-height:1.0"><field type="date"></field><field type="date"></field><c props="lang:en-US; font-size:8pt; font-family:Verdana; font-style:italic"> </c><c props="lang:en-US; font-size:8pt; font-family:Verdana; font-style:italic"></c><field type="time"></field><field type="date"></field></p>
+</cell>
+</table>
+<p props="text-align:left; tabstops:1.7292in/L; dom-dir:ltr; line-height:1.0"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:center; tabstops:3.0000in/C,6.0000in/C; dom-dir:ltr; line-height:1.0"><c props="lang:en-US; font-size:8pt; font-family:Verdana">- </c><c props="lang:en-US; font-size:8pt; font-family:Verdana"></c><field type="page_number"></field><c props="lang:en-US; font-size:8pt; font-family:Verdana"> -</c></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+<p props="text-align:left; line-height:1.0; dom-dir:ltr"></p>
+</section>
+<data>
+<d name="ink" mime-type="text/ink-xml" base64="yes">
+YmFzZTY0OkFOY2dIQU9BZ0FRZEJLSVF4QkFCUUZtL1lPR2JsMVpLaldtQ3l4VmFTUm5SNWlY
+QnlhL1dRS3BuMGErd3RZYXU1S1BjdHBFL2EwbTF1MWJUNFNQTjR3Wkk4NmpUMEMxRnI5TGRL
+czYwaTJVQ0Z3UklFRVZrQjBnUVJQOEJSV1FKU0JCRWdJRDhCMFZrQkF3R09BdGtaV1puQkRn
+TFpHVVpJRElKQU5qNUFRR3VaaUZGTXdrQThNc0NBYnJvSUVVNENBRCtBd0FBQUlCL0Q0OENG
+YXg4dnovYUZzQS9BQWlnUlFDSTg4VVZySHkvUDlvV3dEOEFRSXRGQUxDN3hSV3NmTDgvMmhi
+QVB3QWdIRVVBb0lmRkZheDh2ei9hRnNBL0FDQ25SUURBUWNVVnJIeS9QOW9Xd0Q4QVlNUkZB
+SUNyeEJXc2ZMOC8yaGJBUHdBd1lFVUFRQVBFRmF4OHZ6L2FGc0EvQUpCZFJRRGdBTVlWckh5
+L1Avc1d3RDhBT05GRkFOajB4UldzZkw4Lyt4YkFQd0JJMTBVQU1IekZGYXg4dnovN0ZzQS9B
+RHgvUmdEd3VjVVZySHkvUC9zV3dEOEFJTVpGQUNpZFJSV3NmTDgvK3hiQVB3RFFiRVVBS0ox
+RkZheDh2ei83RnNBL0FIZ2RSZ0FvblVVUWtzT2lQd0FBQUFBQUFBQUF2RWFqUHdBQUFBQUFB
+SUMvRUpMRG9qOEFBQUFBQUFBQUFMeEdvejhBQUFBQUFBRHF4UXJBQVZHRzhOTlhocEhvd3Bx
+Y0FzN0tsbG9lQWdJR0lpSXVLU0VqTlJjZlJSNkJoWXVlajQrTWpRVVZIR1JzUkN3TUNnSUZK
+U2RKU2l5czFUVUJUVTZIOE1QSGhpamxBU09SQUV3bU0raU1CZzBOaFVIbE1vbEtUeWFqeUNT
+Vm1ZUU9Bd2VhVk9UU3FpMFFFNG5OT3A4NGlNR2w4K2lzcHFFcmtzdWw0ZzBIU0dRQkxaWUFn
+K25yWTNuT2J2Y3pjcmxNVEVrU0lsRjFKTVJLSmlVU2lVU2lSRW91QXZQWDREdE5BQVlBQXdE
+Uy8vLy9BakllZ0FRNUFmK0FBQVE1QWNrQUFCY0JDbnNzaC9CZjk0TC95QlFNSlZBSXhDcEJE
+b1RBSVJBNFRFNFRBWUxEWURHNFJNYU5SNTVQUVNlVFRXYUFodkVSRjRpSXlwcUFnWVNPcjV5
+RGhJS1FzNXlZbFlDQmk0aWFsNG1CZ0llR0JCd1U1T2lEODd5RTk4OFU4VTVMRTR6QUFTVzQr
+YjQ4QUFNMkI3Z0FBemdEaVFBRU9RSHR3QUFFT1FIdEFBQVhBZ3FwQVVLRitITXo0Y3pTeTBH
+YnpURDRiRHpRRU1WUXVrZ21SeFR4NFBFWWtack56VDNXb1k0c05oWWFLY0JnYUtWZFdEd1Fo
+L0ZaQjRySVNVeWdFY2pxVlN1alIyQXd5R3dLQVMwVldQUXVCd21BUnlKeGFWVUdnQ0JRT2NU
+bWtSbEw1OVA1WkJaUE9wM01wbktwV25NNG5NNEFnL0M5U01kZXZIT2N6TWk2a1RDU0xoRXhN
+UkpFekNSTUppWmpOOWZkWEZBR0FBTUFuZS8vL3dNNEEvWUFBeEF3a1FBRU9nRGtNQUFYQXdx
+K0FUK0g4Ti9YaHY3U2VUQ1B4NG8xSHEwWmdrQWdrQmdNQmdNUGdNSmc4ZmswaGdzTGhTZHpx
+Y3ppY3ppZ3haQVVFZ0VpbXMwZ1VEbTAzcTBYZ1VFZzhIZzhIbEtIOGJPM2paM1FPQkNTU1Vq
+Y2Ftc0tnRUhoTUhoRUhnY0dnVUlnMGtvc2FsRXBsQ0x4YU1SbW1VMm9TbUNRT0FRS0R5ZWZU
+K1pUT05SdUZRT0RvSEFvYkFJVWcrM3BSZTczZTV6TXpJa21Fd1RDWW1BRVNSSk1Fcno0UG96
+TUFBWUFBd0RHLy8vL0JnQURBT0QvLy84RUVoZ2dJQUFFT2dEcThBQVhCQXBuSm9id3l0ZUdW
+c0FNSFM4cE5TbEZIUTBVaVlXVG01T1ZrWStQcTZpcExlMkFoUHlCU2ZrQ2xBRGxjZTlZVmpP
+RU1PeEt5VWNtOE5lb2cvSXhFek15bVp1Wm1adUppNFRDVTN6NitiTXdCZ0FEQU9iLy8vOERP
+QU9UQUFRNkFPWmdBQVE2QVBQZ0FCY0ZDcmNCUUlmd1hSZUM2TUFtME5nVUZqRVZqVVBnc0lR
+aVB3NlB3NkR4MFVlalRHWVZXVlFlQVF5SXdpVVQyZVIyT1FLQnl5QXdhQXhoQTRBaE1DZ2NW
+Z0VDaHZKSFI1STZRQ3Bqb09MaFpHRWc0bUVnVUxCUmtKRVZHQWNBSldVam8rcWpVVkF4c2hW
+MjF2Ylc5VlYxVTNFd01iRXdFUENvR0VRRUtJUHdQT3luTTg4ek16bVNZaWFtTHJNWnhjOE9P
+b3VhWnhjNFpZWGkwU3p4OGZ5VVVBWUFBd0J6Ly8vL0JEa0IyQUFBQkRrQjIwQUFCRG9BK0dB
+QUZ3WUtxZ0U5aHZCeFo0T0JhY0FMR2NsNFNPUTg1S3lrTkRRMFJCUVVCQlNzZFVsdGJrdEww
+U1pqSXVDZ3BxQ25aWEFtQmJ5OVFNQkJnSWZ3bVNlRTFHVkFCTm9YQUlEQ0lMQlpUTUpqS1lI
+RFlyQW9MQ290QTRoSUNTeVFuVTdwa2RoRUVnc0NnTUxnMFBrOHdtTXVsNmlVV2VDRDhUMUl4
+ejY4ZU83dTR6VndpWnhtcHJLQytHVldxTG5FemROMWVOeHU5K3plZVFBR0FBTUExdi8vL3dN
+NEErNEFCRGtCMklBQUFndkJBQmNIQ3IwQldJYnd1aGVGME5SVVlLT2luNTZ2bElHSmhrQkRT
+VXZMTEtQZ0lpQVFzREN3ODNUVTRBZ29NZ29PQ2c0eUpnQ0NnU0huSjJlbjF0YnJDeEFSRVND
+SDhIWG5nNjlTbVVBbGt0bDB2b2tWZzBBZ2tEZ2NGbU1tazZueENGd2xBSUZESVZDcE5ONXNB
+Sk5KeVVTbVRTZWVRK0JRR0JFSFN1ZFR1WVRGSXBHaDBQQVNtVUNEeDYwNTIzTnBzdVpKaVls
+Q2F0RXdBVEVnSWtSS0pJa0NKSW1MWHg4dngwd0FCZ0FEQU43Ly8vOEROUTRBQUFRNkFPSWdB
+QU00QTkwQUZ3Z0tvZ0UzaC9FZXg0ajM0SUpSS1pOSjU5UDZaSFlGQUNBSUxCNExJNVJLUk9a
+eFJZNURZSWdTQ1FhQlJnbWlJUlNIUXFEUldDdzJMb2J4S1BlSlBXcEUxTnhzWlQwMS9NUXNQ
+Qm9PQWhvR0lxTUE0QUUzTlNFRkF3VVFpa1JBdzhIVTRBdFl1Tmk0T0hoSUtCZ2dnK25qWm1Z
+dTV1NXVTWmlTSm1JbVlFeE1URXdSTUpuUFgwNWlRQVlBQXdDaDlQLy9CZ0FEQU8vLy8vOEVP
+Z0RpNEFBRU9RSCt3QUFYQ1Fxd0E0VUNoZmlFaStJU05aYm5zL3ZzWFJaTmRGWlZSUkZKSEpU
+RFhIU2xsZ2xscGxubmhsa1RVVFZSU1JFY0tHQkJEQkRERERMRkJCQkJBaWhoSkVCWlhIRElp
+aXBvUnl4MXhUeXhvNlk3NTU4MkhCK0l0cG5ubmpwbnBubGpqampSd1JvWTRrRWNFY2NFTUVF
+VU1FazBra0VrMFNCTEpWYkZESlRGRFhZa2lvaW9ncWtvc3EwR3AxQnJvYU1CWlJaVk5WSmdK
+NklxSVk0NTRrY3NjY2FHR0dDQ0NTT2FCRERMQ2xuaGhwaGpua3ZwaGpqalUwSVpZSTdaYWMr
+QWhQd3U4ZmhkNWRqczhybDhLT21FSjFpbkdzTThvWXNja01oanhZTU1VSndoZWtCR2lKQ2Nw
+VVFraExMQkdhTTZUaE9rWW9Ld3JDRVp5UmxXQ2s0U2xDTUlvWVF4WTV5bktGWXdtbE9NWlRo
+Q3NvMHJLR1hKR1dYSmxoeE05R1RMbWpqcm56VEVZYU0rV0dERG9uU3VwanlWdkJGZkZqTW1X
+UkNLVmFZOFU0d0p5dk9WWW8wclNNQ21HeG4wSXloS3ViRFdVd1NUcEVUU1RJTFB3UnZidDI3
+VnBTbEFBU3BVb0VxVUJLbEFXRXRnQ1VBQ1d3c3NCWWxMbHNBQUFCWkxjdHlrc3NvV0FKc0FB
+bEZpeXdBbEVvQWxTaXhZQmZQbjhCL0hBQVlBQXdEMy8vLy9BelVPNEFBREVERDFBQVE1QWRz
+QUFCY0tDcmNCU29id1JYZUNNK1JpNCtKazR1TmhZQ0FnSWlRakk2T2twQ2NuSlNzb3B5VW5K
+U01oSU9GaklhTElXQmtaV2htYU9ubzZlcHBhT2xtNW1sa1pORXdjTEZSRUJGUU1kT1JVSkRT
+VXhIQ0Qva3dHL2t3MTRZMXJHdFl4eXh5NGF4aXJud2F2ZWJtbVptN25kODk5WGZQWEVUTXh4
+MXo0eERUbzVZakdzYTZlRnk1ZEFJTDZ2Vzd0cTIxcWxoWnVVSlRaWmNNc3BRSllDcnZuNC93
+REVBWUFBd0RULy8vL0JEa0J4WUFBQXhBd29nQUZPd0J5aUFBQUZ3c0t4UUZGaHZBNEY0SEF5
+VmxMVzB3bk5ROEREd0NFZ29pRXJNQjRDVmRWR3drQkJ3Y0xDeGNMRXdjTEN3MEJEUlVWRlIw
+WkRSRVZCUWtRZ29LR2hJU0NnMEhDeHN2VjFsYUFodktMNTVSZmNBNEFxNnFMaW82RmdFQkNv
+T0JRRUhKU2JBV0E4RFRzTkFReU1qSTZRa0pDR2pJQ0pnSk9SalpXUGtZMlRoNDJGZzRDSGdZ
+Q0JoWU9IZ1VCTVZOUWcrWHJVOFBmRzVtWkpURXpVM1VvbENZVEVvbEFSS1lrQ1ltZDlmUDNj
+UUFETmdlVUFBWUFBd0RxLy8vL0JEa0IwSUFBQlRzQWNvZ0FBQmNNQ3VrQlo0YnhXaGVLME9u
+cGdzSWlPbEl5S2lFWkJvbUZqNCtUa2JtNHVZYUhqNDZYaW9HRGc0T0ZnNFdBZzRDRWhvU0to
+b2lDaUlCQXl0QlFraElnQUxPeXVZeVJqWTJUazVPTGlZV0JoSWlTa3BhWWxMSU1BUzZHOG9o
+WGxFTGc0SUppTGdJS0RRTVZCd1pCUXNCQndFZlRVOVZWMjF2Z1NkaElpQ2lvU0lpSXFDZ2tI
+RndFVEZ3c1hDeGNKWjJWbVZGU0FBaFlTS1FjS1FFQkF3RUZERURCUThIRGlwcUtPS0NEOWp0
+RmVUeDNtTnhhWkFTaVNKSWtpUkVnRVNJbENZbUppUk1CTUFBaVNaejE5ZmN3QmdBREFMai8v
+LzhHQUFNQThQLy8vd1E2QVBMd0FBVTdBSEtJQUFBSkFSY05DdlVCYjRieEpEZUpJZXdnNHlL
+am82TWpveUlob2lFaG9PRGdZbURpNDJKaVl1RmpZT0pnWVdIZ0l1QnJiS3pWTVBKeU1mRXhN
+VEZ4Y3ZFeU1USnhNREJTRXRKUzA5UFQyQUVKZlYxSlNVRTFPUTBORXdVREV3c0hHSWFGZ29H
+Sms1dVJtWm1WazVHTmo0bUp0Ymk1WURnSStMaEFoUHdpSGZoRVB5UWhCQ2FkYnltSjJuT2s0
+U0tVaE9VcXMrcldsbHJWampHY0tRcGtoaWxSUWhPV3Q0RTZjSVZJemxPc0NLTVdDRVdHZWFH
+V0VaV2hqam16dUpwUXhvTDhEZXZqM1oyM1Z0TFpaWlFDVkxKc0N5aFlTckZsU1dVRmdsU29v
+bFFsMkw1OS9YOWNBQU00QTVNQUF6WUgzQUFFT1FIc0FBQUVPUUgrd0FBTkFRa0NGdzRLZ1FP
+MkFZYnhmNmVML1VMdTZ3UE1Rc1BEeE1QRXdvaW9TSWlJcUtpbzZLaW82UWpKQ1FrSTZLaG9h
+RUllRmlZMkppNVdQa2ErZW43ZUhtWldSajQrRGhZT0dRa05EUlVkTFNrdE5UazVRVUU1UFNF
+dEhTRUpId0VEQnhjakx6c2ZUMHRqVjFNL1B5OURLb0NBZzRTQWtKU1FrSmlZcUthbXFLS2Vt
+S1NVbG9hRWpvS0VpWTJKajVlYnBhR2puN0ZoV0xrWm1KajRHQ2pKS1lvcGFzcEthZXBKNldu
+cEtJakk2Qmo0R0RqNCtUbWFHVm9hRUlYNGFNdmhvekRWYXZOWTJDT3lXU1NTeU9LYUJQQkds
+enZBR1Zua25rV3gweTAweDN3Unl3eFJ3UlpUYjdiYTQ2WkVna29raGlpZ3FvZ2tUUlJUendW
+d1V5enp4eHI0WTU2WUVjVWtzazA4ZFVVbGxrMUYwME1GRk1pbUttVER3VXl3V3dTd0lJNHBZ
+cEpZSVlwbWh6RU1FY1ZFS3ZFUVFZSE1ZT0JnWUo0SjRvWTRrVVZDcTZLS0VJTHgrQk0zNjdF
+YTI2MFVBQ1VDVVdXVUVBbGxsbExFcXhOaFlDeFNBbFFMS3BOa3N1VVdUWUNXVVdGeFJLbGxs
+QzMzOGY0Qjg0QUdBQU1BM3YvLy93TTRBNzBBQ3FZQlJJWDRkeFBoM0Z6c1ZNOGVEa2hobGls
+WFJ6VVdaek01ckNVVlRTUVFTeXoxeXl6end4bzQ0WVlVVVVVMDBHRXFxa3Vvc3NyaWh3SzJn
+SWJ4RGplSWNmQUZPbVVyRlFNQkl6Q0VtSStBaHBLcndGTHhVSkxRa1pJUWtWQlIwVVNFZEhS
+RURBeEVwR3hNdkR3c25KemNqSXhjL0h5OFhIeGNQQW9pRWhvTWcvSTZjNXVZM016SklrQkVr
+b1NpWVRDQ0ppWXRFekV5enh6ejhmTVVBemdEbVFBRE9BUHhBQXFDQVRPRzhqUVhrYURWaU9q
+SkNNakk2TWlvQ0NoWVdIajUyVG01V2JtWldiblplUmlZZUpqcENXbXBhb29MU29xSjZrcklp
+QVRNdUlUOFZrWDRySTNIeVZuaHZudkc4OGNJMklTeFcyVTRXRFppdFBqUXJTTjR3NCtQTG54
+NGNNRlFnL1U0WnZPOTNlWlNoRXdra21DSmdRZ1JNYjQranpnQUF6Z0RrZ0FFT1FITUFBQUsz
+UUZpaFB4N1VmajJwQUhUNlREZ3NwS0dDRks1b1VwU1ZNV05YSFBIZkhXczd4ckdNWkxVd1pz
+MXNXQ1ZweW5PRVlJeGpXZDc0YjQ5ZWJQZTJ2VmhsQ1NjanI5WWgvSXZKNUY1UUJLNVVvZENx
+Y2FoTUhnc0RoVUxnVUNnMEdnVUlnVUtna0VoRUdnMEloRUtna0lnMENnaUJRR0V3S0J3R0J3
+T0N3R0FRbUF3bEE0REJVSlF1RHdXSHdtS3dDQXdHQVFDQ1FhWlVXaVVHZ1RlYlVlT1FCSnFE
+UUNFUWtDRDZlRnZpbUppSnROcFhFZ2hNVEVwaVlDSlJKTVJNd2lZbUlrbUJCRW9zbUpDSlRO
+K0Q2TndCZ0FEQU83Ly8vOEdBQU1Ba1AvLy93PT0=
+</d>
+</data>
+</tabiword>

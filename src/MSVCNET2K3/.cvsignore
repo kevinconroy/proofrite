@@ -1,0 +1,9 @@
+BIDI_Release 
+BIDI_Debug
+Release
+Debug
+libiconv_dll__Win32_Debug
+*.ncb
+*.opt
+*.plg
+*.zip

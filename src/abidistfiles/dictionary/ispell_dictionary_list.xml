@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dictionaries>
+
+<!-- Format: 
+tag="language tag" 
+name="name of ispell dictionary"
+encoding="codepage the dictionary is encoded in"
+-->
+
+<dictionary tag="ca-ES" name="catala.hash"         encoding="iso-8859-1" />
+<dictionary tag="cs-CZ" name="czech.hash"          encoding="iso-8859-2" />
+<dictionary tag="da-DK" name="dansk.hash"          encoding="iso-8859-1" />
+<dictionary tag="de-CH" name="swiss.hash"          encoding="iso-8859-1" />
+<dictionary tag="de-AT" name="deutsch.hash"        encoding="iso-8859-1" />
+<dictionary tag="de-DE" name="deutsch.hash"        encoding="iso-8859-1" />
+<dictionary tag="el-GR" name="ellhnika.hash"       encoding="iso-8859-7" />
+<dictionary tag="en"    name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-AU" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-BZ" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-CA" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-GB" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-IE" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-JM" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-NZ" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-TT" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-ZA" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-ZW" name="british.hash"        encoding="iso-8859-1" />
+<dictionary tag="en-PH" name="american.hash"       encoding="iso-8859-1" />
+<dictionary tag="en-US" name="american.hash"       encoding="iso-8859-1" />
+<dictionary tag="eo"    name="esperanto.hash"      encoding="iso-8859-3" />
+<dictionary tag="es-AR" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-BO" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-CL" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-CO" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-CR" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-DO" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-EC" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-ES" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-GT" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-HN" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-MX" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-NI" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-PA" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-PE" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-PR" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-PY" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-SV" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-UY" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="es-VE" name="espanol.hash"        encoding="iso-8859-1" />
+<dictionary tag="fi-FI" name="finnish.hash"        encoding="iso-8859-1" />
+<dictionary tag="fr-BE" name="francais.hash"       encoding="iso-8859-1" />
+<dictionary tag="fr-CA" name="francais.hash"       encoding="iso-8859-1" />
+<dictionary tag="fr-CH" name="francais.hash"       encoding="iso-8859-1" />
+<dictionary tag="fr-FR" name="francais.hash"       encoding="iso-8859-1" />
+<dictionary tag="fr-LU" name="francais.hash"       encoding="iso-8859-1" />
+<dictionary tag="fr-MC" name="francais.hash"       encoding="iso-8859-1" />
+<dictionary tag="hu-HU" name="hungarian.hash"      encoding="iso-8859-1" />
+<dictionary tag="ga-IE" name="irish.hash"          encoding="iso-8859-1" />
+<dictionary tag="gl-ES" name="galician.hash"       encoding="iso-8859-1" />
+<dictionary tag="it-IT" name="italian.hash"        encoding="iso-8859-1" />
+<dictionary tag="it-CH" name="italian.hash"        encoding="iso-8859-1" />
+<dictionary tag="la-IT" name="mlatin.hash"         encoding="iso-8859-1" />
+<dictionary tag="lt-LT" name="lietuviu.hash"       encoding="iso-8859-13" />
+
+<!-- marshallese encoding known to be WRONG. FIXME!!!
+     Hipi: Marshallese has no encoding yet - we'll have to invent an
+           "internal encoding" - UTF-8 will kinda work until then
+           but there's no dictionary yet...
+<dictionary tag="mh-MH" name="marshallese.hash"    encoding="UTF-8" />
+<dictionary tag="mh-RN" name="marshallese.hash"    encoding="UTF-8" />
+-->
+
+<dictionary tag="nl-NL" name="nederlands.hash"     encoding="iso-8859-1" />
+<dictionary tag="nl-BE" name="nederlands.hash"     encoding="iso-8859-1" />
+<dictionary tag="nb-NO" name="norsk.hash"          encoding="iso-8859-1" />
+<dictionary tag="nn-NO" name="nyorsk.hash"         encoding="iso-8859-1" />
+<dictionary tag="pl-PL" name="polish.hash"         encoding="iso-8859-2" />
+<dictionary tag="pt-BR" name="brazilian.hash"      encoding="iso-8859-1" />
+<dictionary tag="pt-PT" name="portugues.hash"      encoding="iso-8859-1" />
+<dictionary tag="ru-MD" name="russian.hash"        encoding="koi8-r" />
+<dictionary tag="ru-RU" name="russian.hash"        encoding="koi8-r" />
+<dictionary tag="sl-SI" name="slovensko.hash"      encoding="iso-8859-2" />
+<dictionary tag="sv-SE" name="svenska.hash"        encoding="iso-8859-1" />
+<dictionary tag="uk-UA" name="ukrainian.hash"      encoding="koi8-u" />
+
+<!-- Hipi: Yiddish uses UTF-8 for now, which is known to degrade
+           suggestion quality - "internal encoding" needed -->
+<dictionary tag="yi"    name="yiddish-yivo.hash"   encoding="UTF-8" />
+
+</dictionaries>

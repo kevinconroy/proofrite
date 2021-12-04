@@ -1,0 +1,401 @@
+****************************************************************************
+THIS DOCUMENT IS VERY MUCH OUT OF DATE.  PLEASE VISIT THE ABISOURCE WEBSITE
+AT http://www.abisource.com/ FOR CURRENT INSTALLATION ISSUES.  MOST OF THE
+FONT INSTALLATION PROBLEMS HAVE BEEN RESOLVED IN MORE RECENT RELEASES OF
+THE ABISUITE PACKAGES.
+****************************************************************************
+
+////////////////////////////////////////////////////////////////////////////////
+
+  AbiSource Font Installer, Copyright (C) 1999 AbiSource, Inc.
+  
+  Version 1.0.0 (1999/04/13)
+
+  This document is licenced under the GNU General Public License,
+  version 2.
+
+  This program comes with ABSOLUTELY NO WARRANTY; this software is
+  free software, and you are welcome to redistribute it under
+  certain conditions.  Read the file called COPYING in the archive 
+  in which this program arrived for more details.
+
+////////////////////////////////////////////////////////////////////////////////
+
+------------------------------------------------------------------------
+ CHAPTER 0 -- INTRODUCTIONS
+------------------------------------------------------------------------
+
+0.0 TABLE OF CONTENTS
+---------------------
+
+    CHAPTER 0 -- INTRODUCTIONS
+
+        0.0 ........................................ TABLE OF CONTENTS
+        0.1 ............................ INTRODUCTION TO THIS DOCUMENT
+        0.2 .................................... INTRODUCTION TO FONTS
+        0.3 .................................... WHO WROTE THIS STUFF?
+        0.4 ................................ WHERE DO I GET MORE INFO?
+
+    CHAPTER 1 -- DOING STUFF (GOT A BETTER TITLE?)
+
+        1.0 ............................ WHERE DO I GET THIS DOCUMENT?
+        1.1 ........................ WHERE DO I GET THE FONT ARCHIVES?
+        1.2 ................. REQUIREMENTS FOR SUCCESSFUL INSTALLATION
+        1.3 .................................... THE AUTOMATED PROCESS
+        1.4 ....................................... THE MANUAL PROCESS
+        1.5 .............................. X DISPLAY SERVER FONT PATHS
+        1.6 ................................... NETWORK FONT RESOURCES
+
+    CHAPTER 2 -- FREQUENTLY ASKED QUESTIONS
+
+        2.0 ................................................. F. A. Q.
+
+0.1 INTRODUCTION TO THIS DOCUMENT
+---------------------------------
+
+    No, you don't have to read it all.  Most people can just read the
+sections INTRODUCTION TO FONTS, THE AUTOMATED PROCESS, and X DISPLAY
+SERVER FONT PATHS and have everything working.  If you want to read
+the whole thing from top to bottom, you'll probably learn much more
+about X's font model than you ever thought you need to know.  This
+document is not intended to be the ultimate X font documentation 
+resource, but instead just to get AbiSuite applications working with
+scalable, printable Type 1 fonts, and perhaps other formats in the 
+future.
+
+0.2 INTRODUCTION TO FONTS
+-------------------------
+
+    AbiWord, and presumably future AbiSuite applications, needs a
+set of scalable, printable, viewable fonts for its X Window System
+front-end.  A standard set of Adobe Type 1 fonts in ASCII (*.pfa) or 
+binary (*.pfb) format with accompanying printer metric files (*.afm) 
+are in this package.  Installation is fairly straight-forward; a shell 
+script is provided and is the recommended method of installation.  You 
+can also manually copy the font, metrics, and X font index files to the
+font library subdirectory of the AbiSuite installation path.  This 
+directory is probably "lib/fonts", but might change in the future.  A 
+careful look at the shell script will reveal any updates.  Read the
+sections THE AUTOMATED PROCESS and THE MANUAL PROCESS for details
+about this process.
+
+0.3 WHO WROTE THIS STUFF?
+-------------------------
+
+    This document is maintained by Shaw Terwilliger, who can be
+questioned, prodded, scolded, suggested, or corrected at 
+sterwill@abisource.com.  If you have any font questions you'd
+like added to future releases of this document (perhaps in the
+FAQ near the end), send them to the AbiWord developer mailing 
+list (read the next section) or directly to me.  The list is a better
+source of general information, and your question might be answered
+more quickly there.
+
+0.4 WHERE DO I GET MORE INFO?
+-----------------------------
+
+    Besides AbiSource central, http://www.abisource.com, the 
+developer's page at http://www.abisource.com/developer.phtml would be
+an excellent place to look for more information.  You can get
+recent versions of the program source code, pointers to development
+and user mailing lists where you can ask questions (even those not
+even closely related to fonts!).
+
+------------------------------------------------------------------------
+ CHAPTER 1 -- DOING STUFF (GOT A BETTER TITLE?)
+------------------------------------------------------------------------
+
+1.0 WHERE DO I GET THIS DOCUMENT?
+---------------------------------
+
+    You can find recent releases of this document at:
+
+  http://www.abisource.com/dev_unixfonts.phtml
+
+1.1 WHERE DO I GET THE FONT ARCHIVES?
+-------------------------------------
+
+TAR ARCHIVES:
+
+    The actual font archives are released and stored at the same
+location the AbiSuite application releases are stored.  You can find
+recent versions of the Unix font archives at:
+
+  http://www.abisource.com/downloads/
+
+Where the archive file names take the form:
+
+  "unixfonts-[version].tar.gz"
+
+Where "[version]" is the numbered version of the AbiSuite application
+which most recently requires that file.  You should pick the Unix
+font archive with a version as close as possible to the application
+version you wish to use with it, but not newer.  For example,
+for "abi-0.5.4-src.tar.gz", you would pick "unixfonts-0.5.4.tar.gz".
+If "abi-0.5.8-src.tar.gz" is released, but no new font archive is
+released, you should choose "unixfonts-0.5.4.tar.gz" still.
+
+CVS ARCHIVES:
+
+    You can also retrieve the latest font archives via CVS.
+Instructions for setting up your environment to use our anonymous
+CVS repository can be fount at:
+
+  http://www.abisource.com/dev_download.phtml#cvs
+
+   To check out a copy of the Unix font archives, specify the CVS
+module "unixfonts".  Sample commands would be:
+
+  "cvs checkout unixfonts" 
+  "cvs co unixfonts"
+
+  An advantage to CVS access to the font archives is that incremental
+changes to the font configuration (via the font.dir font index file)
+or installer changes can be had without retrieval of the entire 
+font archive.  You can use CVS's "update" command to accomplish this.
+
+    
+1.2 REQUIREMENTS FOR SUCCESSFUL INSTALLATION
+--------------------------------------------
+
+    An installation is considered successful when the font, metric,
+and X font index files are installed in a location where AbiSuite
+applications and your X display server can find them.  These fonts can
+presumably be installed anywhere you want to put them--in 
+/usr/local/AbiSuite, in /opt/AbiSuite, or even /home/jschmoe/blammo!!!,
+if you want to continue to escape shell references to this directory.
+This will most often work fine if your X display server is running
+on the same machine the AbiSuite program process occupies, and this
+is true for most users.
+
+    Notice that both AbiSuite applications and your X display server 
+need to be able to find these fonts, and both follow separate and
+different paths to get to them.  In fact, it's possible that your
+X display server and AbiSuite application processes are on two
+physically separate machines!  The X display server has a notion of 
+a font path, where it looks for fonts of many different formats: 
+bitmaps, scalable Type 1, PEX, network font resources, and perhaps 
+TrueType or a vendor-specific format.  In order for your X display 
+server to find the AbiSource fonts, they need to be either on a disk 
+local to the display server process or available through a network font
+server in the X display server's font path.  More about setting the 
+font path is covered later in this document.
+
+    A special installation case is one where the X display server
+process is on a machine with no fixed disk drive (where the fonts
+would normally be stored) or on a machine where local copies
+of the font archives would not be preferable (perhaps when the
+application is run on a central server and displayed to dozens or
+hundreds of "thin" X terminal machines).  Such a configuration often
+simplifies system administration and user education.  Such a 
+configuration will also often require a font server to be running on
+the central server machine so that the client machines (running the
+X display server) can fetch them as needed.
+
+
+1.3 THE AUTOMATED PROCESS
+-------------------------
+
+    Provided with this font archive is a simple shell script to
+handle the local font installation task.  This script does nothing
+more than copy the fonts and their index file to a user specified
+location, suggesting default locations on the way.
+
+    Simply run the program "install.sh".  We really recommend you use
+the default value supplied, "/usr/local/AbiSuite".  If this 
+directory does not exist, you will be prompted to create it (you'll
+need sufficient permission to do this; if you'd like to install the
+fonts in some other location, like "/home/jschmoe/AbiSuite", enter
+that here and read the section "THE MANUAL PROCESS").  Inside this 
+prefix, the directory "lib/" will be created (if it doesn't already 
+exist), and inside that directory, the directory "fonts/" will be 
+created (if it doesn't already exist).  Fonts and the index file will
+be copied there, over any existing files.
+
+    If you use the default location of "/usr/local/AbiSuite" for your
+prefix, AbiWord will find your fonts automatically.  You will still,
+however, need to tell your X display server where to find them.  Read 
+the section "X DISPLAY SERVER FONT PATHS" for more information about 
+doing this.
+
+1.4 THE MANUAL PROCESS
+----------------------
+
+    This is the section for people who don't trust scripts and are
+pretty comfortable moving around their Unix systems.  In short, just
+copy all the fonts (*.pfa, *.pfb), metrics (*.afm) and index files 
+(fonts.dir) anywhere you want, and make sure X can find them.  
+Modifying your X display server font path is explained in the
+section "X DISPLAY SERVER FONT PATHS" below.
+
+    If you've put your fonts in a location other than the default,
+the startup profiles AbiSuite applications (notably AbiWord) read
+will require some editing.  Currently there are no graphical facilities 
+to do this for you, but since you're reading this section, you have
+a favorite editor and are perfectly willing to do the changes yourself,
+right?  Yeah, the file says "do not edit this file" at the top,
+but there's no other way to do this as of current releases.
+
+    Run AbiWord once, and it will create a ~/.AbiSuite/AbiWord.Profile
+full of user settings for you.  Copy the "_builtin_" scheme block (all
+the settings inside the tag) to somewhere else in the file, like 
+somewhere immediately after the original.  Rename it to something other
+than "_builtin_".  "foo" would be a fine choice.  Edit the "Select" 
+block at the top of the file to reference your new scheme "foo".  
+Change the "UnixFontPath" key in the "foo" scheme to be the directory
+you put your fonts in.  Save this file and start AbiWord.
+
+    You're half way to making things work.  Your X display server needs
+to find these fonts too, read the section "X DISPLAY SERVER FONT PATHS"
+for information about getting this working.
+
+1.5 X DISPLAY SERVER FONT PATHS
+-------------------------------
+
+    There are two approaches to including these fonts in your X 
+server's font path.  The first is a temporary modifications requiring
+only user-level permissions.  This change is temporary in that it will
+only last until your X session ends; changes done using this method 
+will not persist until the next session unless you either manually 
+effect  these changes during each session or add them to your session 
+startup scripts (like an ~/.xsession or ~/.xinitrc).  The second 
+approach persists throughout invocations of the X display server,
+but also requires system administrator permissions on most systems.
+
+    The first method:  Your X Window System implementation should
+have an "xset" command or equivalent, used to set run-time X display
+server configuration options (like font path).  You can use this command
+like "xset fp+ <pathstringhere>" to append to the existing path,
+like "xset +fp <pathstringhere>" to prepend to the existing path,
+like "xset fp <fullpathstringhere>" to replace the current path 
+entirely, or like "xset rehash" to re-read the font index files from 
+existing locations.  Your xset commands may provide extra functionality;
+read your vendor supplied documentation for details.  For use with
+AbiSuite applications, you can usually just issue a command like:
+"xset fp+ /path/to/my/installed/fonts" to append an entry to the
+X display server's list of paths.  Of course you should supply the
+directory into which your fonts are installed as the second
+argument to xset ("/usr/local/AbiSuite/lib/fonts" by default).
+If you're using a network font server, read the section "NETWORK
+FONT RESOURCES" for information about how to supply the correct
+location to your X server via xset.
+
+    The second method:  Your X display server will have some sort
+of "permanent" configuration stored somewhere.  For most people, this 
+is a simple configuration file or database on the machine on which 
+the X display server runs.  For the XFree86 X Window System 
+implementation, this is often the file "XF86Config", and you can
+probably find it in either "/etc" or "/etc/X11".  For an X display
+terminal without a fixed disk, this configuration may be stored
+in system ROM or read off a central network server at boot time.
+For either scenario, simply add an entry to your list of paths
+to point to where you put the fonts.  If you're configuring a
+machine without fixed disk storage, you will most likely be reading
+fonts from a network font server, in which case you should read
+the section "NETWORK FONT RESOURCES".
+
+1.6 NETWORK FONT RESOURCES
+--------------------------
+
+    Most X display server implementations allow for the network
+retrieval of font resources.  X display servers based on The X Window
+System Version 11, Revision 5 (X11R5) or newer code base will most 
+likely work well with the supplied Type 1 fonts and font index.  Older
+X display servers will most likely not work correctly.  
+
+    Like setting local font paths, the process of setting network
+font paths for your X display server is specific to your vendor's
+implementation.  Instead of a standard full path to a Unix
+directory (in the form "/foo/bar/baz"), network resources are often
+expressed to the server in the form "protocol/host:port", where a
+sample might look like "unix/localhost:7100" for Unix domain
+socket communication to the local machine, where a font server 
+resides on port 7100.  Another example might be
+"tcp/fontserver.company.com:7000" where the X display server is
+looking for fonts on a machine named "fontserver" on port 7000.
+Simply substitute this path for the X display server font path
+entry string examples used elsewhere in this document.
+
+    The steps in setting up a local X font server is beyond the
+scope of this document, but using the AbiSource supplied fonts 
+should be relatively straight-forward.  Refer to your vendor
+documentation for details.  Most often this server is called 
+"xfs" and is installed with the rest of the X Window System.
+
+------------------------------------------------------------------------
+ CHAPTER 2 -- FREQUENTLY ASKED QUESTIONS
+------------------------------------------------------------------------
+
+2.0 F. A. Q.
+____________
+
+Q. What version of The X Window System do I need to use Type 1 fonts?
+
+A. The X Window System Version 11, Revision 5 (X11R5) and newer 
+    include support for Type 1 fonts.  Certain vendors' 
+    implementations of X11R5 may not be capable of Type 1 font 
+    support, but all implementations based on Revision 6 (X11R6) 
+    should have few problems.
+------------------------------------------------------------------------
+Q. Why can't I get any fonts to work with Solaris 2.7 under
+    OpenWindows?  They all look like the default font!
+
+A. I have no idea.  I've seen this problem under the latest
+    release of OpenWindows.  The fonts are available in the
+    font path, the XLoadFont() calls succeed, but the bitmaps
+    returned are always of the same font.  If anyone knows
+    the solution to this, please tell me.  I suspect it's a
+    problem with the way we have our XLFDs in the fonts.dir.
+------------------------------------------------------------------------
+Q. Why are my Netscape fonts screwed up?  All my documents are
+    hard to read!
+
+A. Many HTML documents request specific fonts to be used when
+    rendered.  Often these requests take the form of a list like
+    "Arial,Helvetica".  Most X distributions install a default
+    Helvetica font, which Netscape Navigator and Communicator
+    use for sans-serif text.  However, this AbiSuite font package
+    includes some fonts named Arial, Times New Roman, and 
+    Courier.  These are commonly referred fonts, but are included
+    here so documents written with the Windows version of 
+    AbiWord will look similar on Unix. 
+    
+    The font problems with Netscape should only happen when the
+    X display server font path contains the AbiSuite fonts.
+    Use "xset fp- <yourfontpath>" to remove them temporarily,
+    or conversely, use "xset fp+ <yourfontpath>" to include them
+    temporarily.
+------------------------------------------------------------------------
+Q. Can I use my own fonts with AbiSuite applications?
+
+A. Yes, if you have the font files (*.pfa or *.pfb) AND the 
+    printing metrics files (*.afm) for them.  Both are required,
+    since Type 1 fonts are unprintable without the metrics.
+    To install them, either edit an existing fonts.dir index file
+    in a recognized font path (known both by the applications 
+    and the X display server) or create a new place for custom
+    fonts, and copy the X Logical Font Descriptors (XLFDs) from
+    the supplied fonts.dir and customize them for yourself.  
+
+    In the future, we may add some graphical mechanism to do
+    this.
+------------------------------------------------------------------------
+Q. Where did your fonts come from?
+Q. Why are many of your fonts unreadable at 10 points?
+    
+A. These two questions are both somewhat related.  Our fonts
+    are from a recent GhostScript distribution, and our fonts
+    are covered by the GNU General Public License and can be
+    redistributed as such.  GhostScript being an application 
+    to rasterize PostScript output, most often to high resolution
+    devices, the fonts are made to match this environment.
+    
+    Many of these fonts appear to lack sufficient "hints" (small
+    corrections in the definitions of the curves that make up
+    a glyph to look better at certain point sizes) to look nice
+    at 10 points high on a 75 DPI device (your monitor).  
+    A Zoom of 100% in AbiWord currently maps the view to a 100
+    DPI device.  Higher zooms mean higher resolutions, and
+    larger renderings of fonts of the same point size, and smoother
+    presentation of fonts.
+

@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiPDF.la
+
+libAbiPDF_la_SOURCES = ie_exp_PDF.cpp ie_exp_PDF_util.cpp ie_exp_PDF_sniffer.cpp
+
+libAbiPDF_la_LIBADD = @ABI_LIBS@
+
+libAbiPDF_la_LDFLAGS = -no-undefined -module -avoid-version

@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiPalmDoc.la
+
+libAbiPalmDoc_la_SOURCES = ie_exp_PalmDoc.cpp ie_exp_PalmDoc.h ie_impexp_Palm.h ie_imp_PalmDoc.cpp ie_imp_PalmDoc.h ie_impexp_PalmDoc.cpp
+
+libAbiPalmDoc_la_LIBADD = @ABI_LIBS@
+
+libAbiPalmDoc_la_LDFLAGS = -no-undefined -module -avoid-version

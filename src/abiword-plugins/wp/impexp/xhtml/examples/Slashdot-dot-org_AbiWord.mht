@@ -1,0 +1,1136 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Slashdot | AbiWord 1.0.1 Released
+Date: Thu, 8 Aug 2002 17:10:51 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_000B_01C23EFE.8C041BD0";
+	type="text/html"
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4910.0300
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_000B_01C23EFE.8C041BD0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://slashdot.org/article.pl?sid=02/05/09/0238229
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Slashdot | AbiWord 1.0.1 Released</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 5.50.4728.2300" name=3DGENERATOR></HEAD>
+<BODY><!-- advertisement code. -->
+<CENTER>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D1>
+      <SCRIPT language=3DJAVASCRIPT>=0A=
+<!--=0A=
+now =3D new Date();=0A=
+tail =3D now.getTime();=0A=
+document.write("<IMG =
+SRC=3D'http://images2.slashdot.org/Slashdot/pc.gif?article,");=0A=
+document.write(tail);=0A=
+document.write("' WIDTH=3D1 HEIGHT=3D1 BORDER=3D0><BR>");=0A=
+//-->=0A=
+</SCRIPT>
+      <NOSCRIPT><IMG height=3D1=20
+      =
+src=3D"http://images2.slashdot.org/Slashdot/pc.gif?article,102882304"=20
+      width=3D1 border=3D0><BR></NOSCRIPT></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle width=3D468>
+      <SCRIPT language=3DJAVASCRIPT>=0A=
+<!--=0A=
+now =3D new Date();=0A=
+tail =3D now.getTime();=0A=
+AltText =3D "\"Click here for Everything!\"";=0A=
+document.write("<A =
+HREF=3D'http://images.slashdot.org/cgi-bin/adlog.pl?article,pmks0307en' =
+TARGET=3D_top>");=0A=
+document.write("<IMG =
+SRC=3D'http://images.slashdot.org/banner/pmks0307en.gif?");=0A=
+document.write(tail);=0A=
+document.write("' WIDTH=3D468 HEIGHT=3D60 BORDER=3D0 ALT=3D");=0A=
+document.write(AltText);=0A=
+document.write("></A><BR>");=0A=
+//-->=0A=
+</SCRIPT>
+      <NOSCRIPT><A target=3D_top=20
+      =
+href=3D"http://images.slashdot.org/cgi-bin/adlog.pl?article,pmks0307en"><=
+IMG=20
+      height=3D60 alt=3D"Click here for Everything!"=20
+      src=3D"http://images.slashdot.org/banner/pmks0307en.gif?102882304" =
+width=3D468=20
+      =
+border=3D0></A><BR></NOSCRIPT></TD></TR></TBODY></TABLE></CENTER><!-- =
+end ad code -->
+<H1>Slashdot</H1>
+<H2>News for nerds, stuff that matters</H2><A =
+href=3D"http://slashdot.org/"><IMG=20
+height=3D34 src=3D"http://images.slashdot.org/topics/topicslashdot.gif" =
+width=3D100=20
+border=3D0></A>=20
+<P>[ <FONT size=3D2><B>&nbsp;<A =
+href=3D"http://slashdot.org/faq/">faq</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/code.shtml">code</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/awards.shtml">awards</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/journal.pl">journals</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/subscribe.pl">subscribe</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/search.pl">older stuff</A> | &nbsp;<A=20
+href=3D"http://cmdrtaco.net/">rob's page</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/users.pl?op=3Dedithome">preferences</A> | =
+&nbsp;<A=20
+href=3D"http://slashdot.org/submit.pl">submit story</A> | &nbsp;<A=20
+href=3D"http://www.osdn.com/advertise/">advertising</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/supporters.shtml">supporters</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/pollBooth.pl">past polls</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/topics.shtml">topics</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/about.shtml">about</A> | &nbsp;<A=20
+href=3D"http://sourceforge.net/tracker/?func=3Dadd&amp;group_id=3D4421&am=
+p;atid=3D104421">bugs</A>=20
+| &nbsp;<A =
+href=3D"http://seeker.dice.com/seeker.epl?rel_code=3D31">jobs</A> |=20
+&nbsp;<A href=3D"http://slashdot.org/hof.shtml">hof</A> </B></FONT>]</P>
+<H2>AbiWord 1.0.1 Released</H2><A=20
+href=3D"http://slashdot.org/search.pl?topic=3D131">GNOME</A> | <B>Posted =
+by michael=20
+on Thursday May 09, @03:46AM</B><BR><FONT size=3D2><B>from the=20
+spellcheck-for-everyone dept.</B></FONT><BR><A=20
+href=3D"http://www.abisource.com/">plam</A> writes <I>"After 3 years of =
+hacking,=20
+the <A href=3D"http://www.abisource.com/">AbiWord</A> team has unleashed =
+<A=20
+href=3D"http://www.abisource.com/release-notes/1.0.1.html">AbiWord =
+1.0.1</A> upon=20
+the world. AbiWord is a Free cross-platform word processor which runs on =
+Linux=20
+and Windows, MacOS X, QNX, FreeBSD, Solaris and others. AbiWord is small =
+and=20
+compact (20 times smaller than OpenOffice!), yet contains most of the =
+features=20
+found in larger word processors, including Word and WordPerfect=20
+import/export."</I> <!-- no ad 6 -->
+<P>&nbsp;</TD><TD>&nbsp;</TD><TD VALIGN=3D"TOP">=20
+<H3>gnugnugnu &nbsp;(178215)</H3>
+<P>[ <A =
+href=3D"http://slashdot.org/users.pl?op=3Dedithome">Preferences</A> ]
+<P>
+<P></P>
+<H3>Related Links</H3>
+<P>=B7 <A href=3D"http://www.abisource.com/">plam</A><BR>=B7 <A=20
+href=3D"http://www.abisource.com/">AbiWord</A><BR>=B7 <A=20
+href=3D"http://www.abisource.com/release-notes/1.0.1.html">AbiWord =
+1.0.1</A><BR>=B7=20
+<A href=3D"http://slashdot.org/search.pl?topic=3D131">More on =
+GNOME</A><BR>=B7 <A=20
+href=3D"http://slashdot.org/search.pl?op=3Dstories&amp;author=3D4716">Als=
+o by=20
+michael</A></P></TD></TR><TR><TD COLSPAN=3D"3"></TD></TR><TR><TD =
+COLSPAN=3D"3">
+<TABLE cellSpacing=3D1 cellPadding=3D2 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD bgColor=3D#006666><FONT color=3D#ffffff size=3D2>This discussion =
+has been=20
+      archived. No new comments can be posted. =
+</FONT></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D1 cellPadding=3D2 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD align=3Dmiddle bgColor=3D#006666><FONT color=3D#ffffff =
+size=3D2><A=20
+      =
+href=3D"http://slashdot.org/article.pl?sid=3D02/05/09/0238229"><FONT=20
+      color=3D#ffffff>AbiWord 1.0.1 Released</FONT></A> | <A=20
+      href=3D"http://slashdot.org/my/comments/"><FONT=20
+      color=3D#ffffff>Preferences</FONT> </A>| <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D0"><FONT=20
+      color=3D#ffffff>Top</FONT></A> | <B>458</B> comments | <A=20
+      =
+href=3D"http://slashdot.org/search.pl?op=3Dcomments&amp;sid=3D32331"><FON=
+T=20
+      color=3D#ffffff>Search Discussion</FONT></A></FONT> </TD></TR>
+  <TR>
+    <TD align=3Dmiddle bgColor=3D#cccccc>
+      <FORM action=3D//slashdot.org/comments.pl><FONT size=3D2><INPUT =
+type=3Dhidden=20
+      value=3D32331 name=3Dsid> <INPUT type=3Dhidden value=3D0 =
+name=3Dcid> <INPUT=20
+      type=3Dhidden value=3D0 name=3Dpid> <INPUT type=3Dhidden =
+name=3Dstartat> Threshold:=20
+      <SELECT name=3Dthreshold> <OPTION value=3D-1>-1: 458 =
+comments</OPTION>=20
+        <OPTION value=3D0>0: 413 comments</OPTION> <OPTION value=3D1>1: =
+295=20
+        comments</OPTION> <OPTION value=3D2>2: 135 comments</OPTION> =
+<OPTION=20
+        value=3D3>3: 44 comments</OPTION> <OPTION value=3D4>4: 26 =
+comments</OPTION>=20
+        <OPTION value=3D5 selected>5: 9 =
+comments</OPTION></SELECT><SELECT name=3Dmode>=20
+        <OPTION value=3Dflat>Flat</OPTION> <OPTION value=3Dnested=20
+        selected>Nested</OPTION> <OPTION value=3Dnocomment>No =
+Comments</OPTION>=20
+        <OPTION value=3Dthread>Threaded</OPTION></SELECT><SELECT =
+name=3Dcommentsort>=20
+        <OPTION value=3D0 selected>Oldest First</OPTION> <OPTION =
+value=3D1>Newest=20
+        First</OPTION> <OPTION value=3D3>Highest Scores First</OPTION> =
+<OPTION=20
+        value=3D4>Oldest First (Ignore Threads)</OPTION> <OPTION =
+value=3D5>Newest=20
+        First (Ignore Threads)</OPTION></SELECT> Save:<INPUT =
+type=3Dcheckbox=20
+      name=3Dsavechanges> <INPUT type=3Dsubmit value=3DChange name=3Dop> =
+
+    </FONT></FORM></TD></TR>
+  <TR>
+    <TD align=3Dmiddle bgColor=3D#006666><FONT color=3D#ffffff =
+size=3D1><B>The Fine=20
+      Print:</B> The following comments are owned by whoever posted =
+them. We are=20
+      not responsible for them in any way. </FONT></TD></TR>
+  <TR>
+    <TD><A name=3D3488613>
+      <H4>Release announcement</H4></A>by plam on Thursday May 09, =
+@03:54AM=20
+      (Score:5, Informative) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488613">#3=
+488613</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~plam/">User #123263 Info</A>) =
+<A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D123263">[=20
+      Neutral ]</A>=20
+      <P>I didn't include it in the story, but here's our AbiWord 1.0.1 =
+release=20
+      announcement.<BR><BR>
+      <BLOCKQUOTE><BR>The AbiWord team is proud to announce the release =
+of=20
+        AbiWord version 1.0.1, a free-software Word Processing program. =
+More=20
+        than three years in the making, AbiWord is a reliable, =
+cross-platform=20
+        word processor with many powerful features. <BR><BR>AbiWord aims =
+at=20
+        robust inter-operability with existing products, including =
+Microsoft=20
+        Word(R), Corel WordPerfect(R), and others. AbiWord's goal is to=20
+        incorporate the most useful features of these competing =
+applications=20
+        without the fluff, bloat, or slowness that generally accompany=20
+        them.<BR><BR>Translations and spell checking are available for =
+more 30=20
+        different languages. An English Language Thesaurus for use =
+within=20
+        AbiWord can also be freely downloaded. <BR><BR>We have not yet=20
+        implemented tables or footnotes. Tables and footnotes are the =
+first=20
+        priority for our next development phase. We have already made =
+impressive=20
+        progress toward this and other new features.<BR><BR>AbiWord is =
+available=20
+        for Linux and other Unix variants, Windows, Mac OSX and =
+QNX.<BR>You can=20
+        learn more about AbiWord from our website at =
+http://www.abiword.com/.=20
+        <BR>AbiWord can be downloaded from=20
+        http://www.abiword.com/download/.<BR><BR>AbiWord was initially =
+developed=20
+        by SourceGear Inc.; today, AbiWord development has been =
+continued by a=20
+        worldwide team of volunteer developers. AbiWord is free software =
+
+        available under the GNU General Public License.<BR><BR>The =
+AbiWord team=20
+        can be contacted via email at:=20
+  abi@abisource.com.<BR></BLOCKQUOTE><BR></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D0">Parent</A> =
+
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488613">3=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3488722>
+      <H4>WordPerfect</H4></A>by rubinson on Thursday May 09, @04:20AM =
+(Score:5,=20
+      Insightful) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488722">#3=
+488722</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~rubinson/">User #207525 =
+Info</A>) <A=20
+      href=3D"http://www.grundrisse.org/">http://www.grundrisse.org/</A> =
+<A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D207525">[=20
+      Neutral ]</A>=20
+      <P>If the WordPerfect filters are decent, this is--for me, at =
+least--huge.=20
+      WordPerfect still has a strong presence in certain industries. Law =
+is=20
+      frequently mentioned but many academics are still using =
+WordPerfect as=20
+      well. Indeed, I keep a copy of WordPerfect 8 for Linux (the native =
+
+      version, not that crappy Wine port) on my machine for occassional =
+file=20
+      from my colleagues (as well as for a handful of my own files from =
+my days=20
+      of using WP).<BR><BR>I no longer have any need for Word thanks to=20
+      OpenOffice; perhaps AbiWord will permit me to eliminate the last =
+of my=20
+      proprietary applications from my desktop. <BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D0">Parent</A> =
+
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488722">4=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3488740>
+      <H4>Lets hear it for table support!</H4></A>by Leghk on Thursday =
+May 09,=20
+      @04:25AM (Score:5, Informative) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488740">#3=
+488740</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~Leghk/">User #30302 Info</A>) =
+<A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D30302">[=20
+      Neutral ]</A>=20
+      <P>Abiword turns out to be a pretty good word processor. I plopped =
+one of=20
+      my roommates, who exclusivly had used Microsoft Windows up until =
+this=20
+      point, down infront of abiword a couple months ago. He was able to =
+write a=20
+      couple grad school application essays without any complaints, or =
+without=20
+      asking for any assistance. He even got his printer working without =
+any=20
+      assistance. That's quite a feat. I'm not sure you could plop a =
+windows=20
+      user down infront of a Mac and have them be able to to figure =
+their way=20
+      around so well.<BR><BR>Unfortunately, using abiword for my work is =
+totally=20
+      useless. While abiword has attacked the home market user, it =
+hasn't paid=20
+      much attention to the business user. By <B>far</B> the biggest =
+piece of=20
+      functionality abiword lacks is <B>table</B> support. I can't think =
+of a=20
+      single document (mostly technical I guess) I've had to write for =
+work=20
+      which did not somewhere in the document contain a table. =
+Unfortunately=20
+      abiword simply doesn't support tables, and trying to import a word =
+
+      document with tables, the tables just get flattened with linefeeds =
+instead=20
+      of cells. I'm not even sure how you could write a lab report using =
+abiword=20
+      without table support. Maybe you could make a table in gnumeric =
+and paste=20
+      in an image.<BR><BR>This is very unfortunate because everything =
+else about=20
+      abiword is quite spectacular. It is so much lighter weight then=20
+      openoffice, and so much more of a pleasure to use, but, =
+unfortunately,=20
+      I'll have to continue using openoffice for a little whlie=20
+      longer.<BR><BR>If I could program C or C++ worth a damn, I would=20
+      definately do something about this! (That and allowing gnumeric to =
+import=20
+      a tab delimited file form the commandline). Alas, these Java hands =
+of mine=20
+      are useless! I feel like I should be able to help, and not just =
+complain=20
+      it. But I really can't. Maybe I can go bake the abiword people =
+some=20
+      cookies instead.<BR><BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D0">Parent</A> =
+
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488740">6=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3491352>
+      <H4>TOTALLY MADE UP QUOTES</H4></A>by gnugnugnu on Thursday May =
+09,=20
+      @04:47PM (Score:1) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3491352">#3=
+491352</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~gnugnugnu/">User #178215 =
+Info</A>) <A=20
+      href=3D"http://kuro5hin.org/">http://kuro5hin.org/</A> | Last =
+Journal: <A=20
+      =
+href=3D"http://slashdot.org/~gnugnugnu/journal/">http://slashdot.org/~gnu=
+gnugnu/journal/</A>=20
+
+      <P>Some amusing quotes (quoted verbatim) from the Abiword mailing=20
+      list<BR>http://abisource.com/mailinglists/abiword-dev/02/M=20
+      ay/0330.html<BR><BR>If there'd been more advance notice, it might =
+have=20
+      been fun to do the<BR>standard press release trick of soliciting =
+quotes=20
+      from *other people* to<BR>introduce those ideas.<BR><BR>For =
+example, here=20
+      are some TOTALLY MADE UP QUOTES, putting words in the<BR>mouths of =
+
+      prominent people that I KNOW VERY WELL THEY'D NEVER =
+SAY:<BR><BR>&nbsp;=20
+      &nbsp; "AbiWord is the latest and finest example of the kinds of=20
+      powerfully<BR>&nbsp; &nbsp; &nbsp; usable software that can be =
+developed,=20
+      from scratch, by a world-wide<BR>&nbsp; &nbsp; &nbsp; team of =
+volunteers=20
+      collaborating under the terms of the GNU GPL.<BR>&nbsp; &nbsp; =
+&nbsp; More=20
+      free software! I love it!"<BR>&nbsp; &nbsp; &nbsp; -- Richard =
+Stallman,=20
+      Free Software Foundation<BR><BR>&nbsp; &nbsp; "I never leave =
+kernel mode=20
+      unless I have to. I try to leave all that<BR>&nbsp; &nbsp; &nbsp;=20
+      pixel-pushing stuff out in userland to others. Thank goodness=20
+      for<BR>&nbsp; &nbsp; &nbsp; the folks on the AbiWord team. Now I =
+can skim=20
+      all those useless email<BR>&nbsp; &nbsp; &nbsp; attachments before =
+I=20
+      delete them!"<BR>&nbsp; &nbsp; &nbsp; -- Linus Torvalds,=20
+      Linux<BR><BR>&nbsp; &nbsp; "Hey, how come we're the only major =
+desktop=20
+      operating system that<BR>&nbsp; &nbsp; &nbsp; AbiWord doesn't run =
+natively=20
+      on? What do I have to do to get someone to<BR>&nbsp; &nbsp; &nbsp; =
+finish=20
+      the Cocoa port? Can I just sneak them into the next Pixar=20
+      release<BR>&nbsp; &nbsp; &nbsp; party or will I actually have to =
+pay=20
+      them?"<BR>&nbsp; &nbsp; &nbsp; -- Steve Jobs, Apple<BR><BR>&nbsp; =
+&nbsp;=20
+      "AbiSource ... has started developing, in particular, a very=20
+      high-quality<BR>&nbsp; &nbsp; &nbsp; word processor for the Linux=20
+      environment."<BR>&nbsp; &nbsp; &nbsp; -- Paul Maritz, Microsoft Sr =
+VP of=20
+      platforms and applications<BR><BR>Oops. Actually, the last quote =
+*is*=20
+      real:<BR><BR>&nbsp; &nbsp;=20
+      http://www.microsoft.com/presspass/trial/transcrip =
+ts/jan99/01-28-am.asp=20
+      <BR><BR>--<BR>Totally Karma Whoring... <BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D0">Parent</A> =
+
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD><A name=3D3488671>
+      <H4>Re:tables????</H4></A>by Troodon on Thursday May 09, @04:07AM=20
+      (Score:5, Informative) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488671">#3=
+488671</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~Troodon/">User #213660 =
+Info</A>) <A=20
+      href=3D"http://slashdot.org/">http://slashdot.org/</A> <A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D213660">[=20
+      Neutral ]</A>=20
+      <P>According to <A=20
+      =
+href=3D"http://www.abisource.com/help/en-US/howto/howtotables.html">this =
+
+      manual section</A> [abisource.com] it appears to offer very basic =
+table=20
+      support.=20
+      <P>"<I>This will allow you to create simple tables. More =
+sophisticated=20
+      table support is the major feature planned for AbiWord 1.2. The =
+developers=20
+      already know that it is needed, and are already working on =
+it.</I>"=20
+      <BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D3488627">Paren=
+t</A>=20
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488671">1=20
+        reply</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3488686>
+      <H4>Re:is there anything like this coming out??</H4></A>by plam on =
+
+      Thursday May 09, @04:11AM (Score:5, Informative) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488686">#3=
+488686</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~plam/">User #123263 Info</A>) =
+<A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D123263">[=20
+      Neutral ]</A>=20
+      <P>Abi is an <A href=3D"http://www.abisource.com/~abi/">ant</A>=20
+      [abisource.com]. She's blue.<BR><BR>As for spreadsheets, in the =
+near=20
+      future we release code which is able to <A=20
+      =
+href=3D"http://www.ph.unimelb.edu.au/~msevior/abiword/abi-in-gnumeric.png=
+">embed=20
+      Abiword files in Gnumeric</A> [unimelb.edu.au] and <A=20
+      =
+href=3D"http://www.ph.unimelb.edu.au/~msevior/abiword/evolution-abi2.png"=
+>allows=20
+      Evolution to use AbiWord to read emails</A> [unimelb.edu.au].=20
+  <BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D3488618">Paren=
+t</A>=20
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488686">4=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3488715>
+      <H4>Re:Tables, Equations, Footnotes</H4></A>by plam on Thursday =
+May 09,=20
+      @04:19AM (Score:5, Informative) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488715">#3=
+488715</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~plam/">User #123263 Info</A>) =
+<A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D123263">[=20
+      Neutral ]</A>=20
+      <P>No equations in the forseeable future. But, we're accepting =
+patches. If=20
+      you just send a patch to abiword-dev[AT]abisource.com, it will =
+most likely=20
+      be committed that day.<BR><BR>Tables and footnotes/endnotes will =
+be in=20
+      1.2. We are overhauling the layout engine to support =
+them.<BR><BR>Tables=20
+      are nontrivial to implement correctly. Currently, if you really =
+want=20
+      tables, you can simulate them using tabs and =
+over/underlining.<BR><BR>I=20
+      started implementing endnotes[1] a while ago, but I got distracted =
+by real=20
+      life. They're not that hard, though, and once we have a new and =
+more=20
+      powerful layout engine, footnotes and endnotes should be fairly =
+easy to=20
+      implement.<BR><BR>[1] Footnotes go at the bottom of each page; =
+endnotes go=20
+      at the end of each section. <BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D3488620">Paren=
+t</A>=20
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488715">3=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3488813>
+      <H4>Re:Grammar Checking...</H4></A>by rubinson on Thursday May 09, =
+
+      @04:40AM (Score:5, Informative) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488813">#3=
+488813</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~rubinson/">User #207525 =
+Info</A>) <A=20
+      href=3D"http://www.grundrisse.org/">http://www.grundrisse.org/</A> =
+<A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D207525">[=20
+      Neutral ]</A>=20
+      <P><I>Thus, I end up using MS Word for these things, not only =
+because my=20
+      professors only deal with MS Word format, but also because of the =
+added=20
+      feature of grammar checking.</I><BR><BR>You might the Unix =
+utilities=20
+      "style" and "diction." They don't do "grammar" checking per say =
+(i.e.,=20
+      they don't cite passive voice or subject-verb agreement) but this =
+is=20
+      rather simple stuff that you should catch anyways.<BR><BR>Diction=20
+      identifies (and suggests remedies for) commonly misused phrases =
+and=20
+      lengthy sentences. Style evaluates the complexity of [sections of] =
+your=20
+      document.<BR><BR>I don't think that I'm describing them very well, =
+but, as=20
+      an academic, I've found them (along with wordnet and ispell) to be =
+
+      indispensible. And they're probably already installed on your =
+system.=20
+      Check 'em out.<BR><BR>The homepage:=20
+      http://www.gnu.org/software/diction/diction.html =
+<BR></P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D3488662">Paren=
+t</A>=20
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <TABLE>
+          <TBODY>
+          <TR>
+            <TD><A name=3D3488878>
+              <H4>Re:Grammar Checking...</H4></A>by Bronster on Thursday =
+May 09,=20
+              @05:06AM (Score:5, Funny) (<A=20
+              =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488878">#3=
+488878</A>)=20
+              <BR>(<A href=3D"http://slashdot.org/~Bronster/">User =
+#13157=20
+              Info</A>) <A =
+href=3D"http://brong.net/">http://brong.net/</A> <A=20
+              =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D13157">[=20
+              Neutral ]</A>=20
+              <P><I>You might the Unix utilities "style" and=20
+              "diction."</I><BR><BR>You might the Unix utilities =
+yourself,=20
+              Yoda.<BR><BR>Strong in this one the force is. =
+<BR></P></TD></TR>
+          <TR>
+            <TD><FONT size=3D2>[ <A=20
+              =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D3488813">Paren=
+t</A>=20
+              ] </FONT></TD></TR>
+          <TR>
+            <TD></TR></TBODY></TABLE>
+        <UL>
+          <LI><FONT size=3D2><B><A=20
+          =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488878">1=20
+          reply</A> beneath your current threshold.</B></FONT></LI></UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488813">6=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD><A name=3D3488889>
+      <H4>Re:Grammar Checking...</H4></A>by autechre on Thursday May 09, =
+
+      @05:09AM (Score:5, Insightful) (<A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;cid=3D3488889">#3=
+488889</A>)=20
+      <BR>(<A href=3D"http://slashdot.org/~autechre/">User #121980 =
+Info</A>) <A=20
+      href=3D"http://wmbc.umbc.edu/">http://wmbc.umbc.edu/</A> <A=20
+      =
+href=3D"http://slashdot.org/zoo.pl?op=3Daddcheck&amp;type=3Dfriend&amp;ui=
+d=3D121980">[=20
+      Neutral ]</A>=20
+      <P>I've never actually seen the grammar checker in Microsoft =
+Office do=20
+      anything useful. I think it's a bit fiddly to have a computer =
+attempt to=20
+      do such a thing in the first place (like a spell checker, it =
+certainly=20
+      won't catch all of the errors). I've often disagreed with =
+it.<BR><BR>The=20
+      best method by far (IMHO) is to have someone else proofread your =
+writing.=20
+      If he is also a writer, you can trade. When proofreading your own =
+work,=20
+      errors will often slip by, because your brain knows what _should_ =
+be on=20
+      the page.<BR><BR>It's also very helpful to read a lot of edited =
+material=20
+      (books, newspapers, etc.). _The_Elements_of_Style_ is a nice=20
+      guide.<BR><BR><BR><A=20
+      href=3D"http://wmbc.umbc.edu/">http://wmbc.umbc.edu/</A> =
+[umbc.edu] <BR>WMBC=20
+      Freeform/Independant online radio </P></TD></TR>
+  <TR>
+    <TD><FONT size=3D2>[ <A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D5&amp=
+;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;cid=3D3488662">Paren=
+t</A>=20
+      ] </FONT></TD></TR>
+  <TR>
+    <TD>
+  <TR>
+    <TD>
+      <UL>
+        <LI><FONT size=3D2><B><A=20
+        =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D3488889">4=20
+        replies</A> beneath your current =
+threshold.</B></FONT></LI></UL></TD></TR>
+  <TR>
+    <TD bgColor=3D#cccccc>
+      <LI><FONT size=3D2><B><A=20
+      =
+href=3D"http://slashdot.org/comments.pl?sid=3D32331&amp;threshold=3D-1&am=
+p;commentsort=3D0&amp;tid=3D131&amp;mode=3Dnested&amp;pid=3D0">96=20
+      replies</A> beneath your current=20
+threshold.</B></FONT></LI></TD></TR></TBODY></TABLE>
+<P>[ <FONT size=3D2><B>&nbsp;<A =
+href=3D"http://slashdot.org/faq/">faq</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/code.shtml">code</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/awards.shtml">awards</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/journal.pl">journals</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/subscribe.pl">subscribe</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/search.pl">older stuff</A> | &nbsp;<A=20
+href=3D"http://cmdrtaco.net/">rob's page</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/users.pl?op=3Dedithome">preferences</A> | =
+&nbsp;<A=20
+href=3D"http://slashdot.org/submit.pl">submit story</A> | &nbsp;<A=20
+href=3D"http://www.osdn.com/advertise/">advertising</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/supporters.shtml">supporters</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/pollBooth.pl">past polls</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/topics.shtml">topics</A> | &nbsp;<A=20
+href=3D"http://slashdot.org/about.shtml">about</A> | &nbsp;<A=20
+href=3D"http://sourceforge.net/tracker/?func=3Dadd&amp;group_id=3D4421&am=
+p;atid=3D104421">bugs</A>=20
+| &nbsp;<A =
+href=3D"http://seeker.dice.com/seeker.epl?rel_code=3D31">jobs</A> |=20
+&nbsp;<A href=3D"http://slashdot.org/hof.shtml">hof</A> </B></FONT>]=20
+<FORM action=3D//slashdot.org/search.pl method=3Dget><INPUT =
+name=3Dquery> <INPUT type=3Dsubmit value=3D"Search Slashdot"> </FORM>The =
+flush toilet is the basis=20
+of Western civilization. -- Alan Coult=20
+<P>All trademarks and copyrights on this page are owned by their =
+respective=20
+companies. Comments are owned by the Poster. The Rest =A9 1997-2002 <A=20
+href=3D"http://www.osdn.com/">OSDN</A>. </P></BODY></HTML>
+
+------=_NextPart_000_000B_01C23EFE.8C041BD0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://images2.slashdot.org/Slashdot/pc.gif?article,102882304
+
+R0lGODlhAQABAPAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAIBBAA7
+
+------=_NextPart_000_000B_01C23EFE.8C041BD0
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: http://images.slashdot.org/banner/pmks0307en.gif?102882304
+
+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
+gcv8AEvFt/j93vkKDJ7mueC7+b8fZ+3DHwDx1tLAm5350ATf/+KHb76HC36nfRBAC+yHd/rGfAOn
+cs9XC4Bnf+Vnff9wVoAD+H5px3z3Fxoph3A2h3j60ACKpxyOp2mP9xQQiHRacgAeN3kVIH4tdHr9
+hnRH54K553mb10JHF3o8CH0syINSB3qeVwsZ94OhJ3Wbl3IwyFQel37dl4JXl3Ubl4MySDl2x4JI
+eHVWF3rl14JZ53IdiH1EqHot1H+mx3pxhoY/6IJFF3Vb+HFHR4Bat4M8aHdRJ4Sq94YqmIK9x4Nk
+uIYtiIa4wIKqBxWvMUtf5x7NwgYiFUljpwAVR4i/d3QIR4nNFgBNeAtNh4kv6EIZJ3U4+ITfxYDO
+lz/Qd3W0YHVZMoQAkHUHOIPuVwtzp4TPdnosWHgp94r4l4m6J4r/M3h9VhiLWMh9HreAxehCx5gL
+n7iLhZeMacd/e/hmQ5hyoMGJoEGIt7CFBddxCJeMRFgButB8DmiKUAiHvHgLZgiL5giOssiLRweM
+u6iLhgeC+qASEbUNpZNuKEEAQBcAX/h2rdiJ8OaLMaiGAjmMaRiLABCKZGhwggh98siKC6mQELlL
+dqd0COls1mgLdneOM1h4VPiQwdiLDUl4q+dyGZkLJYd7JOlyAvldRdhIRVeEaZiHLzmR2ehxCIdv
+1yiKmHh9VQiLG5eOAXl8Ogl9CEeLJ8mBD2mIOmReJ5QWnUNkXseIy2J2+AaEmsiOCelsRwcadkeT
+W9mNFJmDDgmP/2YokayYlgoZcinpbMvIjO1IkfHYjmQYlFqik6goh3fJemLJkR/XfakneNwIjXVI
+hpvHghunk43Uf3g5kUnJlUvJlLlHlOl4epnnkTJolvNIj/mEH8zhPukGNPwYFaKRei0ImKEhkfpC
+kxmZjplZlgT5XUHJlqtIl0W5lePHg0vIbHE4kaBhlnMXkvCYl0cYGsT5jW8XdxnXigQHjiwIly8o
+k7hwlDgJmHVonb+oL7mokg25nZSJjtGYmzlZmUg3jQ8ZhrjglCdlXlZ1BCJgAWVhdgQolqzImvpX
+cucIm+cpm99ZkGi5h2qJm7Zplz8IkMxWhBkpnE+YnO33jnxZnv/KiQvM6X7R94K9J50IOpAr13Hi
+x5gyuUuPaY3qKaHhiZSYF42Y2Z9neH1E+YEgSADlZjUYto+kZZr56XJmyJlTd3WCKIO86HnYWIsi
+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
+cp0FXtP612hwNbCHfQpHE/vYyE42E4IAADs=
+
+------=_NextPart_000_000B_01C23EFE.8C041BD0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://images.slashdot.org/topics/topicslashdot.gif
+
+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
+
+------=_NextPart_000_000B_01C23EFE.8C041BD0--

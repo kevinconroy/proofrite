@@ -1,0 +1,107 @@
+#ifndef IE_IMP_STAROFFICE_ENCODINGS_H
+#define IE_IMP_STAROFFICE_ENCODINGS_H
+
+// Taken from the file sal/inc/rtl/textenc.h lines 75ff
+// Interestingly, glibc's list of encodings differs from the one of the
+// seperately available library... thus, some numbers have multiple names
+// in this list
+// And some are not present in glib's iconv, as of 2.2.4
+
+struct SOEncoding {
+	UT_uint16 number;
+	const char* name;
+} static const SOEncodings[] = {
+	{ 0, "ISO-8859-1" }, // use latin1 as default charset; but 0 actually means unknown
+	{ 1, "WINDOWS-1252" },
+	{ 2, "MAC" },
+	{ 3, "IBM437" }, // glibc
+	{ 4, "IBM850" },
+	{ 5, "IBM860" }, // glibc
+	{ 6, "IBM861" }, // glibc
+	{ 7, "IBM863" }, // glibc
+	{ 8, "IBM865" }, // glibc
+	/* RESERVED 9, System encoding */
+	/* 10: Symbol encoding (?) */
+	{ 11, "US-ASCII" },
+	{ 12, "ISO-8859-1" },
+	{ 13, "ISO-8859-2" },
+	{ 14, "ISO-8859-3" },
+	{ 15, "ISO-8859-4" },
+	{ 16, "ISO-8859-5" },
+	{ 17, "ISO-8859-6" },
+	{ 18, "ISO-8859-7" },
+	{ 19, "ISO-8859-8" },
+	{ 20, "ISO-8859-9" },
+	{ 21, "ISO-8859-14" },
+	{ 22, "ISO-8859-15" },
+	{ 23, "CP737" },  //XXX Correct? Should be IBM 737. glibc.
+	{ 24, "IBM775" }, // glibc
+	{ 25, "IBM852" }, // glibc
+	{ 26, "IBM855" }, // glibc
+	{ 27, "IBM857" }, // glibc
+	{ 28, "IBM862" },
+	{ 29, "IBM864" }, // glibc
+	{ 30, "IBM866" },
+	{ 31, "IBM869" }, // glibc
+	{ 32, "CP874" }, // XXX Correct? Should be MS 874. aka WINDOWS-874
+	{ 33, "WINDOWS-1250" },
+	{ 34, "WINDOWS-1251" },
+	{ 35, "WINDOWS-1253" },
+	{ 36, "WINDOWS-1254" },
+	{ 37, "WINDOWS-1255" },
+	{ 38, "WINDOWS-1256" },
+	{ 39, "WINDOWS-1257" },
+	{ 40, "WINDOWS-1258" },
+	{ 41, "MacArabic" },        // libiconv
+	{ 42, "MacCentralEurope" }, // libiconv
+	{ 43, "MacCroatian" },      // libiconv
+	{ 44, "MAC-CYRILLIC" },     // glibc
+	{ 44, "MacCyrillic" },      // libiconv
+	/* 45: Apple Devanagari
+	 * 46: Apple Farsi */
+	{ 47, "MacGreek" }, // libiconv
+	/* 48: Apple Gujarati
+	 * 49: Apple Gurmukhi */
+	{ 50, "MacHebrew" }, // libiconv
+	{ 51, "MAC-IS" }, // XXX Correct? Should be Apple Iceland. glibc.
+	{ 51, "MacIceland" }, // libiconv
+	{ 52, "MacRomania" }, // libiconv
+	{ 53, "MacThai" },    // libiconv
+	{ 54, "MacTurkish" }, // libiconv
+	{ 55, "MACUKRAINIAN" }, // glibc
+	{ 55, "MacUkraine" }, // libiconv
+	/* 56: Apple Chinese Simplified
+	 * 57: Apple Chinese Traditional
+	 * 58: Apple Japanese
+	 * 59: Apple Korean */
+	{ 60, "CP932" },
+	{ 61, "CP936" },
+	{ 62, "CP949" },
+	{ 63, "CP950" },
+	{ 64, "SHIFT-JIS" },
+	{ 65, "GB2312" },
+	/* 66: GBT 12345 */
+	{ 67, "GBK" },
+	{ 68, "BIG5" },
+	{ 69, "EUC-JP" },
+	{ 70, "EUC-CN" },
+	{ 71, "EUC-TW" },
+	{ 72, "ISO-2022-JP" },
+	{ 73, "ISO-2022-CN" },
+	{ 74, "KOI8-R" },
+	{ 75, "UTF-7" },
+	{ 76, "UTF-8" },
+	{ 77, "ISO-8859-10" },
+	{ 78, "ISO-8859-13" },
+	{ 79, "EUC-KR" },
+	{ 80, "ISO-2022-KR" },
+	{ 81, "JIS_X0201" }, // libiconv
+	{ 82, "JIS_X0208" }, // libiconv
+	{ 83, "JIS_X0212" }, // libiconv
+	{ 84, "CP1361" },
+	{ 85, "GB18030" },
+	{ 0xFFFE, "UCS-4" },
+	{ 0xFFFF, "UCS-2" }
+};
+
+#endif  /* IE_IMP_STAROFFICE_ENCODINGS_H */

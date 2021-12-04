@@ -1,0 +1,22 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiSVG.la
+
+libAbiSVG_la_SOURCES = AbiSVG.cpp ut_canvas.cpp ut_rgbacolor.cpp
+
+libAbiSVG_la_LIBADD = @ABI_LIBS@
+
+libAbiSVG_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = \
+	ut_canvas.h \
+	ut_canvas_hset.h \
+	ut_canvas_image.h \
+	ut_canvas_map.h \
+	ut_canvas_png.h \
+	ut_canvas_polygon.h \
+	ut_rgbacolor.h
+
+EXTRA_DIST = $(OTHERHEADERS)

@@ -1,0 +1,16 @@
+GNUmakefile
+GNUmakefile.am
+GNUmakefile.in
+aclocal.m4
+autogen.err
+autogen.out
+config.cache
+config.guess
+config.log
+config.status
+config.sub
+configure
+configure.ac
+configure.in
+libtool
+ltmain.sh

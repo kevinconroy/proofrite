@@ -1,0 +1,17 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_HANCOM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_HANCOM_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiHancom.la
+
+libAbiHancom_la_SOURCES = ie_imp_hancom.cpp
+
+libAbiHancom_la_LIBADD = @ABI_LIBS@
+
+libAbiHancom_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = 
+
+EXTRA_DIST = $(OTHERHEADERS) Makefile

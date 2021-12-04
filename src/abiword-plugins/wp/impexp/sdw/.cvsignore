@@ -1,0 +1,14 @@
+aclocal.m4
+GNUmakefile
+GNUmakefile.in
+configure
+config.log
+confdefs.h
+config.cache
+config.status
+conftest.c
+conftest
+libtool
+.libs
+*.lo
+*.la

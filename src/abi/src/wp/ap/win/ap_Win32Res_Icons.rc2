@@ -1,0 +1,75 @@
+// AbiWord
+// Copyright (C) 1998 AbiSource, Inc.
+// 
+// This program is free software; you can redistribute it and/or
+// modify it under the terms of the GNU General Public License
+// as published by the Free Software Foundation; either version 2
+// of the License, or (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program; if not, write to the Free Software
+// Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  
+// 02111-1307, USA.
+//////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////
+// THIS FILE IS INCLUDED BY .cpp AND .rc FILES.
+//
+// *** RC.exe IS BRAIN-DAMAGED.  GIVING THIS FILE AN .rc2
+// *** EXTENSION MAKES #INCLUDING THIS FILE FROM Win32Main.rc
+// *** WORK -- IF THE SUFFIX IS .h ONLY THE #DEFINES WORK, THE
+// *** DIALOGS DO NOT GET COMPILED.
+//
+//////////////////////////////////////////////////////////////////
+
+#define AP_RID_ICON_APPLICATION_32		10000
+#define AP_RID_ICON_APPLICATION_16		10001
+#define AP_RID_ICON_DOCUMENT_32			10002
+#define AP_RID_ICON_DOCUMENT_16			10003
+
+#ifdef RC_INVOKED
+
+
+// Menu bitmaps
+
+AP_RID_BITMAP_CUT			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_cut.bmp"
+AP_RID_BITMAP_COPY			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_copy.bmp"
+AP_RID_BITMAP_PASTE			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_paste.bmp"
+AP_RID_BITMAP_NEW			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_new.bmp"
+AP_RID_BITMAP_OPEN			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_open.bmp"
+AP_RID_BITMAP_PRINT			BITMAP  DISCARDABLE		"..\\..\\..\\af\\ev\\win\\bmp\\menu_print.bmp"
+AP_RID_BITMAP_FIND			BITMAP  DISCARDABLE		"..\\..\\..\\af\\ev\\win\\bmp\\menu_search.bmp"
+AP_RID_BITMAP_SYMBOL		BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_insert_symbol.bmp"
+AP_RID_BITMAP_PICTURE		BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_insert_image.bmp"
+AP_RID_BITMAP_SPELL			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_spellcheck.bmp"
+AP_RID_BITMAP_OPTIONS		BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_preferences.bmp"
+AP_RID_BITMAP_HELP			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_help.bmp"
+AP_RID_BITMAP_REDO			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_redo.bmp"
+AP_RID_BITMAP_UNDO			BITMAP  DISCARDABLE     "..\\..\\..\\af\\ev\\win\\bmp\\menu_undo.bmp"
+
+
+
+
+			
+#ifdef ABISOURCE_LICENSED_TRADEMARKS
+
+AP_RID_ICON_APPLICATION_32           ICON    DISCARDABLE     "abiword_app_32_tm.ico"
+AP_RID_ICON_APPLICATION_16           ICON    DISCARDABLE     "abiword_app_16_tm.ico"
+AP_RID_ICON_DOCUMENT_32              ICON    DISCARDABLE     "abiword_doc_32_tm.ico"
+AP_RID_ICON_DOCUMENT_16              ICON    DISCARDABLE     "abiword_doc_16_tm.ico"
+
+#else
+
+AP_RID_ICON_APPLICATION_32           ICON    DISCARDABLE     "abiword_app_32.ico"
+AP_RID_ICON_APPLICATION_16           ICON    DISCARDABLE     "abiword_app_16.ico"
+AP_RID_ICON_DOCUMENT_32              ICON    DISCARDABLE     "abiword_doc_32.ico"
+AP_RID_ICON_DOCUMENT_16              ICON    DISCARDABLE     "abiword_doc_16.ico"
+
+#endif
+
+#endif /* RC_INVOKED */

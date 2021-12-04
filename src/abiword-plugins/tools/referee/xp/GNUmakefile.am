@@ -1,0 +1,15 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugin_LTLIBRARIES = libAbiReferee.la
+
+libAbiReferee_la_SOURCES = AbiReferee.cpp Plugin.cpp Document.cpp
+
+libAbiReferee_la_LIBADD = @ABI_LIBS@
+
+libAbiReferee_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = Document.h Plugin.h
+
+EXTRA_DIST = $(OTHERHEADERS)

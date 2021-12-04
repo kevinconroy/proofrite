@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_JPEG_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_JPEG_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiJPEG.la
+
+libAbiJPEG_la_SOURCES = ie_impGraphic_JPEG.cpp ie_impGraphic_JPEG.h
+
+libAbiJPEG_la_LIBADD = @ABI_LIBS@
+
+libAbiJPEG_la_LDFLAGS = -no-undefined -module -avoid-version

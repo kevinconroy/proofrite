@@ -1,0 +1,395 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033
+{\fonttbl
+{\f0\fswiss\fcharset0\fprq2\fttruetype Arial;}
+{\f1\froman\fcharset0\fprq2\fttruetype Times New Roman;}
+{\f2\fswiss\fcharset0\fprq2\ftnil NULL;}
+{\f3\fswiss\fcharset0\fprq2\ftnil Dingbats;}
+{\f4\froman\fcharset0\fprq2\fttruetype Symbol;}
+{\f5\fmodern\fcharset0\fprq1\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;}
+{\stylesheet
+{\s5\fi-431\li720 Dashed List;}
+{\s2\fi-431\li720 Box List;}
+{\s21\sl240\slmult1\tx1584\sbasedon16\snext15 Section Heading;}
+{\s17\tx431\sbasedon9\snext15 Numbered Heading 2;}
+{\s20\f5\sbasedon15 Plain Text;}
+{\s12\fi-431\li720 Implies List;}
+{\s26\fi-431\li720\sbasedon19 Upper Case List;}
+{\s7\fi-431\li720 Hand List;}
+{\s27\fi-431\li720\sbasedon19 Upper Roman List;}
+{\s15\sl240\slmult1\f1\fs24 Normal;}
+{\s1\li1440\ri1440\sa120\sbasedon15 Block Text;}
+{\s14\fi-431\li720\sbasedon15 Lower Roman List;}
+{\s11\fi-431\li720 Heart List;}
+{\s13\fi-431\li720\sbasedon19 Lower Case List;}
+{\s24\fi-431\li720 Tick List;}
+{\s8\sl240\slmult1\sb440\sa60\f0\fs34\b\sbasedon15\snext15 Heading 1;}
+{\s9\sb440\sa60\f0\fs28\b\sbasedon15\snext15 Heading 2;}
+{\s10\sb440\sa60\f0\fs24\b\sbasedon15\snext15 Heading 3;}
+{\s19\fi-431\li720 Numbered List;}
+{\s23\fi-431\li720 Star List;}
+{\s16\sl240\slmult1\tx431\sbasedon8\snext15 Numbered Heading 1;}
+{\s6\fi-431\li720 Diamond List;}
+{\s18\tx431\sbasedon10\snext15 Numbered Heading 3;}
+{\s4\tx1584\sbasedon16\snext15 Chapter Heading;}
+{\s22\fi-431\li720 Square List;}
+{\s25\fi-431\li720 Triangle List;}
+{\s3\fi-431\li720 Bullet List;}}
+{\*\listtable
+{\list\listtemplateid288747100\listsimple{\listlevel\levelnfc0\levelstartat1\levelspace0\levelfollow0{\leveltext\'0aSection \'00.;}{\levelnumbers\'09;}}\listid388365092}
+{\list\listtemplateid1783534372\listsimple{\listlevel\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-431\li720{\leveltext\'02\'00.;}{\levelnumbers\'01;}}\listid1942189962}}
+{\*\listoverridetable
+{\listoverride\listoverridecount0\listid388365092\levelnfc0\levelstartat1\levelspace0\levelfollow0{\leveltext\'0aSection \'00.;}{\levelnumbers\'09;}\ls1}
+{\listoverride\listoverridecount0\listid1942189962\levelnfc0\levelstartat1\levelspace0\levelfollow0\fi-431\li720{\leveltext\'02\'00.;}{\levelnumbers\'01;}\ls2}}
+
+\kerning0\cf0\viewkind1\paperw11905\paperh16837\margl1440\margr1440\widowctl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+{\listtext\pard\sb440\sa60 Section 1.	}\pard\plain{\sb440\sa60\ltrpar\s21\f0\fs34\b\lang1033{\*\listtag0}{\*\abilist\abilistid388365092\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont Arial}{\abilistdecimal }{\abilistdelim Section %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb Section }{\pntxta .}}\ls1\ilvl0\sl240\slmult1\tx1584{\f0\fs34\b\lang3081{\*\listtag0}Container classes}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}\tab Now is the time to start discussing the next generation layout code. The idea of course is to rewrite as little as possible of our current code. AbiWord 1.2 will support tables and footnotes but I think we should design our next gen code to easily handle other advanced layout objects like text frames, positioned images and to allow text to flow around images and other embedded objects.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Here is one suggestion on how to acheive that.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}To start with I'll recap how text is layed out on fp_Page.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8645{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8645{\f1\fs24\lang1033{\*\listtag0}  \tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4535\tb8645{\f1\fs24\lang1033{\*\listtag0}\tab \tab \tab }{\f1\fs24\lang1033{\*\listtag0}  \tab \tab Fixed size header             \tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8645{\f1\fs24\lang1033{\*\listtag0} \tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8645{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab -------Line 1------\tab \tab  \tab ----------Line 1----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\lang1033{\*\listtag0}\tab -------Line 2------\tab \tab  \tab ----------Line 2----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\lang1033{\*\listtag0}\tab -------Line 3------\tab \tab  \tab ----------Line 3----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 4------\tab \tab  \tab ----------Line 4----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Column 1------\tab \tab  \tab ----------Column2----------\tab   }{\f1\fs24\lang1033{\*\listtag0} }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\lang1033{\*\listtag0}\tab -------Line 5------\tab \tab  \tab ----------Line 5----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 6------\tab \tab  \tab ----------Line 6----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 7------\tab \tab  \tab ----------Line 7----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab -------Line 8------\tab \tab  \tab ----------Line 8----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab -------Line 1------\tab \tab  \tab ----------Line 1----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 2------\tab \tab  \tab ----------Line 2----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 3------\tab \tab  \tab ----------Line 3----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 4------\tab \tab  \tab ----------Line 4----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Column 3------\tab \tab  \tab ----------Column4----------\tab    }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 5------\tab \tab  \tab ----------Line 5----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 6------\tab \tab  \tab ----------Line 6----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 7------\tab \tab  \tab ----------Line 7----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab -------Line 8------\tab \tab  \tab ----------Line 8----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4251\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab Fixed size footer\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4251\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4251\tb8644{\f1\fs24\abibotline\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Images are embedded in lines. If an image is large it expands the height of a line.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The lines are contained as a vector in the class fp_Column which derives from the base class fp_Container.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Here is what we like to layout on a page.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}  }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}  \tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4535\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab \tab   \tab \tab Fixed size header             \tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0} \tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab -------Line 1------\tab \tab  \tab ----------Line 1----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 2------\tab \tab  \tab ----------Line 2----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 3------\tab \tab  \tab ----------Line 3----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb850\tb3186\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab }{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\lang1033{\*\listtag0} \tab \tab ----------Line 4----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb850\tqc\tx2052\tb3186\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab \tab Embeded Container\tab \tab \tab  \tab ----------Column2----------\tab    }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb850\tqc\tx2267\tb3186\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\lang1033{\*\listtag0}\tab \tab  \tab ----------Line 5----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 6------\tab \tab  \tab ----------Line 6----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 7------\tab \tab  \tab ----------Line 7----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab -------Line 8------\tab \tab  \tab ----------Line 8----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb708\tb2619\tb4817\tb6803\tb8220\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab \tab \tab }{\f1\fs24\lang1033{\*\listtag0}\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb708\tb2619\tb4817\tb6803\tb8220\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab Table\tab \tab }{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\lang1033{\*\listtag0}\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb708\tb2619\tb4817\tb6803\tb8220\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab \tab \tab }{\f1\fs24\lang1033{\*\listtag0}\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb708\tb2619\tb4817\tb6803\tb8220\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab \tab \tab }{\f1\fs24\lang1033{\*\listtag0}\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb708\tb2619\tb4817\tb6803\tb8220\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab \tab \tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab -------Line 1------\tab \tab  \tab ----------Line 1----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 2------\tab \tab  \tab ----------Line 2----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 3------\tab \tab  \tab ----------Line 3----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 4------\tab \tab  \tab ----------Line 4----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Column 3------\tab \tab  \tab ----------Column4----------\tab    }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 5------\tab \tab  \tab ----------Line 5----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab -------Line 6------\tab \tab  \tab ----------Line 6----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abitopline\lang1033{\*\listtag0}\tab \tab }{\f1\fs24\lang1033{\*\listtag0}\tab  \tab ----------Line 7----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx2267\tb3968\tb4745\tqc\tx6803\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab Footnote\tab \tab  \tab ----------Line 8----------\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4250\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab \tab Fixed size footer\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4250\tb8644{\f1\fs24\lang1033{\*\listtag0}\tab }{\f1\fs24\abibotline\lang1033{\*\listtag0}\tab \tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb283\tqc\tx4250\tb8644{\f1\fs24\abibotline\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}OK so under the new scheme we continue to have a fp_Page class whose job it is to layout out fp_Columns on a page and place headers/footers in the margins.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Now however fp_Columns can contain containers other than fp_Lines. fp_Columns can contain lines, other containers or footnote containers.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}In order to be able to continue to use a vector of void * pointers as the content of the column, this means that fp_line should become a subclass of a general container class. If we have getType() method in this class we can dynamically determine what sort of container is returned from a}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fp_ContainerObject * pCO = (fp_ContainerObject *) m_pLines.getNthItem(i);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}assignment.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}At present we have the following fp_* class heiracy.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fp_Run --> lots of run subclasses.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fp_Line --> no Line subclasses}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb1700{\f1\fs24\lang1033{\*\listtag0}fp_Container --->\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb1700{\f1\fs24\lang1033{\*\listtag0}\tab -----> fp_Column}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb1700{\f1\fs24\lang1033{\*\listtag0}                 \tab -----> fp_HdrFtrContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb1700{\f1\fs24\lang1033{\*\listtag0}              \tab -----> fp_ShadowContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb1700{\f1\fs24\lang1033{\*\listtag0}                 \tab -----> fp_EndNoteContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}For the next generation I propose this:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb2692{\f1\fs24\lang1033{\*\listtag0}fp_ContainerObject----\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb2692{\f1\fs24\lang1033{\*\listtag0}\tab --> fp_Run ---> Lots of subclasses}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb2692\tb4677{\f1\fs24\lang1033{\*\listtag0} \tab --> fp_Container -->\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677{\f1\fs24\lang1033{\*\listtag0}\tab --> fp_TableContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677{\f1\fs24\lang1033{\*\listtag0}\tab --> fp_CellContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677{\f1\fs24\lang1033{\*\listtag0} \tab --> fp_VerticalContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb6587{\f1\fs24\lang1033{\*\listtag0}\tab --> fp_Column-\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb6587{\f1\fs24\lang1033{\*\listtag0}\tab ->fp_ShadowColumn}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb6587{\f1\fs24\lang1033{\*\listtag0}\tab  ->fp_PositionedColumn}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677{\f1\fs24\lang1033{\*\listtag0}\tab -->fp_HdrFtrContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677{\f1\fs24\lang1033{\*\listtag0}\tab -->fp_EndNoteContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677{\f1\fs24\lang1033{\*\listtag0}\tab -->fp_FootnoteContainer}
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb4677\tb7086{\f1\fs24\lang1033{\*\listtag0}\tab --> fp_RowContainer-->\tab }
+\par\pard\plain\ltrpar\s15\sl240\slmult1\tb7086{\f1\fs24\lang1033{\*\listtag0}\tab -----> fp_Line}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}I've thought through a number of suggestions to make fp_Line derive from fp_RowContainer. They make sense if fp_Run also derives from fp_ContainerObject. Since fp_Run has all the required methods defined this is no problem at all.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The big win from this is to be able to "pack" arbitary collections of containers, left,right, center and full justfied by using a generalized fb_LineBreaker class.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Given this I thought we should have a fp_verticalContainer that enables the "breakSection" method in fl_DocSectionLayout to layout vertical containers. fp_Column now dervices this too since columns are vertical collections of containers.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}In answer to Tomas I think we want fp_Column to derive from fp_Container so we can cast a getContainer() to fp_Column. The getContainer method of fp_Column should always return NULL though.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Further thought revealed that restricting the tableContainer to a vertical collection of rows is much too restrictive. }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}So tables need to have their own layout algorithmn to size and position their containers. Such algorithms already exist. We could easily just grab the methods in GtkTable for a simple 4-pass algorithm.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Then in addition to these methods available to all fp_ContainerObjects.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getContainerType(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}draw( drawArgs)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}clearScreen()}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getX(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getY(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getWidth(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getHeight(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getXLayoutUnits(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getYLayoutUnits(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getWidthLayoutUnits(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getHeightUnits(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getNext(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getPrev(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getSectionLayout(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setX(UT_sint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setY(UT_sint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setWidth(UT_uint32)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setHeight(UT_uint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setXLayoutUnits(UT_uint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setYLayoutUnits(UT_uint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setWidthLayoutUnits(UT_uint32)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setHeightUnits(UT_uint32)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setNext(fp_ContainerObject *)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setPrev(fp_ContainerObject *)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}isVBreakable(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}isHBreakable(void)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}wantVBreakAt(UT_sint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}wantHBreakAt(UT_sint32 )}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fp_ContainerObject * VBreakAt(UT_sint32)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fp_ContainerObject * HBreakAt(UT_sint32)}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The fp_Container class have:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getColumn(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getContainer(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}UT_Vector * (fp_ContainerObject *) getContainerChildren();}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The getColumn would work by just recursively calling getColumn until a column was obtained. The getContainer() would just return the holding container.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The getContainerChilder(0 method returns a pointer to vector of pointers to the children of the container. This is a useful generic way of obtaining all the children of a given container.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0} fp_Column classes have:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getPage()}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getColumnLeader()}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getFollower()}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The advantage of this aproach is that it makes it possible to nest containers inside each other while preserving the distinction of fp_Columns which get layed out right on a page.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Ome further thought on this. Once we get allow positioned objects we have to start worrying about itterative layout on pages in conjunction with the new section breaker class. When we start to layout columns on the page we don't know whether there will be a positioned object on the page or container. If a positioned object is found, it should be placed on the current page and the  layed out around it. This means breaking the containers up into rectangular objects that get positioned}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\sb440\sa60 Section 2.	}}\pard\plain{\sb440\sa60\ltrpar\s21\f0\fs34\b\lang1033{\*\listtag0}{\*\abilist\abilistid388365092\abilistlevel1\abistartat1{\abifieldfont Arial}{\abilistdecimal }{\abilistdelim Section %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb Section }{\pntxta .}}\ls1\ilvl0\sl240\slmult1\tx1584{\f0\fs34\b\lang1033{\*\listtag0}Logical Layout Fl_* classes}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}\tab To make the Tables/footnotes/positioned objects work we need additional fl_Layout classes as well as the fp_Container classes. The idea of course is to rewrite as little as possible of our current code. }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The fl_Layout classes contain the logical assembly of text and images in the document.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0} }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Currently our fl_Layout classes consist of:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_Layout - generic Base class.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_DocLayout     - \tab overall class for the entire document - contains all }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}\tab \tab \tab the sectionlayouts and pages.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_SectionLayout - \tab generic SectionLayout for collecting groups of }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                   \tab \tab fl_BlockLayouts.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_DocSectionLayout - Collection of fl_BlockLayout's within a given }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                      \tab \tab section of the document. It positions lines in containers.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_HdrFtrSectionLayout - \tab Collection of fl_BlockLayout's that make up an }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                         \tab \tab invisible HdrFtr for a given DocSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_ShadowLayout       \tab Collection of fl_BlockLayout's that are copies of}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                         \tab the master HdrFtr that are actually visible and }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                         \tab drawn to the screen.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_BlockLayout         \tab Container of text and image runs that make up the }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                         \tab document.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_DocListener         \tab Interface between the pieceTable and the Layout }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                         \tab classes }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The primary job of the layout classes is to assemble smaller pieces into  larger collections. So fl_BlockLayout assembles runs into lines,  fl_DocSectionLayout assembles lines into columns, fl_HdrFtrSectionLayout assembles lines into a header/footer etc.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The current class heiracy is:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_Layout |}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}          |--> fl_DocLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}          |--> fl_BlockLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}          |--> fl_SectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}             |--> fl_DocSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}             |--> fl_HdrFtrSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}             |--> fl_EndNoteSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Within fl_DocSectionLayout is a method called breakSection() and some associated methods. I think these should be liberated and placed into seperate classes called fb_BreakSection in analagy with fb_LineBreaker. }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The linked list of classes was:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}m_pFirstSection->DocSec<=>DocSec<=>DocSec<=>EndNoteSec<=>HdrFtrSec=>NULL}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Within each section is a linked list of fl_BlockLayouts.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}m_pFirstBlockLayout<=>Block<=>Block<=>Block<=>NULL.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Each block has is own linked list runs and lines.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}So for the next generation code we add cells, tables, footnotes and endnotes. These must be contained by fl_DocSectionLayout and they also contain fl_BlockLayouts.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}So we need new classes derived from fl_SectionLayout to contain the fl_BlockLayouts for these new containers.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}These are fl_TableSectionLayout, fl_CellSectionLayout, fl_FootnoteSectionLayout. The class heiracy I propose is:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_Layout \tab |}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}          \tab \tab |--> fl_DocLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}          \tab \tab |--> fl_ContainerLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}             \tab \tab |--> fl_BlockLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}             \tab \tab |--> fl_SectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                \tab \tab |--> fl_HdrFtrSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                   \tab \tab |-->fl_BreakSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                      \tab \tab |--> fl_DocSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                      \tab \tab |--> fl_EndNoteSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                      \tab \tab |--> fl_TableSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                         \tab \tab |--> fl_PositionedSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                      \tab \tab |--> fl_CellSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}                      \tab \tab |--> fl_FootnoteSectionLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The idea of putting fl_BlockLayout and fl_SectionLayout under a new base class is that methods like the following can be applied to any fl_ContainerLayout}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}purgeLayout(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}collapse(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}isCollapsed(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setNeedsReformat(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}needsReformat(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setNeedsRedraw(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}markAllRunsDirty(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}format(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getLayoutType(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}clearScreen(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}getNext(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}setNext(fl_ContainerLayout *);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}updateBackgroundColor(void);}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Maybe others too.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}This allows us to easily generalize the simple linked list of fl_BlockLayout classes which used to be all a DocSection could hold to something like:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}m_pFirstBlockLayout<=>fl_Block<=>fl_Table<=>fl_Block<=>fl_Position<=>}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_Table<=>fl_Footnote<fl_Block<=>fl_EndNote=>NULL}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Then each Table holds the following linked list}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}m_pFirstCell<=>fl_Cell<=>fl_Cell<=>fl_Cell=>NULL}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Each Cell holds:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}m_pFirstBlock=>fl_Block<=>fl_Table<=>fl_Block=>NULL}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}each.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}By placing all these classes under generic heiracy we can treat each layout as a type of container and apply the same methods to each.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}So a collapse method on a DocSectionLayout is translated down through all the layout classes under it's linked list.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Now the other thing we do is to generalize fb_BreakSection to assemble not just lines into columns but any container found in the DocSection into a column. This code can also be made generic so that for example a cell can assemble text into itself and we allow containers to be broken.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0} }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}fl_TableSectionLayout of course needs a method to assemble cells into a table.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}What of fl_DocListener? Well we'll need new piecetable struxes to hold the properties of the new containers Table,cell,footnote, positionedObject. If a property of any of these containers change, the contents of the container are cleared and then recalculate, the same way we do things for DocSectionLayouts now.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}OK folks, opinions on this? Once again I think it will not be too hard to refactor the code to allow these generalizations.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\sb440\sa60 Section 3.	}}\pard\plain{\sb440\sa60\ltrpar\s21\f0\fs34\b\lang1033{\*\listtag0}{\*\abilist\abilistid388365092\abilistlevel1\abistartat1{\abifieldfont Arial}{\abilistdecimal }{\abilistdelim Section %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb Section }{\pntxta .}}\ls1\ilvl0\sl240\slmult1\tx1584{\f0\fs34\b\lang1033{\*\listtag0}PieceTable Changes}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}\tab To build tables/footnotes/positioned objects etc we also }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}need to make some changes to the piecetable. My proposal is to add }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}new frag_stux's}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}In particular:}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}PTX_SectionTable, PTX_SectionTableEnd,PTX_SectionCell, }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}PTX_SectionFootnote,PTX_SectionFootnoteEnd,PTX_SectionPositioned, }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}PTX_SectionPositionedEnd}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}These derive directly from the pf_Frag_Section class. The only difference is the type.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}We need to the PTX_SectionTableEnd, PTX_SectionFootnoteEnd and }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}PTX_SectionPositionedEnd}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}struxes to close off the table, footnote and positioned object definitions.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The properties associated with the table,cell,footnote and positionedobject struxes define the type of structure.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Editting operations. All normal editting operations will be passed throough to the fl_BlockLayouts as before. I see no need to change this. }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Operations on cell/table/footnote/positionedobject struxes will be transmitted via fl_DocListener to the SectionLayout classes associated with these piecetable items. The associated layouts will be collapsed and redrawn with the new properties, the same }
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}way we do things for fl_DocSectionLayout now.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}The fb_SectionBreaker classes will take care of breaking these objects so they fit into columns on a page.}
+\par{\listtext\pard\sb440\sa60 Section 4.	}\pard\plain{\sb440\sa60\ltrpar\s21\f0\fs34\b\lang1033{\*\listtag0}{\*\abilist\abilistid388365092\abilistlevel1\abistartat1{\abifieldfont Arial}{\abilistdecimal }{\abilistdelim Section %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb Section }{\pntxta .}}\ls1\ilvl0\sl240\slmult1\tx1584{\f0\fs34\b\lang1033{\*\listtag0}Migration to the new Layout Engine}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Ok the final email on these new classes is a strategy for migrating our code base to use the new layout engine. Here is my proposal.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}When we're happy that we've reached consesus the way we want to go,}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\fi-431\li720 1.	}}\pard\plain{\fi-431\li720\ltrpar\s15\f1\fs24\lang1033{\*\listtag0}{\*\abilist\abilistid1942189962\abilistparentid0\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-431\li720\ls2\ilvl0\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Hub creates new CVS modules which are initially just a copy of the current modules.}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\fi-431\li720 2.	}}\pard\plain{\fi-431\li720\ltrpar\s15\f1\fs24\lang1033{\*\listtag0}{\*\abilist\abilistid1942189962\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-431\li720\ls2\ilvl0\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}We implement the fp_Container class heiracy and make the current code work for the new heiracy with fp_Lines as fp_ContainerObjects etc. We generalize fb_LineBreaker to break any fp_ContainerObjects into horizontally laid out lines.}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Once the new class heiracy works with existing documents we go to stage 3.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\fi-431\li720 3.	}}\pard\plain{\fi-431\li720\ltrpar\s15\f1\fs24\lang1033{\*\listtag0}{\*\abilist\abilistid1942189962\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-431\li720\ls2\ilvl0\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}We implement the new Layout class heiracy with fl_BLockLayout and fl_SectionLayout as subclasses of fl_ContainerLayout. The fl_ContainerLayout abstract base class is fully defined. We create the new fb_SectionBreaker class to layout any collection of objects vertically.}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Once we've made this new heiracy work with our existing code we go to stage 4.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\fi-431\li720 4.	}}\pard\plain{\fi-431\li720\ltrpar\s15\f1\fs24\lang1033{\*\listtag0}{\*\abilist\abilistid1942189962\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-431\li720\ls2\ilvl0\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Put the new struxes into the piecetable and investigate the properties we need them to define. I suggest we use RTF as a model here. RTF version 1.6 is basically a blueprint on how MS Word 2000 works.}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\fi-431\li720 5.	}}\pard\plain{\fi-431\li720\ltrpar\s15\f1\fs24\lang1033{\*\listtag0}{\*\abilist\abilistid1942189962\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-431\li720\ls2\ilvl0\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Now the fun really starts. We implement the new fp_Container classes, then the fl_Section classes and connect them to the  piecetable via fl_Doclistener. Once this is done we define the new tags needed for our AbiWord_2 importer/exporter. This is actually very easy. We just invent tag names for our new struxes and include them in the "case" statements.}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par{\listtext\pard\fi-431\li720 6.	}}\pard\plain{\fi-431\li720\ltrpar\s15\f1\fs24\lang1033{\*\listtag0}{\*\abilist\abilistid1942189962\abilistlevel1\abistartat1{\abifieldfont Times New Roman}{\abilistdecimal .}{\abilistdelim %L.}{\abiliststyle Numbered List}}{\*\pn\pnql\pnstart1\pnlvlbody\pndec{\pntxtb }{\pntxta .}}\fn-431\li720\ls2\ilvl0\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}Once we can import/export tables/footnotes/endnotes to *.abw we begin work on the Table/footnote/endnote/positioned object UI.}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}IMHO MS Word provides a base from which to work here. In my opinion this is still rather cumbersome so I'd love to get some help for how to do a better Table UI.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}We will definitely need to rework how to do selections and how to keep the cursor inside a container. The latter can be done with a generalization of getEdittableBounds().}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}In the case of the former may not want to draw a selection over footnotes/endnotes and positioned object's.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}For deletions that cross cell boundaries we will want to pop up a little window to ask above deleting cells/rows/columns etc the way Gnumeric/excell/MS Word does now. It should not be hard to trigger this. Just put a hook into in to detect attempts to delete Table or cell struxes.}
+\par\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}
+\par}\pard\plain\ltrpar\s15\sl240\slmult1{\f1\fs24\lang1033{\*\listtag0}This strategy allows us several checkpoints to make sure we're on the right track to a much more sophisticated layout engine.}}

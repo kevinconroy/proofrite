@@ -1,0 +1,10 @@
+
+
+
+
+	YOU PROBABLY DO NOT HAVE TO INSTALL THE "UNIXFONTS" MODULE.
+
+	If you're compiling AbiWord, just keep this unixfonts/ directory
+	hanging around as a peer to the abi/ directory, and let 
+	"make install" (from abi/) take care of everything.
+

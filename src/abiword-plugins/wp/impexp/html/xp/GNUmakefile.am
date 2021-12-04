@@ -1,0 +1,25 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_HTML_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_HTML_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiHTML.la
+
+libAbiHTML_la_SOURCES = ie_imp_HTML.cpp HTML_Parser.cpp HTML_StyleString.cpp
+
+libAbiHTML_la_LIBADD = @ABI_LIBS@
+
+libAbiHTML_la_LDFLAGS = -no-undefined -module -avoid-version
+
+OTHERHEADERS = \
+	ie_imp_HTML.h \
+	HTML_Parser.h \
+	HTML_colors.h \
+	HTML_tags.h \
+	HTML_utils.h \
+	HTML_TokenStack.h \
+	HTML_TextState.h \
+	HTML_StyleString.h
+
+EXTRA_DIST = $(OTHERHEADERS) Makefile

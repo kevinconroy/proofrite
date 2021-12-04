@@ -1,0 +1,492 @@
+# BUILD OPTIONS: 1 for yes, 0 for no
+%define enable_static __UNIX_CAN_BUILD_STATIC__
+%define enable_debug __ABI_OPT_DEBUG__
+%define enable_gnome __ABI_OPT_GNOME__
+%define enable_perl __ABI_OPT_PERL__
+%define enable_jpeg __ABI_OPT_LIBJPEG__
+%define enable_expat 0
+%define enable_optimize __ABI_OPT_OPTIMIZE__
+%define enable_pspell __ABI_OPT_PSPELL__
+%if %{enable_pspell}
+ %define build_pspell yes
+%else
+ %define build_pspell no
+%endif
+
+%define AbiSuite AbiSuite-2.0
+
+%define enable_xft __ABI_OPT_XFT__
+
+# PLUGIN OPTIONS: 1 for yes, 0 for no
+%define enable_tools __ABI_PLUGINS_TOOLS__
+%define enable_impexp __ABI_PLUGINS_IMPEXP__
+
+%define name abiword
+%define prefix /usr
+%define version __ABI_BUILD_VERSION__
+%define release	__ABI_RELEASE_NUMBER__
+
+%if %{enable_gnome}
+%define gnome --enable-gnome
+%else
+%define gnome --disable-gnome
+%endif
+
+%if %{enable_xft}
+%define xft --enable-xft
+%else
+%define xft --disable-xft
+%endif
+
+%if %{enable_debug}
+%define debug --enable-debug
+%else
+%define debug --disable-debug
+%endif
+
+%if %{enable_tools}
+%define plugin_tools --enable-abicommand --enable-abigimp --enable-aiksaurus --enable-babelfish --enable-freetranslation --enable-gdict --enable-referee --enable-urldict --enable-wikipedia --disable-magick --enable-shell
+%else
+%define plugin_tools --disable-abicommand --disable-abigimp --disable-aiksaurus --disable-babelfish --disable-freetranslation --disable-gdict --disable-referee --disable-urldict --disable-wikipedia --disable-magick --disable-shell
+%endif
+
+%if %{enable_impexp}
+#%define plugin_impexp --enable-gdkpixbuf --enable-bmp --enable-jpeg --enable-wmf --enable-applix --enable-bz2abw --enable-clarisworks --enable-docbook --enable-eml --enable-hancom --enable-hrtext --enable-html --enable-iscii-text --enable-kword --enable-latex --enable-mif --enable-mswrite --enable-nroff --enable-OpenWriter --enable-pdb --enable-psion --enable-pw --enable-sdw --enable-t602 --enable-wml --enable-wordperfect --enable-xhtml --enable-xsl-fo
+%define plugin_impexp --enable-gdkpixbuf --enable-bmp --enable-jpeg --enable-wmf --enable-applix --enable-bz2abw --enable-clarisworks --enable-docbook --enable-eml --enable-hancom --enable-hrtext --enable-html --enable-iscii-text --enable-kword --enable-latex --enable-mif --enable-mswrite --enable-nroff --enable-OpenWriter --enable-pdb --enable-psion --enable-pw --disable-sdw --enable-t602 --enable-wml --enable-wordperfect --enable-xhtml --enable-xsl-fo --enable-librsvg
+%else
+%define plugin_impexp --disable-gdkpixbuf --disable-bmp --disable-jpeg --disable-wmf --disable-applix --disable-bz2abw --disable-clarisworks --disable-docbook --disable-eml --disable-hancom --disable-hrtext --disable-html --disable-iscii-text --disable-kword --disable-latex --disable-mif --disable-mswrite --disable-nroff --disable-OpenWriter --disable-pdb --disable-psion --disable-pw --disable-sdw --disable-t602 --disable-wml --disable-wordperfect --disable-xhtml --disable-xsl-fo
+%endif
+
+%define version_flag ABI_BUILD_VERSION=%{version}
+
+%define ABIPREFIX %{prefix}/share
+
+Name: %{name}
+Summary: Multi-platform word processor
+Version: %{version}
+Release: %{release}
+Source: %{name}-%{version}.tar.gz
+Group: Applications/Publishing
+URL: http://www.abisource.com/
+BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+License: GPL
+Prefix: %{prefix}
+Packager: __ABI_BUILD_PACKAGER__
+Distribution: RedHat 7.x Contrib
+# Basic requirements
+Requires: gtk2 >= 2.0.0
+Requires: glib2 >= 2.0.0
+#Requires: %{name}-fonts
+
+%if %{enable_jpeg}
+Requires: libjpeg
+BuildRequires: libjpeg-devel
+%endif
+
+%if %{enable_pspell}
+Requires: pspell >= 0.11.1
+BuildRequires: pspell-devel >= 0.11.1
+%endif
+
+%if %{enable_expat}
+Requires: expat >= 1.95.1
+BuildRequires: expat-devel >= 1.95.1
+%else
+Requires: libxml2 >= 2.4.2
+BuildRequires: libxml2-devel >= 2.4.2
+%endif
+
+%if %{enable_xft}
+Requires: fontconfig
+Requires: Xft
+BuildRequires: fontconfig-devel
+BuildRequires: Xft-devel
+%endif
+
+# Requirements for GNOME build
+%if %{enable_gnome}
+Requires: gnome-libs >= 1.0.57
+Requires: gal >= 0.8
+Requires: gnome-print >= 0.29
+Requires: gnome-vfs
+Requires: bonobo
+BuildRequires: gnome-libs-devel
+BuildRequires: gal-devel
+BuildRequires: gnome-print-devel
+BuildRequires: gnome-vfs-devel
+BuildRequires: bonobo-devel
+
+%description
+AbiWord is a multi-platform word processor with a GTK+ interface on the UNIX platform. For extended functionality and integration this version is compiled with GNOME support. Abiword with the GNOME front-end is part of the GNOME Office Suite. AbiWord is made available under the GNU GPL license.
+
+%else
+%description
+AbiWord is a multi-platform word processor with a GTK+ interface on the UNIX platform. For extended functionality and integration it is also possible to compile AbiWord with GNOME support. Abiword with the GNOME front-end is part of the GNOME Office Suite. AbiWord is made available under the GNU GPL license.
+%endif
+
+%package embeddable
+Requires: bonobo
+Requires: oaf
+Summary: Files for embedding AbiWord in other bonobo-aware programs.
+Group: Development/Libraries
+
+%description embeddable
+Files for embedding AbiWord in other bonobo-aware programs.
+
+%if %{enable_perl}
+%package perl
+Summary: Perl Bindings Module
+Group: Development/Libraries
+Requires: perl >= 5.005
+BuildRequires: perl >= 5.005
+
+%description perl
+Perl Module containing classes for AbiWord Scripting.
+%endif
+
+%if %{enable_tools}
+%package plugins-tools
+Summary: Various tools that can be used to extend AbiWord's capabilities.
+Group: Applications/Productivity
+Requires: abiword
+
+%description plugins-tools
+This is a set of plugins for AbiWord.  It includes
+        eml: Use mathematical notation in AbiWord.
+ abicommand: Perform AbiWord operations from the command prompt.
+    abigimp: Process images in AbiWord using the Gimp.
+  abimagick: Process images in AbiWord using ImageMagick.
+  wikipedia: Access the Wikipedia reference from AbiWord.
+    urldict: Cross-platform url dictionary plugin.
+      gdict: Use the gnome dictionary application from within AbiWord.
+  aiksaurus: Use the Aiksaurus thesaurus in AbiWord.
+  babelfish: Translate text online using Babelfish.
+ScriptHappy: Run other programs in a shell and direct the output to AbiWord.
+
+%endif
+
+%if %{enable_impexp}
+%package plugins-impexp
+Summary: Plugins to import and export otherwise unsupported formats.
+Group: Applications/Productivity
+Requires: abiword
+
+%description plugins-impexp
+This is a set of plugins for AbiWord.  It includes support for OpenWriter,
+bzipped AbiWord, and (x)html document formats.  Additionally, it adds support
+for certain image types to AbiWord builds that were not gnome-enabled.
+%endif
+
+%package fonts
+Summary: AbiWord Fonts
+Group: Applications/Productivity
+Epoch: 1
+
+%description fonts
+These are the basic fonts used by AbiWord.
+
+%package clipart
+Summary: AbiWord Clipart
+Group: Applications/Productivity
+
+%description clipart
+This is the clipart portfolio used by AbiWord.
+
+%prep
+%__rm -rf $RPM_BUILD_ROOT
+
+%setup -q -n %{name}-%{version}/abi
+
+%build
+./autogen.sh
+./configure %{gnome} %{xft} %{debug} --prefix=$RPM_BUILD_ROOT/%{prefix} --exec-prefix=$RPM_BUILD_ROOT/%{prefix} --with-pspell=%{build_pspell}
+%__make
+
+%if %{enable_tools} || %{enable_impexp}
+cd ../abiword-plugins
+./nextgen.sh
+##%configure --prefix=$RPM_BUILD_ROOT/%{ABIPREFIX}/%{AbiSuite} --disable-all --disable-nroff --disable-eg %{plugin_tools} %{plugin_impexp}
+%configure --prefix=$RPM_BUILD_ROOT/%{ABIPREFIX}/%{AbiSuite} --disable-openwriter --disable-sdw --disable-nroff --disable-eg %{plugin_tools} %{plugin_impexp}
+%__make
+
+cd ../abi
+%endif
+
+%install
+umask 022
+
+%if %{enable_tools} || %{enable_impexp}
+cd ../abiword-plugins
+%__make install
+cd ../abi
+%endif
+
+#%__make DESTDIR=$RPM_BUILD_ROOT install
+%__make install
+
+# Manual fixes to Abi package
+
+# Fixes Abi start script and creates links
+%__perl -p -i -e "s|$RPM_BUILD_ROOT||" $RPM_BUILD_ROOT/%{_bindir}/AbiWord-2.0
+%__cp -f $RPM_BUILD_ROOT/%{_bindir}/AbiWord-2.0 $RPM_BUILD_ROOT/%{_bindir}/abiword-2.0
+
+# Creates GNOME menu entries
+%__mkdir_p $RPM_BUILD_ROOT/%{prefix}/share/pixmaps
+%__cp $RPM_BUILD_DIR/%{name}-%{version}/abidistfiles/icons/abiword_48.png $RPM_BUILD_ROOT/%{prefix}/share/pixmaps/abiword_48.png
+%__mkdir_p $RPM_BUILD_ROOT/%{prefix}/share/applications/
+%__cp $RPM_BUILD_DIR/%{name}-%{version}/abi/src/pkg/linux/rpm/data/abiword.desktop $RPM_BUILD_ROOT/%{prefix}/share/applications/abiword.desktop
+%__perl -p -i -e "s|Exec=abiword|Exec=abiword-2.0|" $RPM_BUILD_ROOT/%{_bindir}/AbiWord-2.0
+
+# Copies oaf files
+%__mkdir_p $RPM_BUILD_ROOT/%{prefix}/share/oaf
+%__cp $RPM_BUILD_DIR/%{name}-%{version}/abidistfiles/*.oaf $RPM_BUILD_ROOT/%{prefix}/share/oaf
+%__mkdir_p $RPM_BUILD_ROOT/%{prefix}/share/gnome-2.0/ui
+%__cp $RPM_BUILD_DIR/%{name}-%{version}/abidistfiles/nautilus-abiword-content-view-ui.xml $RPM_BUILD_ROOT/%{prefix}/share/gnome-2.0/ui/
+
+# Copies all clipart
+%__mkdir_p $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/clipart/
+%__cp $RPM_BUILD_DIR/%{name}-%{version}/abidistfiles/clipart/*.png $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/clipart/
+
+# Fix for wrong file rights on fonts,icons,clipart
+%__chmod 644 $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/fonts/*
+%__chmod 644 $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/icons/*
+%__chmod 644 $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/clipart/*
+%__chmod 644 $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/templates/*
+
+# this files are installed but they already been copied to a better destination
+%__rm -f $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/GNOME_AbiWord_Control_1_0.oaf
+%__rm -f $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/Nautilus_View_AbiWord.oaf
+%__rm -f $RPM_BUILD_ROOT%{ABIPREFIX}/%{AbiSuite}/nautilus-abiword-content-view-ui.xml
+%__rm -f $RPM_BUILD_ROOT%{prefix}/bin/abiword
+
+%clean
+%__rm -rf $RPM_BUILD_ROOT $RPM_BUILD_DIR/file.list.%{name}
+
+%files
+%defattr(755,root,root,755)
+%{prefix}/bin/*-2.0
+%{prefix}/bin/ttfadmin.sh
+%{prefix}/bin/ttftool
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/bin/*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/scripts/abw2html.pl
+%defattr(644,root,root,755)
+#%{ABIPREFIX}/%{AbiSuite}/COPYING
+%{ABIPREFIX}/%{AbiSuite}/README
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/readme.txt
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/help/en-US
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/strings
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/system.profile*
+%{ABIPREFIX}/%{AbiSuite}/dictionary/*american*.hash*
+%{ABIPREFIX}/%{AbiSuite}/dictionary/ispell_dictionary_list.xml
+%{ABIPREFIX}/%{AbiSuite}/icons
+%{ABIPREFIX}/%{AbiSuite}/templates
+%{prefix}/share/pixmaps/abiword_48.png
+%{prefix}/share/applications/abiword.desktop
+
+
+%files embeddable
+%defattr(644,root,root,755)
+%{ABIPREFIX}/oaf
+%{ABIPREFIX}/gnome-2.0/ui/
+
+%if %{enable_tools}
+%files plugins-tools
+%defattr(644,root,root,755)
+# comment if not working
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiCommand.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiGimp.*
+#%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiAikSaurus.so
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiBabelfish.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiFreeTranslation.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiGdict.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiURLDict.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiWikipedia.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiReferee.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiScriptHappy.*
+%endif
+
+%if %{enable_impexp}
+%files plugins-impexp
+%defattr(644,root,root,755)
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiApplix.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiBMP.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiBZ2.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiClarisWorks.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiCoquille.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiDocBook.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiEML.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiGdkPixbuf.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiHancom.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiHRText.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiHTML.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiISCII.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiJPEG.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiKWord.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiLaTeX.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiMIF.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiMSWrite.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiNroff.*
+#%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiOpenWriter.so
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiPW.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiPalmDoc.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiRSVG.*
+#%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiSDW.so
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiT602.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiWML.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiWordPerfect.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiXHTML.*
+%{ABIPREFIX}/%{AbiSuite}/AbiWord/plugins/libAbiXSLFO.*
+%endif
+
+%files clipart
+%defattr(644,root,root,755)
+%{ABIPREFIX}/%{AbiSuite}/clipart
+
+%files fonts
+%defattr(644,root,root,755)
+%config(noreplace) %{ABIPREFIX}/%{AbiSuite}/fonts/fonts.dir
+%config(noreplace) %{ABIPREFIX}/%{AbiSuite}/fonts/fonts.scale
+%{ABIPREFIX}/%{AbiSuite}/fonts/*.afm
+%{ABIPREFIX}/%{AbiSuite}/fonts/*.pfa
+%{ABIPREFIX}/%{AbiSuite}/fonts/*.pfb
+%{ABIPREFIX}/%{AbiSuite}/fonts/*.e2u
+%{ABIPREFIX}/%{AbiSuite}/fonts/*.u2g
+
+%changelog
+* Sun Oct 20 2002 Rui M. Seabra <rms@1407.org>
+- Use pspell conditionally
+- Include some more files that were missing
+- Make abiword be a link to abiword-2.0 if there isn't an older installation
+  of abiword on the same bindir
+
+* Tue Oct 16 2002 Rui M. Seabra <rms@1407.org>
+- oops! Change && to || or you will not get the other type of plugins
+  if you disable one type
+
+* Sun Oct 13 2002 Rui M. Seabra <rms@1407.org>
+- If both import and export plugins are disabled, don't run configure
+  or make any plugins
+
+* Sun Sep 29 2002 Rui M. Seabra <rms@1407.org>
+- Whole lotta changes due to the -2.0 change for launching betas
+
+* Fri Sep 5 2002 Marc Maurer <j.m.maurer@student.utwente.nl>
+- Only generate the embeddable package when GNOME is enabled
+
+* Fri Aug 23 2002 Rui M. Silva Seabra <rms@1407.org>
+- Make spec compile abiword for gtk2.
+
+* Fri Jun 14 2002 Rui M. Silva Seabra <rms@1407.org>
+- Make rpm set better permissions on files AND dirs
+
+* Thu Jun 13 2002 Rui M. Silva Seabra <rms@1407.org>
+- Make rpm spec work again.
+- Include all plugins that seem to build
+- fix package embeddable (wasn't created)
+  
+* Sun Jun  9 2002 Mark Gilbert <webmaster@dofty.zzn.com>
+                  Rui M. Silva Seabra <rms@1407.org>
+- Pretty much a total rewrite of the way plugins are handled.
+  
+* Wed May 14 2002 J.M. Maurer <j.m.maurer@student.utwente.nl>
+- Require libxml2 instead of libxml for the XML build
+
+* Sat Apr  6 2002 Joaquín Cuenca Abela <cuenca@ie2.u-psud.fr>
+                  Rui M. Silva Seabra <rms@1407.org>
+- Add %post fonts and %postun fonts to use (if found) redhat's chkfontpath
+  program to add abiword's font path on install and remove it on uninstall
+
+* Sun Mar 31 2002 Rui M. Silva Seabra <rms@1407.org>
+- Partially solve bug http://bugzilla.abisource.com/show_bug.cgi?id=1938
+  Added postun to remove the symlink
+
+* Thu Mar 28 2002 Rui M. Silva Seabra <rms@1407.org>
+- Solved bug http://bugzilla.abisource.com/show_bug.cgi?id=1938
+  fonts.dir and fonts.scale will no longer be replaced.
+
+* Mon Mar 25 2002 Rui M. Silva Seabra <rms@1407.org>
+- Removed ispell dictionaries to rpm spec too much clutter and one too many
+  sad voices
+
+* Thu Mar 17 2002 Francis James Franklin <fjf@alinameridon.com>
+- Added festvox, abigimp & shell importer plugin to list
+
+* Thu Mar 14 2002 Rui M. Silva Seabra <rms@1407.org>
+- Added ispell dictionaries to rpm spec
+- fix permissions and owners
+
+* Thu Feb 21 2002 Francis James Franklin <fjf@alinameridon.com>
+- Added HTML importer plugin to list
+
+* Thu Dec 27 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Simplified spec's ifs, gdkpixbuf plugin is installed by default in gnome build
+
+* Sun Dec  9 2001 Rui M. Silva Seabra <rms@multicert.com>
+- The spec now compiles plugins (for the time being, this is not an option)
+
+* Sat Nov 24 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Made some minor corrections
+
+* Sat Nov 24 2001 Francis James Franklin <fjf@alinameridon.com>
+- Made spec ready to be included in tree
+
+* Sat Nov 3 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Seperated the help packages.
+
+* Fri Oct 26 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Tweaked spec to make gtk build not include gnome files.
+- Increase requirements details.
+- Start preparations for _real_ perl enabled builds.
+
+* Wed Oct 24 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Separated fonts and clipart into sub packages.
+
+* Tue Oct 23 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Applied Michele Baldessari <baldessari@tiscalinet.it> 's patch to correct
+  some bugs.
+
+* Mon Sep 10 2001 Rui M. Silva Seabra <rms@multicert.com>
+- Unified Gtk+/Gnome rpm specs into The One Spec
+
+* Thu Jun 28 2001 Martin Sevior
+- tweaked stuff for 0.90 
+- all ispell dictionaries found are installed
+
+* Sun Dec 9 2000 Christian Schaller <Uraeus@linuxrising.org>
+- Updates for RedHat 6.2
+- Updated for AbiWord 0.7.12
+- Major rewrite of compilation and files part of SPEC file
+
+* Sat May 20 2000 Christian Schaller <Uraeus@linuxrising.org>
+- Updated to version 0.7.9
+- Changed icon from xpm to png
+- Made sure Icon had correct rights
+
+* Wed Mar 1 2000 Christian Schaller <Uraeus@linuxrising.org>
+- Updated for TurboLinux 6.0
+- Updated to 0.7.8
+- Updated for Gnome-enablement
+- Minor SPEC file changes
+
+* Tue Jan 25 2000 Chmouel Boudjnah <chmouel@mandrakesoft.com> 0.7.7-2mdk
+- Fix alpha/sparc compilation.
+
+* Thu Jan 13 2000 Saugey Vincent <vince@mandrakesoft.com>
+- update to 0.7.7
+
+* Thu Oct 21 1999 Thierry Vignaud <tvignaud@mandrakesoft.com>
+- update to 0.7.6
+
+* Thu Sep 23 1999 Chmouel Boudjnah <chmouel@mandrakesoft.com>
+- Build for cooker.
+
+* Fri Sep 10 1999 Daouda LO <daouda@mandrakesoft.com>
+- Mandrake adaptations
+- bzipped the sources
+- Make the package relocatable
+
+* Sun Sep 05 1999 Vu Hung Quan <binaire@videotron.ca>
+- update to 0.7.5 ; redhat adaptation
+
+* Sat Jun 26 1999 Bernhard Rosenkraenzer <bero@mandrakesoft.com>
+- create (more or less) generic spec file...

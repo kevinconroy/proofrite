@@ -1,0 +1,338 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "AbiEv"=.\AbiEv.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiFmt"=.\AbiFmt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiGr"=.\AbiGr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiImpExp"=.\AbiImpExp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiPTbl"=.\AbiPTbl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiSpell"=.\AbiSpell.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiUtil"=.\AbiUtil.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiWPAp"=.\AbiWPAp.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiWord"=.\AbiWord.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AbiEv
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiFmt
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiGr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiImpExp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiPTbl
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiSpell
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiUtil
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiWordVer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiWPAp
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AbiXap
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name expat
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libiconv
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name wv
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name src_from_PNG
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name libpng
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name zlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name fribidi
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name popt
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "AbiWordVer"=.\AbiWordVer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AbiXap"=.\AbiXap.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "aiksaurus"=.\libaiksaurus.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "expat"=.\expat.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "fribidi"=.\fribidi.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libiconv"=.\libiconv.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libpng"=.\libpng.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "libpsiconv"=.\libpsiconv.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "popt"=.\popt.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "src_from_PNG"=.\src_from_PNG.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name tools_cdump
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "tools_cdump"=.\tools_cdump.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "wv"=.\wv.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "zlib"=.\zlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

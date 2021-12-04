@@ -1,0 +1,12 @@
+BIDI_Release
+BIDI_Debug
+Release
+Debug
+AbiWord.ncb
+AbiWord.suo
+libiconv_dll__
+Win32_Debug
+*.ncb
+*.opt
+*.plg
+*.zip

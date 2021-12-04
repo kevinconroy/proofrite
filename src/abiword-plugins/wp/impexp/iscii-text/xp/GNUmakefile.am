@@ -1,0 +1,11 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiISCII.la
+
+libAbiISCII_la_SOURCES = ie_exp_ISCII.cpp ie_exp_ISCII.h ie_imp_ISCII.cpp ie_imp_ISCII.h ie_impexp_ISCII.cpp
+
+libAbiISCII_la_LIBADD = @ABI_LIBS@
+
+libAbiISCII_la_LDFLAGS = -no-undefined -module -avoid-version
